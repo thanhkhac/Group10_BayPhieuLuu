@@ -8,10 +8,14 @@ public class FireBallScript : MonoBehaviour
     private GameObject player;
     private float direction;
 
+    private float initiatedPoint;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+        initiatedPoint = transform.position.x;
+
     }
 
     // Update is called once per frame
@@ -20,8 +24,7 @@ public class FireBallScript : MonoBehaviour
         float movement = speed * Time.deltaTime * direction; //move
         transform.Translate(movement, 0, 0);
 
-
-        if (transform.position.x <= -10 || transform.position.x >= 30) Destroy(gameObject);
+        if (transform.position.x <= initiatedPoint - 20 || transform.position.x >= initiatedPoint + 20) Destroy(gameObject);
     }
 
     public void SetDirection(float _direction)
