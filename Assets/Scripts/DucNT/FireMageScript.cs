@@ -30,6 +30,7 @@ public class FireMageScript : MonoBehaviour
         timerCoolDown += Time.deltaTime;
         Attack();
 
+        //player in range
         canFire = player.transform.position.x >= fireRangeL && player.transform.position.x <= fireRangeR;
     }
 
@@ -55,13 +56,10 @@ public class FireMageScript : MonoBehaviour
 
     void Attack()
     {
-        if (canFire)
+        if (canFire && attackcooldown <= timerCoolDown)
         {
-            if (attackcooldown <= timerCoolDown)
-            {
-                gameObject.GetComponent<Animator>().SetTrigger("Attack");
-                timerCoolDown = 0;
-            }
+            gameObject.GetComponent<Animator>().SetTrigger("Attack");
+            timerCoolDown = 0;
         }
     }
 

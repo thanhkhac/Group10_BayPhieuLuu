@@ -34,13 +34,18 @@ public class FireHeadScript : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Hit Player");
-
             player.GetComponent<Animator>().SetTrigger("Hit");
-
             gameObject.GetComponent<Animator>().SetTrigger("Die");
         }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+
+            // Ignore collision with other enemies
+            Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
+        }
     }
+
+  
 
     public void Die()
     {
