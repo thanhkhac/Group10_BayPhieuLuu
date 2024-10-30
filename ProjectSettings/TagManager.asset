@@ -4,16 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Enemy
   - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ThanhNK_Ground
   - Water
   - UI
-  - 
-  - 
+  - DucNT-Wall
+  - Enemies
   - 
   - 
   - 
@@ -42,11 +43,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Environment
-    uniqueID: 2968954873
-    locked: 0
   - name: Background
     uniqueID: 3952695119
+    locked: 0
+  - name: Environment
+    uniqueID: 2968954873
     locked: 0
   - name: Player
     uniqueID: 289786241
