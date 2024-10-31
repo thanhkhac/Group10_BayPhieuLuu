@@ -15,6 +15,7 @@ public class PlayerControl : MonoBehaviour
     private bool isJumping = false;
     public bool isImmortal = false;
     private bool canMove = true;
+    private bool isPlayable = false;
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -109,6 +110,12 @@ public class PlayerControl : MonoBehaviour
     {
         Debug.Log("Disable Immortal");
         isImmortal = false;
+    }
+    
+    public void EnablePlayable()
+    {
+        isPlayable = true;
+        animator.SetBool("isPlayable", true);
     }
 
     // private void OnTriggerEnter2D(Collider2D collision)
