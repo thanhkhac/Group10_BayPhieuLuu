@@ -39,7 +39,6 @@ public class FireHeadScript : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
-
             // Ignore collision with other enemies
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
