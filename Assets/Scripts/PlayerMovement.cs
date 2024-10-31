@@ -1,4 +1,5 @@
 ﻿using System;
+using ThanhNK;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -12,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
 
     private bool isJumping = false;
+    private bool isImmortal = false;
     private bool canMove = true;
     void Awake()
     {
@@ -25,8 +27,9 @@ public class PlayerMovement : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         Move();
 
-
         if (Input.GetButtonDown("Jump") && IsGrounded()) { Jump(); }
+        animator.SetBool("IsJumping", !IsGrounded());
+        animator.SetFloat("yVelocity", rb.velocity.y);
     }
 
     private void Move()
@@ -57,15 +60,32 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isRangeAttacking", true);
         }
         else { animator.SetBool("isRangeAttacking", false); }
+        
+        if (Input.GetKeyDown(KeyCode.Q)) 
+        {
+            animator.SetBool("isUltimate", true);
+        }
+        else { animator.SetBool("isUltimate", false); }
+        
+        if (Input.GetKeyDown(KeyCode.Mouse1)) 
+        {
+            animator.SetBool("isDefending", true);
+        }
+        else { animator.SetBool("isDefending", false); }
     }
 
     private void Jump()
     {
         rb.AddForce(Vector2.up * 10f, ForceMode2D.Impulse);
         isJumping = true;
+        animator.SetBool("IsJumping", true);
     }
 
-    private bool IsGrounded() => Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    private bool IsGrounded()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    }
+
 
     public void EndDisableMove()
     {
@@ -79,11 +99,25 @@ public class PlayerMovement : MonoBehaviour
         canMove = false;
     }
     
+    public void EnableImmortal()
+    {
+        Debug.Log("Enable Immortal");
+        isImmortal = true;
+    }
+    
+    public void DisableImmortal()
+    {
+        Debug.Log("Disable Immortal");
+        isImmortal = false;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("EnemyAttack"))
+        if (collision.CompareTag("EnemyAttack") && !isImmortal)
         {
             animator.SetTrigger("Hit");
+            GameManager.PLayerHealth -=10;
+            Debug.Log(GameManager.PLayerHealth);
         }
     }
 }
