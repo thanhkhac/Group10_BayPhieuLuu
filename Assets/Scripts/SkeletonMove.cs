@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class SkeletonMove : MonoBehaviour
 {
-    [SerializeField] float steerSpeed = 1f;
+    [SerializeField] float steerSpeed = 2f;
     private Animator anim;
     private Transform playerTransform;
-    private float stopDistance = 0.8f;
-    private float followDistance = 1.5f;
+    private float stopDistance = 2.5f;
+    private float followDistance = 4f;
     private Rigidbody2D rb2d;
     private BoxCollider2D[] boxCollider;
 
@@ -23,11 +23,24 @@ public class SkeletonMove : MonoBehaviour
         boxCollider = GetComponentsInChildren<BoxCollider2D>();
         boxCollider = System.Array.FindAll(boxCollider, col => col.gameObject != this.gameObject);
         
+        // GameObject player = GameObject.FindGameObjectWithTag("Player");
+        // if (player != null)
+        // {
+        //     playerTransform = player.transform;
+        // }
+        
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
+            Debug.Log("11111111111111111111111111111111111111111111111111111111111111111111111111111111");
             playerTransform = player.transform;
+            Debug.Log("player: "+ playerTransform.name);
         }
+        else
+        {
+            Debug.LogWarning("No Player object found with the tag 'Player'.");
+        }
+        
     }
 
     // Update is called once per frame
@@ -35,6 +48,7 @@ public class SkeletonMove : MonoBehaviour
     {
         if (!isHit) // Kiểm tra nếu chưa bị đánh thì tiếp tục di chuyển
         {
+            Debug.Log("ishit false");
             distanceToPlayer(); // Kiểm tra khoảng cách tới player
             MoveSkeleton(); // Di chuyển kẻ thù
         }
@@ -70,6 +84,8 @@ public class SkeletonMove : MonoBehaviour
         yield return new WaitForSeconds(0.1f);  // Đợi một chút trước khi bật hoạt ảnh "Hit"
 
         anim.SetBool("Hit", true);  // Chạy hoạt ảnh "Hit"
+        rb2d.constraints = RigidbodyConstraints2D.FreezeAll;
+        
         EnableChildBoxColliders(false);  // Tắt collider của đối tượng con nếu cần
 
     }
@@ -97,6 +113,8 @@ public class SkeletonMove : MonoBehaviour
     public void distanceToPlayer()
     {
         float distance = Vector3.Distance(transform.position, playerTransform.position);
+        Debug.Log("2222222222222222  " + distance);
+        
         if (distance < stopDistance)
         {
             steerSpeed = 0; // Ngừng di chuyển
