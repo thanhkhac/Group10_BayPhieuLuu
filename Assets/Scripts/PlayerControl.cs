@@ -2,7 +2,7 @@
 using ThanhNK;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerControl : MonoBehaviour
 {
     private float horizontal;
     private float speed = 8f;
@@ -10,10 +10,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-    private Animator animator;
+    public Animator animator;
 
     private bool isJumping = false;
-    private bool isImmortal = false;
+    public bool isImmortal = false;
     private bool canMove = true;
     void Awake()
     {
@@ -111,13 +111,13 @@ public class PlayerMovement : MonoBehaviour
         isImmortal = false;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("EnemyAttack") && !isImmortal)
-        {
-            animator.SetTrigger("Hit");
-            GameManager.PLayerHealth -=10;
-            Debug.Log(GameManager.PLayerHealth);
-        }
-    }
+    // private void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if (collision.CompareTag("EnemyAttack") && !isImmortal)
+    //     {
+    //         animator.SetTrigger("Hit");
+    //         GameManager.PLayerHealth -=10;
+    //         Debug.Log(GameManager.PLayerHealth);
+    //     }
+    // }
 }
