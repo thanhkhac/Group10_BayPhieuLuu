@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -330,7 +328,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sandworm trap - Level 2 - Transition_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -339,7 +337,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c72a95f1d4cb7f34fb8a0b23e9741e1d
-    - name: Sandworm trap - Level 2 - Transition_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -348,7 +346,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: cea59ee953440d2449833a93bd1d17cd
-    - name: Sandworm trap - Level 2 - Transition_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -357,7 +355,7 @@ ScriptedImporter:
         width: 96
         height: 66
       spriteId: e2a2ab52dfbbdc943b5f2c4934ac28f9
-    - name: Sandworm trap - Level 2 - Transition_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -366,7 +364,7 @@ ScriptedImporter:
         width: 96
         height: 65
       spriteId: a13456060c09e1341b6e6ec79ef4ec46
-    - name: Sandworm trap - Level 2 - Transition_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -375,7 +373,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: bc5d70c2c22d49749afc70f498158eb1
-    - name: Sandworm trap - Level 2 - Transition_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -384,7 +382,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: acb42794d2ea5e243b08fb51d705cc39
-    - name: Sandworm trap - Level 2 - Transition_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -393,7 +391,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 27bd6154b4532fb4db9fd8e779e839f5
-    - name: Sandworm trap - Level 2 - Transition_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -402,7 +400,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 0c455f659f8184c40b516aa05547dee1
-    - name: Sandworm trap - Level 2 - Transition_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -411,7 +409,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 9b7d0ca394c35dd43a6979222f30aa01
-    - name: Sandworm trap - Level 2 - Transition_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:

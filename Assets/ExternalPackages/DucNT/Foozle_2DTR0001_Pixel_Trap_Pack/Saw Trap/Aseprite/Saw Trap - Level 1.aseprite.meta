@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -450,7 +448,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Saw Trap - Level 1_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -459,7 +457,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 4cc64ba92686e9842a36b0c244e27de3
-    - name: Saw Trap - Level 1_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -468,7 +466,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 81c9b7fec1d907340bc7eab42fd52cff
-    - name: Saw Trap - Level 1_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +475,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7d08f1f26d882994493edef3c9743a9e
-    - name: Saw Trap - Level 1_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +484,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 9a16f0cff7d97004cbef83898b81f0b9
-    - name: Saw Trap - Level 1_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +493,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: eaa483a898d85dd4786f81a799af7f5c
-    - name: Saw Trap - Level 1_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +502,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 5a1c670099393544b986a6625c696c78
-    - name: Saw Trap - Level 1_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +511,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 3cf335ee383b02c4c8d4d8d29b2a7976
-    - name: Saw Trap - Level 1_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +520,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 8e16b4f26813c224191d4f484433be24
-    - name: Saw Trap - Level 1_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +529,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b889e8c3999ea9841bce67d56cdaaf53
-    - name: Saw Trap - Level 1_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +538,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 31796595cceecb04bbcd64069e95e4d0
-    - name: Saw Trap - Level 1_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +547,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: ce462bb722db2554cb20f62d858295fb
-    - name: Saw Trap - Level 1_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +556,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 05a95194e4b7f734b98b8f7b27d74729
-    - name: Saw Trap - Level 1_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +565,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: e2c41c94262bdbf41ae7c43ca73cc476
-    - name: Saw Trap - Level 1_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +574,7 @@ ScriptedImporter:
         width: 64
         height: 66
       spriteId: a5c07dd7dbbeaac4aaf9d70d390bb4f7
-    - name: Saw Trap - Level 1_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +583,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 01f52ee5eee584b42b5f9c2b500efe6b
-    - name: Saw Trap - Level 1_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:

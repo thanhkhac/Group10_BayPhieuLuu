@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -390,7 +388,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Lightning Trap - Level 3 - Transition_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -399,7 +397,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 9150f98b00768dd46be76b772be57b0f
-    - name: Lightning Trap - Level 3 - Transition_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -408,7 +406,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 1ce342e1bf8054f49ad30a2103fa14ea
-    - name: Lightning Trap - Level 3 - Transition_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -417,7 +415,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: f4e4ca3136209644db48239762036924
-    - name: Lightning Trap - Level 3 - Transition_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -426,7 +424,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 8e3a017cc27689e4d82cc9e3915275f5
-    - name: Lightning Trap - Level 3 - Transition_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -435,7 +433,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: ea0f2131246c0d040b8223f140469fe4
-    - name: Lightning Trap - Level 3 - Transition_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -444,7 +442,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 5916f4eb2f883744a8b5d74a3bc6e7d2
-    - name: Lightning Trap - Level 3 - Transition_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -453,7 +451,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 9f9bd6daf14969743af03da029fda9bd
-    - name: Lightning Trap - Level 3 - Transition_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -462,7 +460,7 @@ ScriptedImporter:
         width: 96
         height: 114
       spriteId: 3a2f9bac988a0054e995926f35cd67fe
-    - name: Lightning Trap - Level 3 - Transition_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -471,7 +469,7 @@ ScriptedImporter:
         width: 96
         height: 109
       spriteId: eb2751ee179fb184abc8f8143964c1a7
-    - name: Lightning Trap - Level 3 - Transition_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -480,7 +478,7 @@ ScriptedImporter:
         width: 96
         height: 102
       spriteId: 1f7f0557012ae4742ae6df26abebcb17
-    - name: Lightning Trap - Level 3 - Transition_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -489,7 +487,7 @@ ScriptedImporter:
         width: 96
         height: 98
       spriteId: d6b08a121b0250c4689f094ecc5270b5
-    - name: Lightning Trap - Level 3 - Transition_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -498,7 +496,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 7d1d9b6f6588f7d4db9b14a1f10d4208
-    - name: Lightning Trap - Level 3 - Transition_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
