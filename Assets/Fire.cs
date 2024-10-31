@@ -8,7 +8,7 @@ public class Fire : MonoBehaviour
     public GameObject BossFinal;
     public void playerDie()
     {
-		BossFinal.transform.position = this.gameObject.transform.position;
+ 
 		this.gameObject.SetActive(false);
 		BossFinal.SetActive(true);
 		Animator bossAnimator = BossFinal.GetComponent<Animator>();
