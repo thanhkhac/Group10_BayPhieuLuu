@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -670,7 +668,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Sandworm trap - Level 3_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -679,7 +677,7 @@ ScriptedImporter:
         width: 128
         height: 32
       spriteId: beae37b1d656a4340adec15c6e593a97
-    - name: Sandworm trap - Level 3_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -688,7 +686,7 @@ ScriptedImporter:
         width: 128
         height: 32
       spriteId: 18e417df21a8ccb4ab4ff4b0694578c4
-    - name: Sandworm trap - Level 3_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -697,7 +695,7 @@ ScriptedImporter:
         width: 128
         height: 34
       spriteId: 275f91d834953a344b4a96e2ae0c7676
-    - name: Sandworm trap - Level 3_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -706,7 +704,7 @@ ScriptedImporter:
         width: 128
         height: 33
       spriteId: 4bebc9f3290163845a0f54b2b6012ff2
-    - name: Sandworm trap - Level 3_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -715,7 +713,7 @@ ScriptedImporter:
         width: 128
         height: 32
       spriteId: bff23439965bfc944aa398ec49079b02
-    - name: Sandworm trap - Level 3_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -724,7 +722,7 @@ ScriptedImporter:
         width: 128
         height: 32
       spriteId: 12eb1a544d2d4c841ba25c0b911e8bd6
-    - name: Sandworm trap - Level 3_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -733,7 +731,7 @@ ScriptedImporter:
         width: 128
         height: 34
       spriteId: 2cbdccdc8153d8c4daadaa5aa3df87d0
-    - name: Sandworm trap - Level 3_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -742,7 +740,7 @@ ScriptedImporter:
         width: 128
         height: 33
       spriteId: d54f790dd46e0bc4294c43090e1844cf
-    - name: Sandworm trap - Level 3_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -751,7 +749,7 @@ ScriptedImporter:
         width: 128
         height: 32
       spriteId: 765b0ef1ea400e845b2131f83d5b052d
-    - name: Sandworm trap - Level 3_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -760,7 +758,7 @@ ScriptedImporter:
         width: 128
         height: 32
       spriteId: e3e2f3abc212e1e4dbcda1575a0771c2
-    - name: Sandworm trap - Level 3_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -769,7 +767,7 @@ ScriptedImporter:
         width: 128
         height: 34
       spriteId: 80df2c497a936444ca21ef7317b2134a
-    - name: Sandworm trap - Level 3_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -778,7 +776,7 @@ ScriptedImporter:
         width: 128
         height: 33
       spriteId: 388357049e320be408e552bc3ec3a09c
-    - name: Sandworm trap - Level 3_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -787,7 +785,7 @@ ScriptedImporter:
         width: 128
         height: 33
       spriteId: 567516f423af26a43b316e64e7a2c86c
-    - name: Sandworm trap - Level 3_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -796,7 +794,7 @@ ScriptedImporter:
         width: 128
         height: 34
       spriteId: b15c4479512c5f4479667e7e0045bb05
-    - name: Sandworm trap - Level 3_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -805,7 +803,7 @@ ScriptedImporter:
         width: 128
         height: 35
       spriteId: 302946b00d27b6d4aac72218e362a88f
-    - name: Sandworm trap - Level 3_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -814,7 +812,7 @@ ScriptedImporter:
         width: 128
         height: 33
       spriteId: 7ff37f729e0c7394e95178a4f561d91a
-    - name: Sandworm trap - Level 3_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -823,7 +821,7 @@ ScriptedImporter:
         width: 128
         height: 33
       spriteId: e06d5eb3cb716614fb9291f086c476b9
-    - name: Sandworm trap - Level 3_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -832,7 +830,7 @@ ScriptedImporter:
         width: 128
         height: 34
       spriteId: 97cd3ca6cb0e1a145aeb476e20eb6b10
-    - name: Sandworm trap - Level 3_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -841,7 +839,7 @@ ScriptedImporter:
         width: 128
         height: 35
       spriteId: 470620e3b653f4c4483376012947c19d
-    - name: Sandworm trap - Level 3_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -850,7 +848,7 @@ ScriptedImporter:
         width: 128
         height: 32
       spriteId: 8667594b800a7e64b9e23f69eb24f074
-    - name: Sandworm trap - Level 3_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -859,7 +857,7 @@ ScriptedImporter:
         width: 128
         height: 33
       spriteId: c3589addc0c10e14abe060798f7ab417
-    - name: Sandworm trap - Level 3_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -868,7 +866,7 @@ ScriptedImporter:
         width: 128
         height: 34
       spriteId: 0958cadb690ae4d4e8c06b78f6896e67
-    - name: Sandworm trap - Level 3_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -877,7 +875,7 @@ ScriptedImporter:
         width: 128
         height: 35
       spriteId: ccb32806e5f498f41823dab968ac3716
-    - name: Sandworm trap - Level 3_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -886,7 +884,7 @@ ScriptedImporter:
         width: 128
         height: 32
       spriteId: f88a9b58d2c8d8944b9e41c7ee0d50fc
-    - name: Sandworm trap - Level 3_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -895,7 +893,7 @@ ScriptedImporter:
         width: 128
         height: 33
       spriteId: 6fe826e2d6f4d4f46b6b2ea22d2e6f16
-    - name: Sandworm trap - Level 3_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -904,7 +902,7 @@ ScriptedImporter:
         width: 128
         height: 34
       spriteId: a88757e262450f7429e443368e333a8f
-    - name: Sandworm trap - Level 3_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:

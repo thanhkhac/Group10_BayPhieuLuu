@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -2890,7 +2888,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Ceiling Trap Preview_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -2899,7 +2897,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 2ceaa74c8e49dee46bb5e0fbec69f55d
-    - name: Ceiling Trap Preview_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -2908,7 +2906,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 659c2e896839b8943b88acb359705081
-    - name: Ceiling Trap Preview_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -2917,7 +2915,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: efe385211471f304a8a51e1eff124875
-    - name: Ceiling Trap Preview_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -2926,7 +2924,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 12943de85745ed040b243a0b5e48b3a2
-    - name: Ceiling Trap Preview_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -2935,7 +2933,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: e22ae2c051731f44d92fc3faacd02397
-    - name: Ceiling Trap Preview_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -2944,7 +2942,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 158d411e5984a374db844b46928ed893
-    - name: Ceiling Trap Preview_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -2953,7 +2951,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: b6a467a23e4fd9d4c8189e4df057ae02
-    - name: Ceiling Trap Preview_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -2962,7 +2960,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6c757c2b2021903448cebe69cf24d095
-    - name: Ceiling Trap Preview_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -2971,7 +2969,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ae294e4d06b97a54c91f0671b0d9a1c5
-    - name: Ceiling Trap Preview_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -2980,7 +2978,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: db3ffb3c0771edb4d9062d5e12f4bd6b
-    - name: Ceiling Trap Preview_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -2989,7 +2987,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: fe93767bc479e714caa68a70381bfc27
-    - name: Ceiling Trap Preview_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -2998,7 +2996,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f79662ef1ef97604186a35516506b9fa
-    - name: Ceiling Trap Preview_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -3007,7 +3005,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: a219bbace7a0674488135741e2e8c8f6
-    - name: Ceiling Trap Preview_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -3016,7 +3014,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 3e9068cfed5d87142b85103e627f7a54
-    - name: Ceiling Trap Preview_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -3025,7 +3023,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1dfa9deb961885144a61216cd3672b42
-    - name: Ceiling Trap Preview_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -3034,7 +3032,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5d689b3f42af2324d8bd922945223a39
-    - name: Ceiling Trap Preview_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -3043,7 +3041,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1e4d60269c821cc479190565afdffa9a
-    - name: Ceiling Trap Preview_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -3052,7 +3050,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 9a26dd4374ef5ab49834341be26a74e5
-    - name: Ceiling Trap Preview_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -3061,7 +3059,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 4200b4974bcf20d40ba6e0f9a590c9f4
-    - name: Ceiling Trap Preview_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -3070,7 +3068,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: bbe59e7722847b845bc3b7d88f9080e6
-    - name: Ceiling Trap Preview_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -3079,7 +3077,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 14d6ef6a46ea54740bf2fafd9d394644
-    - name: Ceiling Trap Preview_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -3088,7 +3086,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: bde370b89a56a6840b2c73d656905538
-    - name: Ceiling Trap Preview_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -3097,7 +3095,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: a8532884bbe30144ca39190d960cc4fe
-    - name: Ceiling Trap Preview_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -3106,7 +3104,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7d4598630cab163409252e4e1b3344c3
-    - name: Ceiling Trap Preview_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -3115,7 +3113,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 028eaf1792a3c364199c8c3316b36dcb
-    - name: Ceiling Trap Preview_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -3124,7 +3122,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 92dfc9aa3b514c940b434a9371675aaa
-    - name: Ceiling Trap Preview_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -3133,7 +3131,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7c97de265aea19c4981f78266dc69483
-    - name: Ceiling Trap Preview_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -3142,7 +3140,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 074ccf975b5e4f14baa33753a45a7c73
-    - name: Ceiling Trap Preview_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -3151,7 +3149,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 035f8a934e4ca044b8d9c35334056ec8
-    - name: Ceiling Trap Preview_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -3160,7 +3158,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6ef33e2706650b448bb7465771c5e227
-    - name: Ceiling Trap Preview_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -3169,7 +3167,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: b2b4a560a76b67947acb51abe3a75cc3
-    - name: Ceiling Trap Preview_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -3178,7 +3176,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 31fe4c27093b34444a056198241257aa
-    - name: Ceiling Trap Preview_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -3187,7 +3185,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: def5aad9c8c29db4982530208dcfe459
-    - name: Ceiling Trap Preview_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -3196,7 +3194,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: a2b616c5f3407c54989af099ce4506b8
-    - name: Ceiling Trap Preview_Frame_34
+    - name: Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -3205,7 +3203,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: cc3cc9b6cd4afa94eb13ca1c371d5b21
-    - name: Ceiling Trap Preview_Frame_35
+    - name: Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -3214,7 +3212,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ade5380f5396b8c4da6e521556b8b20d
-    - name: Ceiling Trap Preview_Frame_36
+    - name: Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -3223,7 +3221,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: b3024b7b13de6b0439b11897dd009ff1
-    - name: Ceiling Trap Preview_Frame_37
+    - name: Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -3232,7 +3230,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c03061dacd1a7f24fa9639ca0d9dbc10
-    - name: Ceiling Trap Preview_Frame_38
+    - name: Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -3241,7 +3239,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: fbaa79fc7c91fff4b88e0ebda5c0aa8a
-    - name: Ceiling Trap Preview_Frame_39
+    - name: Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -3250,7 +3248,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 169c46c72d74b6e44832242ea20936f7
-    - name: Ceiling Trap Preview_Frame_40
+    - name: Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -3259,7 +3257,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: de5b0809a0a92e24690e1a53003e3377
-    - name: Ceiling Trap Preview_Frame_41
+    - name: Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -3268,7 +3266,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5303bcd1827b9054c855c44268511760
-    - name: Ceiling Trap Preview_Frame_42
+    - name: Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -3277,7 +3275,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d6204c6f9bdc17e4385435761b78ed0d
-    - name: Ceiling Trap Preview_Frame_43
+    - name: Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -3286,7 +3284,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 8fb6f855c2d972441b0232ffcdd6f770
-    - name: Ceiling Trap Preview_Frame_44
+    - name: Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -3295,7 +3293,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d53545478c9756543ad9a700583c1511
-    - name: Ceiling Trap Preview_Frame_45
+    - name: Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -3304,7 +3302,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: e612660caa17e7e4cbc5dbefa80f3692
-    - name: Ceiling Trap Preview_Frame_46
+    - name: Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -3313,7 +3311,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 908019985f3e3c949af9f237f639288d
-    - name: Ceiling Trap Preview_Frame_47
+    - name: Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -3322,7 +3320,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 3e2b18a4510711e4db8275275b941cda
-    - name: Ceiling Trap Preview_Frame_48
+    - name: Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -3331,7 +3329,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 862e5e48c45b0c545a1e489ca04100bc
-    - name: Ceiling Trap Preview_Frame_49
+    - name: Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -3340,7 +3338,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 9d20de9307558a14f9cd02118a438030
-    - name: Ceiling Trap Preview_Frame_50
+    - name: Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -3349,7 +3347,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 9dc6b744e65ffb146bfdc7d0808a5ba4
-    - name: Ceiling Trap Preview_Frame_51
+    - name: Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -3358,7 +3356,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 391d2ab1c95e86e4098db8bc96285466
-    - name: Ceiling Trap Preview_Frame_52
+    - name: Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -3367,7 +3365,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 2dc8b18d33e416f43b3d9258934df155
-    - name: Ceiling Trap Preview_Frame_53
+    - name: Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -3376,7 +3374,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7df505d666e4bda4b87416e5b0ffcabb
-    - name: Ceiling Trap Preview_Frame_54
+    - name: Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -3385,7 +3383,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f0143423dfac93641b5699456ae05c0a
-    - name: Ceiling Trap Preview_Frame_55
+    - name: Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -3394,7 +3392,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5cfb613873d011e47985c9d08e8b7950
-    - name: Ceiling Trap Preview_Frame_56
+    - name: Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -3403,7 +3401,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 57a40573311965d4b9dccd36d36fb606
-    - name: Ceiling Trap Preview_Frame_57
+    - name: Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -3412,7 +3410,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c869d7692a40a8c4ba390c087c4aac5a
-    - name: Ceiling Trap Preview_Frame_58
+    - name: Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -3421,7 +3419,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 001969916aed46145a00b2ddcfa61a5a
-    - name: Ceiling Trap Preview_Frame_59
+    - name: Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -3430,7 +3428,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: e89eeafbec2166d45b1620bdffb665a5
-    - name: Ceiling Trap Preview_Frame_60
+    - name: Frame_60
       frameIndex: 60
       additiveSortOrder: 0
       cellRect:
@@ -3439,7 +3437,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: dc24cb4553a12d646a981f818fb3844a
-    - name: Ceiling Trap Preview_Frame_61
+    - name: Frame_61
       frameIndex: 61
       additiveSortOrder: 0
       cellRect:
@@ -3448,7 +3446,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ee4765adf68dc0a4f902ce897bda45d9
-    - name: Ceiling Trap Preview_Frame_62
+    - name: Frame_62
       frameIndex: 62
       additiveSortOrder: 0
       cellRect:
@@ -3457,7 +3455,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f134d6a5366dbfd4586ab8bfff6ffb4b
-    - name: Ceiling Trap Preview_Frame_63
+    - name: Frame_63
       frameIndex: 63
       additiveSortOrder: 0
       cellRect:
@@ -3466,7 +3464,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: de936b049bacab54fb91de7f55b06cfa
-    - name: Ceiling Trap Preview_Frame_64
+    - name: Frame_64
       frameIndex: 64
       additiveSortOrder: 0
       cellRect:
@@ -3475,7 +3473,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ab0c1d9ce4a22324da7c65a0a189bb39
-    - name: Ceiling Trap Preview_Frame_65
+    - name: Frame_65
       frameIndex: 65
       additiveSortOrder: 0
       cellRect:
@@ -3484,7 +3482,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d5012a09bbcfb1e42bac11e8b230b273
-    - name: Ceiling Trap Preview_Frame_66
+    - name: Frame_66
       frameIndex: 66
       additiveSortOrder: 0
       cellRect:
@@ -3493,7 +3491,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 05864913534fce74aac512e665d8c4e0
-    - name: Ceiling Trap Preview_Frame_67
+    - name: Frame_67
       frameIndex: 67
       additiveSortOrder: 0
       cellRect:
@@ -3502,7 +3500,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 64819a03c72341f4c83c3b3e761ad15d
-    - name: Ceiling Trap Preview_Frame_68
+    - name: Frame_68
       frameIndex: 68
       additiveSortOrder: 0
       cellRect:
@@ -3511,7 +3509,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 18173346af85a97409c5e92a78aecfc9
-    - name: Ceiling Trap Preview_Frame_69
+    - name: Frame_69
       frameIndex: 69
       additiveSortOrder: 0
       cellRect:
@@ -3520,7 +3518,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 0c330fbc83d86ba45918186427ad7c72
-    - name: Ceiling Trap Preview_Frame_70
+    - name: Frame_70
       frameIndex: 70
       additiveSortOrder: 0
       cellRect:
@@ -3529,7 +3527,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 9cc0338460592b040aa3f6d31fd96202
-    - name: Ceiling Trap Preview_Frame_71
+    - name: Frame_71
       frameIndex: 71
       additiveSortOrder: 0
       cellRect:
@@ -3538,7 +3536,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 0e83d2bc8bfc6c949810b8007192559b
-    - name: Ceiling Trap Preview_Frame_72
+    - name: Frame_72
       frameIndex: 72
       additiveSortOrder: 0
       cellRect:
@@ -3547,7 +3545,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1278665732de4414986d17320d73b4a2
-    - name: Ceiling Trap Preview_Frame_73
+    - name: Frame_73
       frameIndex: 73
       additiveSortOrder: 0
       cellRect:
@@ -3556,7 +3554,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: e4538a9ccfe8c5246a91993dbe0ce3ee
-    - name: Ceiling Trap Preview_Frame_74
+    - name: Frame_74
       frameIndex: 74
       additiveSortOrder: 0
       cellRect:
@@ -3565,7 +3563,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: bb30d7aa505e6834fb26ffa08afacc3d
-    - name: Ceiling Trap Preview_Frame_75
+    - name: Frame_75
       frameIndex: 75
       additiveSortOrder: 0
       cellRect:
@@ -3574,7 +3572,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ca0ebb695e7bdb94ea8205ce0045d3fd
-    - name: Ceiling Trap Preview_Frame_76
+    - name: Frame_76
       frameIndex: 76
       additiveSortOrder: 0
       cellRect:
@@ -3583,7 +3581,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ff76a6643c22bee4d968b1849a3aa76a
-    - name: Ceiling Trap Preview_Frame_77
+    - name: Frame_77
       frameIndex: 77
       additiveSortOrder: 0
       cellRect:
@@ -3592,7 +3590,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: e3d3b868238553044bb9d8c020d10360
-    - name: Ceiling Trap Preview_Frame_78
+    - name: Frame_78
       frameIndex: 78
       additiveSortOrder: 0
       cellRect:
@@ -3601,7 +3599,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 56a013d5771ac2c419cc6614e0de78dc
-    - name: Ceiling Trap Preview_Frame_79
+    - name: Frame_79
       frameIndex: 79
       additiveSortOrder: 0
       cellRect:
@@ -3610,7 +3608,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c6f4735e6ce80aa4fb10812a5ef42d9e
-    - name: Ceiling Trap Preview_Frame_80
+    - name: Frame_80
       frameIndex: 80
       additiveSortOrder: 0
       cellRect:
@@ -3619,7 +3617,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d2ed274aa08217a47aeaa047e1b641e7
-    - name: Ceiling Trap Preview_Frame_81
+    - name: Frame_81
       frameIndex: 81
       additiveSortOrder: 0
       cellRect:
@@ -3628,7 +3626,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d00b9dc502af094428a5e505949fff57
-    - name: Ceiling Trap Preview_Frame_82
+    - name: Frame_82
       frameIndex: 82
       additiveSortOrder: 0
       cellRect:
@@ -3637,7 +3635,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 06ed07fb39eb1d54f9820c26765f8ab5
-    - name: Ceiling Trap Preview_Frame_83
+    - name: Frame_83
       frameIndex: 83
       additiveSortOrder: 0
       cellRect:
@@ -3646,7 +3644,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 70115477a3484de41821628ad362226d
-    - name: Ceiling Trap Preview_Frame_84
+    - name: Frame_84
       frameIndex: 84
       additiveSortOrder: 0
       cellRect:
@@ -3655,7 +3653,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 76ac8c4f264e24c4cb0ba2e1e218840e
-    - name: Ceiling Trap Preview_Frame_85
+    - name: Frame_85
       frameIndex: 85
       additiveSortOrder: 0
       cellRect:
@@ -3664,7 +3662,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1263832dd828a684ea98c20255d3bfbc
-    - name: Ceiling Trap Preview_Frame_86
+    - name: Frame_86
       frameIndex: 86
       additiveSortOrder: 0
       cellRect:
@@ -3673,7 +3671,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 2184e67c62894bd45aec0066060758ec
-    - name: Ceiling Trap Preview_Frame_87
+    - name: Frame_87
       frameIndex: 87
       additiveSortOrder: 0
       cellRect:
@@ -3682,7 +3680,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 4699766b6ff51484b9ce7ff1fe92c9df
-    - name: Ceiling Trap Preview_Frame_88
+    - name: Frame_88
       frameIndex: 88
       additiveSortOrder: 0
       cellRect:
@@ -3691,7 +3689,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c5880d04e37adcf4cb2d7264bb99824b
-    - name: Ceiling Trap Preview_Frame_89
+    - name: Frame_89
       frameIndex: 89
       additiveSortOrder: 0
       cellRect:
@@ -3700,7 +3698,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: afd7b5359a897a84fa29e463e34ce0b2
-    - name: Ceiling Trap Preview_Frame_90
+    - name: Frame_90
       frameIndex: 90
       additiveSortOrder: 0
       cellRect:
@@ -3709,7 +3707,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7a2e338f3aa89554ba8a6afe19e4a1c2
-    - name: Ceiling Trap Preview_Frame_91
+    - name: Frame_91
       frameIndex: 91
       additiveSortOrder: 0
       cellRect:
@@ -3718,7 +3716,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 2b89bae53d8b76941a11716e2b159d80
-    - name: Ceiling Trap Preview_Frame_92
+    - name: Frame_92
       frameIndex: 92
       additiveSortOrder: 0
       cellRect:
@@ -3727,7 +3725,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7de3965248f4152409c167b1eed39a76
-    - name: Ceiling Trap Preview_Frame_93
+    - name: Frame_93
       frameIndex: 93
       additiveSortOrder: 0
       cellRect:
@@ -3736,7 +3734,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: a6a4d93f84a675346a5ffb0331e89613
-    - name: Ceiling Trap Preview_Frame_94
+    - name: Frame_94
       frameIndex: 94
       additiveSortOrder: 0
       cellRect:
@@ -3745,7 +3743,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5c66dc29dce595d42b37c6563d0adfb4
-    - name: Ceiling Trap Preview_Frame_95
+    - name: Frame_95
       frameIndex: 95
       additiveSortOrder: 0
       cellRect:
@@ -3754,7 +3752,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 77b9a34c1abdcf7489a7312699d40e6e
-    - name: Ceiling Trap Preview_Frame_96
+    - name: Frame_96
       frameIndex: 96
       additiveSortOrder: 0
       cellRect:
@@ -3763,7 +3761,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 522c26378a0fc1f47b7c4667ceba08f7
-    - name: Ceiling Trap Preview_Frame_97
+    - name: Frame_97
       frameIndex: 97
       additiveSortOrder: 0
       cellRect:
@@ -3772,7 +3770,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 18da3c32da8ddea4195f4e278230e9f4
-    - name: Ceiling Trap Preview_Frame_98
+    - name: Frame_98
       frameIndex: 98
       additiveSortOrder: 0
       cellRect:
@@ -3781,7 +3779,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 85c7c26c53fa09a44b0c6d7655944714
-    - name: Ceiling Trap Preview_Frame_99
+    - name: Frame_99
       frameIndex: 99
       additiveSortOrder: 0
       cellRect:
@@ -3790,7 +3788,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 0444d37c8ab4fc14a8d8ba6e176e5afd
-    - name: Ceiling Trap Preview_Frame_100
+    - name: Frame_100
       frameIndex: 100
       additiveSortOrder: 0
       cellRect:
@@ -3799,7 +3797,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 995794e6377db934885dde1c485795e9
-    - name: Ceiling Trap Preview_Frame_101
+    - name: Frame_101
       frameIndex: 101
       additiveSortOrder: 0
       cellRect:
@@ -3808,7 +3806,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 29299e5daf752714ca76652caf5bd394
-    - name: Ceiling Trap Preview_Frame_102
+    - name: Frame_102
       frameIndex: 102
       additiveSortOrder: 0
       cellRect:
@@ -3817,7 +3815,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 8fdb5cd1e78ffb14ba9a54db60017b27
-    - name: Ceiling Trap Preview_Frame_103
+    - name: Frame_103
       frameIndex: 103
       additiveSortOrder: 0
       cellRect:
@@ -3826,7 +3824,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 62dfcc65ce9a7d54f81c237ef9d41239
-    - name: Ceiling Trap Preview_Frame_104
+    - name: Frame_104
       frameIndex: 104
       additiveSortOrder: 0
       cellRect:
@@ -3835,7 +3833,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 460f7274ac56a8e4a9b2f6506e60a8b4
-    - name: Ceiling Trap Preview_Frame_105
+    - name: Frame_105
       frameIndex: 105
       additiveSortOrder: 0
       cellRect:
@@ -3844,7 +3842,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 07b25cb18441aac4aac03e3193113d6c
-    - name: Ceiling Trap Preview_Frame_106
+    - name: Frame_106
       frameIndex: 106
       additiveSortOrder: 0
       cellRect:
@@ -3853,7 +3851,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 0202102e44edd9840b91bcc696dc3b7f
-    - name: Ceiling Trap Preview_Frame_107
+    - name: Frame_107
       frameIndex: 107
       additiveSortOrder: 0
       cellRect:
@@ -3862,7 +3860,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 07add26833ff6de4c92c3e98fb635d7c
-    - name: Ceiling Trap Preview_Frame_108
+    - name: Frame_108
       frameIndex: 108
       additiveSortOrder: 0
       cellRect:
@@ -3871,7 +3869,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5af030ea184160f498e49398199bc871
-    - name: Ceiling Trap Preview_Frame_109
+    - name: Frame_109
       frameIndex: 109
       additiveSortOrder: 0
       cellRect:
@@ -3880,7 +3878,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: a445784605a48f743b05146c32af550c
-    - name: Ceiling Trap Preview_Frame_110
+    - name: Frame_110
       frameIndex: 110
       additiveSortOrder: 0
       cellRect:
@@ -3889,7 +3887,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1eecd54fb770cb444bfc20e2c3880dd0
-    - name: Ceiling Trap Preview_Frame_111
+    - name: Frame_111
       frameIndex: 111
       additiveSortOrder: 0
       cellRect:
@@ -3898,7 +3896,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 3ac831b93b7829b4e8441466a2de1569
-    - name: Ceiling Trap Preview_Frame_112
+    - name: Frame_112
       frameIndex: 112
       additiveSortOrder: 0
       cellRect:
@@ -3907,7 +3905,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: cc5b9a252392d0148aa99909d30afdd3
-    - name: Ceiling Trap Preview_Frame_113
+    - name: Frame_113
       frameIndex: 113
       additiveSortOrder: 0
       cellRect:
@@ -3916,7 +3914,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 44856d3392bf945448f1d20e743694bc
-    - name: Ceiling Trap Preview_Frame_114
+    - name: Frame_114
       frameIndex: 114
       additiveSortOrder: 0
       cellRect:
@@ -3925,7 +3923,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 74438456b48ed1f4fb2c3ad5cae719ba
-    - name: Ceiling Trap Preview_Frame_115
+    - name: Frame_115
       frameIndex: 115
       additiveSortOrder: 0
       cellRect:
@@ -3934,7 +3932,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7cfa78063ef5feb4f9271a7d2bf0c9f7
-    - name: Ceiling Trap Preview_Frame_116
+    - name: Frame_116
       frameIndex: 116
       additiveSortOrder: 0
       cellRect:
@@ -3943,7 +3941,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: b61f35bbb45070645a6ded168d3dc138
-    - name: Ceiling Trap Preview_Frame_117
+    - name: Frame_117
       frameIndex: 117
       additiveSortOrder: 0
       cellRect:
@@ -3952,7 +3950,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: cc5c6b13e8818504c907c44b3bfc6a17
-    - name: Ceiling Trap Preview_Frame_118
+    - name: Frame_118
       frameIndex: 118
       additiveSortOrder: 0
       cellRect:
@@ -3961,7 +3959,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f6b7ec7ae82c8ae408aeac9fe25178c2
-    - name: Ceiling Trap Preview_Frame_119
+    - name: Frame_119
       frameIndex: 119
       additiveSortOrder: 0
       cellRect:
@@ -3970,7 +3968,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f1a6af304ca57e441a7976ae0db7a5fa
-    - name: Ceiling Trap Preview_Frame_120
+    - name: Frame_120
       frameIndex: 120
       additiveSortOrder: 0
       cellRect:
@@ -3979,7 +3977,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5fa0687448903e644a04d67a187844e9
-    - name: Ceiling Trap Preview_Frame_121
+    - name: Frame_121
       frameIndex: 121
       additiveSortOrder: 0
       cellRect:
@@ -3988,7 +3986,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6ed59810377a97744982be354fa5078f
-    - name: Ceiling Trap Preview_Frame_122
+    - name: Frame_122
       frameIndex: 122
       additiveSortOrder: 0
       cellRect:
@@ -3997,7 +3995,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 0d9984a398f40f64ca4f90615238f839
-    - name: Ceiling Trap Preview_Frame_123
+    - name: Frame_123
       frameIndex: 123
       additiveSortOrder: 0
       cellRect:
@@ -4006,7 +4004,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 18cb580650175744996e72bb99d42d91
-    - name: Ceiling Trap Preview_Frame_124
+    - name: Frame_124
       frameIndex: 124
       additiveSortOrder: 0
       cellRect:
@@ -4015,7 +4013,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 53f12cb6ec5440b40ba152e822e31d6f
-    - name: Ceiling Trap Preview_Frame_125
+    - name: Frame_125
       frameIndex: 125
       additiveSortOrder: 0
       cellRect:
@@ -4024,7 +4022,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 0b80a35d69674d944a2635cb700402fe
-    - name: Ceiling Trap Preview_Frame_126
+    - name: Frame_126
       frameIndex: 126
       additiveSortOrder: 0
       cellRect:
@@ -4033,7 +4031,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: e0ac8a6c753962043af170b6f9ae0270
-    - name: Ceiling Trap Preview_Frame_127
+    - name: Frame_127
       frameIndex: 127
       additiveSortOrder: 0
       cellRect:
@@ -4042,7 +4040,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 47cc7c8846d71c24aaa546ad3ebb212c
-    - name: Ceiling Trap Preview_Frame_128
+    - name: Frame_128
       frameIndex: 128
       additiveSortOrder: 0
       cellRect:
@@ -4051,7 +4049,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: bf668f7b95de6e346b8d9fd22b486c2f
-    - name: Ceiling Trap Preview_Frame_129
+    - name: Frame_129
       frameIndex: 129
       additiveSortOrder: 0
       cellRect:
@@ -4060,7 +4058,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5c0279f2cdc098a429f92f5f8dbfe016
-    - name: Ceiling Trap Preview_Frame_130
+    - name: Frame_130
       frameIndex: 130
       additiveSortOrder: 0
       cellRect:
@@ -4069,7 +4067,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 2f5c6845f0cc4104890127c6d6ff7ef1
-    - name: Ceiling Trap Preview_Frame_131
+    - name: Frame_131
       frameIndex: 131
       additiveSortOrder: 0
       cellRect:
@@ -4078,7 +4076,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c93b10a7eea3f8f4a94adfe820fac49a
-    - name: Ceiling Trap Preview_Frame_132
+    - name: Frame_132
       frameIndex: 132
       additiveSortOrder: 0
       cellRect:
@@ -4087,7 +4085,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: bc38e87a1a082a941920fd1b40794a0a
-    - name: Ceiling Trap Preview_Frame_133
+    - name: Frame_133
       frameIndex: 133
       additiveSortOrder: 0
       cellRect:
@@ -4096,7 +4094,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 33445612194a1a443b09bb241ceefa8a
-    - name: Ceiling Trap Preview_Frame_134
+    - name: Frame_134
       frameIndex: 134
       additiveSortOrder: 0
       cellRect:
@@ -4105,7 +4103,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: a69a9d0576e5cbf4a965ab1691ecc541
-    - name: Ceiling Trap Preview_Frame_135
+    - name: Frame_135
       frameIndex: 135
       additiveSortOrder: 0
       cellRect:
@@ -4114,7 +4112,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 79cd79485ff32f541963467e9d29a012
-    - name: Ceiling Trap Preview_Frame_136
+    - name: Frame_136
       frameIndex: 136
       additiveSortOrder: 0
       cellRect:
@@ -4123,7 +4121,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7218fe6ffe080fc488046b278d968260
-    - name: Ceiling Trap Preview_Frame_137
+    - name: Frame_137
       frameIndex: 137
       additiveSortOrder: 0
       cellRect:

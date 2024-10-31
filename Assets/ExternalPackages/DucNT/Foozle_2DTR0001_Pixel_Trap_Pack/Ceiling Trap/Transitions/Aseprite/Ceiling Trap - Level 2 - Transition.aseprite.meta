@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -290,7 +288,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Ceiling Trap - Level 2 - Transition_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -299,7 +297,7 @@ ScriptedImporter:
         width: 84
         height: 25
       spriteId: 40b2e9b011850d4409ab0ef0791d5f47
-    - name: Ceiling Trap - Level 2 - Transition_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -308,7 +306,7 @@ ScriptedImporter:
         width: 82
         height: 27
       spriteId: b3438c0bf3786184e959e6be2a0bc142
-    - name: Ceiling Trap - Level 2 - Transition_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -317,7 +315,7 @@ ScriptedImporter:
         width: 78
         height: 28
       spriteId: 3251cb304310d8d4692c336ac7d68e2d
-    - name: Ceiling Trap - Level 2 - Transition_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -326,7 +324,7 @@ ScriptedImporter:
         width: 76
         height: 14
       spriteId: 98b8294eb594fa04180315bcccdca158
-    - name: Ceiling Trap - Level 2 - Transition_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -335,7 +333,7 @@ ScriptedImporter:
         width: 76
         height: 13
       spriteId: dc60503534bbc224caac8e0ec4b18112
-    - name: Ceiling Trap - Level 2 - Transition_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -344,7 +342,7 @@ ScriptedImporter:
         width: 79
         height: 12
       spriteId: f2cbebd6235e4e94ba58a10729aa8fa0
-    - name: Ceiling Trap - Level 2 - Transition_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -353,7 +351,7 @@ ScriptedImporter:
         width: 82
         height: 19
       spriteId: bded1a38257ef6443837f66d691e2c4d
-    - name: Ceiling Trap - Level 2 - Transition_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:

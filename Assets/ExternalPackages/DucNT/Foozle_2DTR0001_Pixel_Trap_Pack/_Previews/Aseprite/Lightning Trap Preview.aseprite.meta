@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -2770,7 +2768,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Lightning Trap Preview_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -2779,7 +2777,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 21b318b5e6948494bbd2d4f5365942d8
-    - name: Lightning Trap Preview_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -2788,7 +2786,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 1e1e89ba4c2aee047bc6068bce15ae1f
-    - name: Lightning Trap Preview_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -2797,7 +2795,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: fb9d8ee6fe70fb6449c54d7341229671
-    - name: Lightning Trap Preview_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -2806,7 +2804,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 41fccee1a6d5e9d40ab219a8ec0bf791
-    - name: Lightning Trap Preview_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -2815,7 +2813,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: dfff4d510c64ddc408c5029b94769727
-    - name: Lightning Trap Preview_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -2824,7 +2822,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 3e65bec1053f78242bd79e18af7a58ef
-    - name: Lightning Trap Preview_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -2833,7 +2831,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 1614ac47fd46fe24f970f819a7b88d35
-    - name: Lightning Trap Preview_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -2842,7 +2840,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 759c601b420753a489fa4018ef56cdf4
-    - name: Lightning Trap Preview_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -2851,7 +2849,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: b4768605c2c3a38429ac10d95e4d4ac0
-    - name: Lightning Trap Preview_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -2860,7 +2858,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 29802b4fdb2dae24d918ab070987c30a
-    - name: Lightning Trap Preview_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -2869,7 +2867,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 7d06347fb6e7b2448b971812b1760edb
-    - name: Lightning Trap Preview_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -2878,7 +2876,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 8f0ddc4ca8d553e41bccba7b9b126d0b
-    - name: Lightning Trap Preview_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -2887,7 +2885,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 4d3f8549be137924dac0bc8b8d2d8ac6
-    - name: Lightning Trap Preview_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -2896,7 +2894,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 5f2beadb7937e6946b5e3fe501d050c7
-    - name: Lightning Trap Preview_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -2905,7 +2903,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 9aa1dc028a127a141a3bbca6d99e8be6
-    - name: Lightning Trap Preview_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -2914,7 +2912,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 31eec133facc69d4e8d7d71f0a7cae80
-    - name: Lightning Trap Preview_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -2923,7 +2921,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: ed52aff485279bd4ca9319a9e01b5301
-    - name: Lightning Trap Preview_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -2932,7 +2930,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d6ba66466d962514d8cd48fe4c0998ff
-    - name: Lightning Trap Preview_Frame_18
+    - name: Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -2941,7 +2939,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 49d85f39cb2706847857aaf883b05a3a
-    - name: Lightning Trap Preview_Frame_19
+    - name: Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -2950,7 +2948,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: cda5bf1d278bab645b7c122af1eb1203
-    - name: Lightning Trap Preview_Frame_20
+    - name: Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -2959,7 +2957,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 13f772f4cf9b39c48b625f94a4e2dc18
-    - name: Lightning Trap Preview_Frame_21
+    - name: Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -2968,7 +2966,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: fd3b64fc1c9e4b146a05ddea1c61b822
-    - name: Lightning Trap Preview_Frame_22
+    - name: Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -2977,7 +2975,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: e0abfc56041463e49b7c994870c15f20
-    - name: Lightning Trap Preview_Frame_23
+    - name: Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -2986,7 +2984,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 4204bf6ffd14dda4abffaa2d8fd15e07
-    - name: Lightning Trap Preview_Frame_24
+    - name: Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -2995,7 +2993,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 9536f729c66100d4186741aec6afc51c
-    - name: Lightning Trap Preview_Frame_25
+    - name: Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -3004,7 +3002,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 0d197acd9f88ebb48b08935a07efb81b
-    - name: Lightning Trap Preview_Frame_26
+    - name: Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -3013,7 +3011,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 0d74db34a27d5de409a1c79e57c69106
-    - name: Lightning Trap Preview_Frame_27
+    - name: Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -3022,7 +3020,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 3fe3fbd2548302840ab9a80e031c87b2
-    - name: Lightning Trap Preview_Frame_28
+    - name: Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -3031,7 +3029,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: fd6e4dac6ef4b1545a538d2b163b62dd
-    - name: Lightning Trap Preview_Frame_29
+    - name: Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -3040,7 +3038,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 4fc70fb3b1c67c944a37278ac208c269
-    - name: Lightning Trap Preview_Frame_30
+    - name: Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -3049,7 +3047,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: fc366e5ac6f04d7499c089e47688bd13
-    - name: Lightning Trap Preview_Frame_31
+    - name: Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -3058,7 +3056,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: ad2adb2562e53ab45b3bac5d9c6f3521
-    - name: Lightning Trap Preview_Frame_32
+    - name: Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -3067,7 +3065,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 0eac5231d0ddcf14fbce828b1b9c14cb
-    - name: Lightning Trap Preview_Frame_33
+    - name: Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -3076,7 +3074,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 6e8616c8445a46a40ba2c2813a1143fa
-    - name: Lightning Trap Preview_Frame_34
+    - name: Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -3085,7 +3083,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 43e525ce522a39d4697f3f7fe4178162
-    - name: Lightning Trap Preview_Frame_35
+    - name: Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -3094,7 +3092,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 36720d6a29eb0074d959262f0ba1e089
-    - name: Lightning Trap Preview_Frame_36
+    - name: Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -3103,7 +3101,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: fb90c52a47535fd47b78ff0653818099
-    - name: Lightning Trap Preview_Frame_37
+    - name: Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -3112,7 +3110,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 28aac6e2cb599424da148d6fd72885b2
-    - name: Lightning Trap Preview_Frame_38
+    - name: Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -3121,7 +3119,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 5da085a843902fa48b07b8a4b584b18c
-    - name: Lightning Trap Preview_Frame_39
+    - name: Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -3130,7 +3128,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 49cc0d549af62f84da1d1bc8a1ac283c
-    - name: Lightning Trap Preview_Frame_40
+    - name: Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -3139,7 +3137,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: ff196a630d83fdc499036e7502290005
-    - name: Lightning Trap Preview_Frame_41
+    - name: Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -3148,7 +3146,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: b23481576de6aa249837c602a99384c3
-    - name: Lightning Trap Preview_Frame_42
+    - name: Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -3157,7 +3155,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 75159009e351f9b4395e2bee617a3a88
-    - name: Lightning Trap Preview_Frame_43
+    - name: Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -3166,7 +3164,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d6d1e09d0332c7644a2fdefa9fb8acc8
-    - name: Lightning Trap Preview_Frame_44
+    - name: Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -3175,7 +3173,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 33a10bd4e36b485498d0f7e5d38bc046
-    - name: Lightning Trap Preview_Frame_45
+    - name: Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -3184,7 +3182,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 566d93f16d5634e47af6cb073a1aa30b
-    - name: Lightning Trap Preview_Frame_46
+    - name: Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -3193,7 +3191,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 255be7a5f24ba37468194dad7bdc7f5d
-    - name: Lightning Trap Preview_Frame_47
+    - name: Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -3202,7 +3200,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 6cda88accd4fa28468277de087d1dbe8
-    - name: Lightning Trap Preview_Frame_48
+    - name: Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -3211,7 +3209,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: cafb08ad108d2e64f8628404c6eac8b2
-    - name: Lightning Trap Preview_Frame_49
+    - name: Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -3220,7 +3218,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 48fe142ba758e474a870cc9eb270d90f
-    - name: Lightning Trap Preview_Frame_50
+    - name: Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -3229,7 +3227,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 7a53d24b83d5bd44ca8ec8a4fcf5b7b6
-    - name: Lightning Trap Preview_Frame_51
+    - name: Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -3238,7 +3236,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 48aa173917e051647a715fc2b3a22ce7
-    - name: Lightning Trap Preview_Frame_52
+    - name: Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -3247,7 +3245,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d2d60fbeb1095394d98a25c470fe5171
-    - name: Lightning Trap Preview_Frame_53
+    - name: Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -3256,7 +3254,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 81379ac8e80d10a42a408e992ef4dff1
-    - name: Lightning Trap Preview_Frame_54
+    - name: Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -3265,7 +3263,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 484e66ecdd5c7b9408cb8e68b4d04e7c
-    - name: Lightning Trap Preview_Frame_55
+    - name: Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -3274,7 +3272,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: e6704b547ed59724b9ad7617937d22c9
-    - name: Lightning Trap Preview_Frame_56
+    - name: Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -3283,7 +3281,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 5e176098185674343b9b18df093f2c41
-    - name: Lightning Trap Preview_Frame_57
+    - name: Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -3292,7 +3290,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d052351a18d18e048827dfe7a17dc5cf
-    - name: Lightning Trap Preview_Frame_58
+    - name: Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -3301,7 +3299,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: c1252cda734e08e409ecefea8dab4612
-    - name: Lightning Trap Preview_Frame_59
+    - name: Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -3310,7 +3308,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 0de47b59600fc4944b8b82fa1409374b
-    - name: Lightning Trap Preview_Frame_60
+    - name: Frame_60
       frameIndex: 60
       additiveSortOrder: 0
       cellRect:
@@ -3319,7 +3317,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 6655ba630987ddf489b12ac93621419f
-    - name: Lightning Trap Preview_Frame_61
+    - name: Frame_61
       frameIndex: 61
       additiveSortOrder: 0
       cellRect:
@@ -3328,7 +3326,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: cdd591d3bcf26d64ba93412ea201a494
-    - name: Lightning Trap Preview_Frame_62
+    - name: Frame_62
       frameIndex: 62
       additiveSortOrder: 0
       cellRect:
@@ -3337,7 +3335,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 7955cd5c05336e047a9e614d101903f6
-    - name: Lightning Trap Preview_Frame_63
+    - name: Frame_63
       frameIndex: 63
       additiveSortOrder: 0
       cellRect:
@@ -3346,7 +3344,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 2e4d6b2a24ca1c94e82dbe5d89f08f69
-    - name: Lightning Trap Preview_Frame_64
+    - name: Frame_64
       frameIndex: 64
       additiveSortOrder: 0
       cellRect:
@@ -3355,7 +3353,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: a3fc856030c70684ea4275505e26f1f7
-    - name: Lightning Trap Preview_Frame_65
+    - name: Frame_65
       frameIndex: 65
       additiveSortOrder: 0
       cellRect:
@@ -3364,7 +3362,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: ef3410ce67a06f8418acebff922461d2
-    - name: Lightning Trap Preview_Frame_66
+    - name: Frame_66
       frameIndex: 66
       additiveSortOrder: 0
       cellRect:
@@ -3373,7 +3371,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d2f2669f9b0138545947a247d1785ef0
-    - name: Lightning Trap Preview_Frame_67
+    - name: Frame_67
       frameIndex: 67
       additiveSortOrder: 0
       cellRect:
@@ -3382,7 +3380,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: ad69b2612735243449a55bce3349bcd0
-    - name: Lightning Trap Preview_Frame_68
+    - name: Frame_68
       frameIndex: 68
       additiveSortOrder: 0
       cellRect:
@@ -3391,7 +3389,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d6a66c310fbaf4e4797ff3e3dc407c34
-    - name: Lightning Trap Preview_Frame_69
+    - name: Frame_69
       frameIndex: 69
       additiveSortOrder: 0
       cellRect:
@@ -3400,7 +3398,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 91a66be9b6a54c44cabe6d8f105a4a61
-    - name: Lightning Trap Preview_Frame_70
+    - name: Frame_70
       frameIndex: 70
       additiveSortOrder: 0
       cellRect:
@@ -3409,7 +3407,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 53ad2019d6b4e07459b4b62a2a87b0c9
-    - name: Lightning Trap Preview_Frame_71
+    - name: Frame_71
       frameIndex: 71
       additiveSortOrder: 0
       cellRect:
@@ -3418,7 +3416,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 87f8f9ff0b184ca4d8fedb5bbcc38541
-    - name: Lightning Trap Preview_Frame_72
+    - name: Frame_72
       frameIndex: 72
       additiveSortOrder: 0
       cellRect:
@@ -3427,7 +3425,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 82ae99ee52e7b6f4e9031bd6e4d9edeb
-    - name: Lightning Trap Preview_Frame_73
+    - name: Frame_73
       frameIndex: 73
       additiveSortOrder: 0
       cellRect:
@@ -3436,7 +3434,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 40731a0e91121a840a6bd41f8da36e8c
-    - name: Lightning Trap Preview_Frame_74
+    - name: Frame_74
       frameIndex: 74
       additiveSortOrder: 0
       cellRect:
@@ -3445,7 +3443,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 62935cf3bb8350844b075be46dc8444c
-    - name: Lightning Trap Preview_Frame_75
+    - name: Frame_75
       frameIndex: 75
       additiveSortOrder: 0
       cellRect:
@@ -3454,7 +3452,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 239300d0cbdf8ae42aa13f051646ef54
-    - name: Lightning Trap Preview_Frame_76
+    - name: Frame_76
       frameIndex: 76
       additiveSortOrder: 0
       cellRect:
@@ -3463,7 +3461,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 69062be6a9af00549802c75e72af738d
-    - name: Lightning Trap Preview_Frame_77
+    - name: Frame_77
       frameIndex: 77
       additiveSortOrder: 0
       cellRect:
@@ -3472,7 +3470,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 9e022aec09a83104d8c4355a40549a56
-    - name: Lightning Trap Preview_Frame_78
+    - name: Frame_78
       frameIndex: 78
       additiveSortOrder: 0
       cellRect:
@@ -3481,7 +3479,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 239e7f5cb73e5cc45a6bdb45e928304e
-    - name: Lightning Trap Preview_Frame_79
+    - name: Frame_79
       frameIndex: 79
       additiveSortOrder: 0
       cellRect:
@@ -3490,7 +3488,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 5b0aa9607ba5ce54dbd0da0f118bb45d
-    - name: Lightning Trap Preview_Frame_80
+    - name: Frame_80
       frameIndex: 80
       additiveSortOrder: 0
       cellRect:
@@ -3499,7 +3497,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d3d207c45e3f9c84b97f13b53c58a819
-    - name: Lightning Trap Preview_Frame_81
+    - name: Frame_81
       frameIndex: 81
       additiveSortOrder: 0
       cellRect:
@@ -3508,7 +3506,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 72458ef9845326049aedff46432d2a31
-    - name: Lightning Trap Preview_Frame_82
+    - name: Frame_82
       frameIndex: 82
       additiveSortOrder: 0
       cellRect:
@@ -3517,7 +3515,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: b19a46456e26b124aa103c726ffe25f2
-    - name: Lightning Trap Preview_Frame_83
+    - name: Frame_83
       frameIndex: 83
       additiveSortOrder: 0
       cellRect:
@@ -3526,7 +3524,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 40c1d80a00a9181459a0fd01ce7785be
-    - name: Lightning Trap Preview_Frame_84
+    - name: Frame_84
       frameIndex: 84
       additiveSortOrder: 0
       cellRect:
@@ -3535,7 +3533,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d68f3f30a3fa0994bae89dd025dec829
-    - name: Lightning Trap Preview_Frame_85
+    - name: Frame_85
       frameIndex: 85
       additiveSortOrder: 0
       cellRect:
@@ -3544,7 +3542,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 08a8fd6f314727740bc706301edfe95c
-    - name: Lightning Trap Preview_Frame_86
+    - name: Frame_86
       frameIndex: 86
       additiveSortOrder: 0
       cellRect:
@@ -3553,7 +3551,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d9808c8592be3c7409831143b7d45256
-    - name: Lightning Trap Preview_Frame_87
+    - name: Frame_87
       frameIndex: 87
       additiveSortOrder: 0
       cellRect:
@@ -3562,7 +3560,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: e2a9c2ebbc1e27448b40c06ca31fee72
-    - name: Lightning Trap Preview_Frame_88
+    - name: Frame_88
       frameIndex: 88
       additiveSortOrder: 0
       cellRect:
@@ -3571,7 +3569,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 0544583ed53649f4689ea8ba35b19fef
-    - name: Lightning Trap Preview_Frame_89
+    - name: Frame_89
       frameIndex: 89
       additiveSortOrder: 0
       cellRect:
@@ -3580,7 +3578,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 2b521f701d6006442bdf82f378a11e6a
-    - name: Lightning Trap Preview_Frame_90
+    - name: Frame_90
       frameIndex: 90
       additiveSortOrder: 0
       cellRect:
@@ -3589,7 +3587,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 93e0b0b4762d656449c7ed5dab8bc1e8
-    - name: Lightning Trap Preview_Frame_91
+    - name: Frame_91
       frameIndex: 91
       additiveSortOrder: 0
       cellRect:
@@ -3598,7 +3596,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: b68c416b15eaf124ca6fdc555cf8643a
-    - name: Lightning Trap Preview_Frame_92
+    - name: Frame_92
       frameIndex: 92
       additiveSortOrder: 0
       cellRect:
@@ -3607,7 +3605,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 95f7022aa3019b842a11bbea669187d6
-    - name: Lightning Trap Preview_Frame_93
+    - name: Frame_93
       frameIndex: 93
       additiveSortOrder: 0
       cellRect:
@@ -3616,7 +3614,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 2d4cd7baa65f3bc42a379bc73c2e88b7
-    - name: Lightning Trap Preview_Frame_94
+    - name: Frame_94
       frameIndex: 94
       additiveSortOrder: 0
       cellRect:
@@ -3625,7 +3623,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 3e52bb8dfb8935d498503ed0f5029ddb
-    - name: Lightning Trap Preview_Frame_95
+    - name: Frame_95
       frameIndex: 95
       additiveSortOrder: 0
       cellRect:
@@ -3634,7 +3632,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: bd1dc5943a7fe0a42bf9bf195bd983d3
-    - name: Lightning Trap Preview_Frame_96
+    - name: Frame_96
       frameIndex: 96
       additiveSortOrder: 0
       cellRect:
@@ -3643,7 +3641,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: a5b0e47c11eed8e4eaf21c60d0d6ca78
-    - name: Lightning Trap Preview_Frame_97
+    - name: Frame_97
       frameIndex: 97
       additiveSortOrder: 0
       cellRect:
@@ -3652,7 +3650,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: d59a7ffbf6ade1647b94a08c0034bb4d
-    - name: Lightning Trap Preview_Frame_98
+    - name: Frame_98
       frameIndex: 98
       additiveSortOrder: 0
       cellRect:
@@ -3661,7 +3659,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 2efe291f9dfaa0b44b93b66498b0da7c
-    - name: Lightning Trap Preview_Frame_99
+    - name: Frame_99
       frameIndex: 99
       additiveSortOrder: 0
       cellRect:
@@ -3670,7 +3668,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 33c25fa8cec11584a8d11ff0eea73f5c
-    - name: Lightning Trap Preview_Frame_100
+    - name: Frame_100
       frameIndex: 100
       additiveSortOrder: 0
       cellRect:
@@ -3679,7 +3677,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: e2f5014f290517f4eb283be576b8dde4
-    - name: Lightning Trap Preview_Frame_101
+    - name: Frame_101
       frameIndex: 101
       additiveSortOrder: 0
       cellRect:
@@ -3688,7 +3686,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 95df12256febbdb459eea0add40d7015
-    - name: Lightning Trap Preview_Frame_102
+    - name: Frame_102
       frameIndex: 102
       additiveSortOrder: 0
       cellRect:
@@ -3697,7 +3695,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 91f8d980ab998d249bc261916c35afcc
-    - name: Lightning Trap Preview_Frame_103
+    - name: Frame_103
       frameIndex: 103
       additiveSortOrder: 0
       cellRect:
@@ -3706,7 +3704,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 5a87ec0d6f5425a449e6850c5eca6ea5
-    - name: Lightning Trap Preview_Frame_104
+    - name: Frame_104
       frameIndex: 104
       additiveSortOrder: 0
       cellRect:
@@ -3715,7 +3713,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 23806b65278bef740ad7f180dae39725
-    - name: Lightning Trap Preview_Frame_105
+    - name: Frame_105
       frameIndex: 105
       additiveSortOrder: 0
       cellRect:
@@ -3724,7 +3722,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: bc85cde091a6a4841a8bd879abc59f2f
-    - name: Lightning Trap Preview_Frame_106
+    - name: Frame_106
       frameIndex: 106
       additiveSortOrder: 0
       cellRect:
@@ -3733,7 +3731,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 49b8041cd23733b4b9d376ec48258f33
-    - name: Lightning Trap Preview_Frame_107
+    - name: Frame_107
       frameIndex: 107
       additiveSortOrder: 0
       cellRect:
@@ -3742,7 +3740,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 5971e5eff10aa59428c14176d6152041
-    - name: Lightning Trap Preview_Frame_108
+    - name: Frame_108
       frameIndex: 108
       additiveSortOrder: 0
       cellRect:
@@ -3751,7 +3749,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 3c90a896a0160c34c8a35437ce2aab0c
-    - name: Lightning Trap Preview_Frame_109
+    - name: Frame_109
       frameIndex: 109
       additiveSortOrder: 0
       cellRect:
@@ -3760,7 +3758,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 758cc2e79ec3f9648b80da3c40e9cbda
-    - name: Lightning Trap Preview_Frame_110
+    - name: Frame_110
       frameIndex: 110
       additiveSortOrder: 0
       cellRect:
@@ -3769,7 +3767,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 4fd0f6c38bce601489228bc0151e0a72
-    - name: Lightning Trap Preview_Frame_111
+    - name: Frame_111
       frameIndex: 111
       additiveSortOrder: 0
       cellRect:
@@ -3778,7 +3776,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 6f162eb4ca090cd44b54dc0399a073a1
-    - name: Lightning Trap Preview_Frame_112
+    - name: Frame_112
       frameIndex: 112
       additiveSortOrder: 0
       cellRect:
@@ -3787,7 +3785,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 83bd111b5b4571340806865371a5847e
-    - name: Lightning Trap Preview_Frame_113
+    - name: Frame_113
       frameIndex: 113
       additiveSortOrder: 0
       cellRect:
@@ -3796,7 +3794,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 90bda7541bf247143b57f0802d75d94f
-    - name: Lightning Trap Preview_Frame_114
+    - name: Frame_114
       frameIndex: 114
       additiveSortOrder: 0
       cellRect:
@@ -3805,7 +3803,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 6e0fe0ca94857484b93576a1b3f32f60
-    - name: Lightning Trap Preview_Frame_115
+    - name: Frame_115
       frameIndex: 115
       additiveSortOrder: 0
       cellRect:
@@ -3814,7 +3812,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 19a589a59750bae459d60450ee1aa8b2
-    - name: Lightning Trap Preview_Frame_116
+    - name: Frame_116
       frameIndex: 116
       additiveSortOrder: 0
       cellRect:
@@ -3823,7 +3821,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 7ea82aab7a4c2104b84e6a5d91ef096e
-    - name: Lightning Trap Preview_Frame_117
+    - name: Frame_117
       frameIndex: 117
       additiveSortOrder: 0
       cellRect:
@@ -3832,7 +3830,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 49ccb8c24c1cdcd4187d4da18f3a22b6
-    - name: Lightning Trap Preview_Frame_118
+    - name: Frame_118
       frameIndex: 118
       additiveSortOrder: 0
       cellRect:
@@ -3841,7 +3839,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: cc8922752e828744daa71df860e4bae2
-    - name: Lightning Trap Preview_Frame_119
+    - name: Frame_119
       frameIndex: 119
       additiveSortOrder: 0
       cellRect:
@@ -3850,7 +3848,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 977fe529b0d6adf40827c11624d0eef2
-    - name: Lightning Trap Preview_Frame_120
+    - name: Frame_120
       frameIndex: 120
       additiveSortOrder: 0
       cellRect:
@@ -3859,7 +3857,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 5fcf6037bd1041549955dad97c2de420
-    - name: Lightning Trap Preview_Frame_121
+    - name: Frame_121
       frameIndex: 121
       additiveSortOrder: 0
       cellRect:
@@ -3868,7 +3866,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 26a21a6898f6dde4eaec2404a354cae4
-    - name: Lightning Trap Preview_Frame_122
+    - name: Frame_122
       frameIndex: 122
       additiveSortOrder: 0
       cellRect:
@@ -3877,7 +3875,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 05dc22559742d93449be93a533151925
-    - name: Lightning Trap Preview_Frame_123
+    - name: Frame_123
       frameIndex: 123
       additiveSortOrder: 0
       cellRect:
@@ -3886,7 +3884,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 404fc794a4451074b9b9b9bb59d97a90
-    - name: Lightning Trap Preview_Frame_124
+    - name: Frame_124
       frameIndex: 124
       additiveSortOrder: 0
       cellRect:
@@ -3895,7 +3893,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: e686b47af1797ee4db681518be46d81d
-    - name: Lightning Trap Preview_Frame_125
+    - name: Frame_125
       frameIndex: 125
       additiveSortOrder: 0
       cellRect:
@@ -3904,7 +3902,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: bba237888b9bf234ebcaf6584337bfec
-    - name: Lightning Trap Preview_Frame_126
+    - name: Frame_126
       frameIndex: 126
       additiveSortOrder: 0
       cellRect:
@@ -3913,7 +3911,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: dd61a72beaa6773429a248201df896e4
-    - name: Lightning Trap Preview_Frame_127
+    - name: Frame_127
       frameIndex: 127
       additiveSortOrder: 0
       cellRect:
@@ -3922,7 +3920,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 221bbb7f8668f05409c48f070985c12a
-    - name: Lightning Trap Preview_Frame_128
+    - name: Frame_128
       frameIndex: 128
       additiveSortOrder: 0
       cellRect:
@@ -3931,7 +3929,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: e45776d4b22fa1b4e94d4551accdacf2
-    - name: Lightning Trap Preview_Frame_129
+    - name: Frame_129
       frameIndex: 129
       additiveSortOrder: 0
       cellRect:
@@ -3940,7 +3938,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 021a5ca0f6b1b3c44867616346b29244
-    - name: Lightning Trap Preview_Frame_130
+    - name: Frame_130
       frameIndex: 130
       additiveSortOrder: 0
       cellRect:
@@ -3949,7 +3947,7 @@ ScriptedImporter:
         width: 96
         height: 96
       spriteId: 94c1eff13e4902345b31200f0a7bcccf
-    - name: Lightning Trap Preview_Frame_131
+    - name: Frame_131
       frameIndex: 131
       additiveSortOrder: 0
       cellRect:

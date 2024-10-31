@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossMove : MonoBehaviour
 {
@@ -12,7 +14,14 @@ public class BossMove : MonoBehaviour
     float delayAtk = 0;
     bool checkRolateBoss = true;
     private System.Random random = new System.Random();
-    void Start()
+	public Transform AttackPoint;
+	public float attackRange;
+	public LayerMask attackPlayer;
+	public float BossHealth = 500f;
+	public Image Health;
+	public Image Mana;
+	public GameObject Fire;
+	void Start()
     {
 
         animator = GetComponent<Animator>();
@@ -43,60 +52,114 @@ public class BossMove : MonoBehaviour
             ).normalized;
 
             float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
-            Debug.Log(distanceToPlayer);
-            // Kiểm tra khoảng cách đến Player
-            if (distanceToPlayer > stopDistance)
-            {
-                // Di chuyển theo hướng của Player
-                transform.position += direction * moveSpeed * Time.deltaTime;
-                animator.SetBool("IsMove", true);
-            }
-            if (relativePosition.x < 0 ) // Nếu Player ở phía sau Boss
-            {
-                if (checkRolateBoss)
-                {
-                    transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
-                }
-                checkRolateBoss = false;
-            }
-            if (relativePosition.x > 0) // Nếu Player ở phía sau Boss
-            {
-                if (!checkRolateBoss)
-                {
-                    transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
-                }
-                checkRolateBoss = true;
-            }
+			// Kiểm tra khoảng cách đến Player
 
+			if(BossHealth >= 0)
+			{
+				moveWithPlayer(distanceToPlayer, direction, relativePosition);
+				Acttack(distanceToPlayer);
+			}
+			checkHeathBoss();
 
-            if (distanceToPlayer <= stopDistance)
-            {
-                animator.SetBool("IsMove", false);
-                if (delayAtk >= 2f)
-                {
-                    int randomNumber = random.Next(0, 5);
-                    if (randomNumber == 1)
-                    {
-                        animator.SetTrigger("Atk1");
-                    }
-                    if (randomNumber == 2)
-                    {
-                        animator.SetTrigger("Atk2");
-                    }
-                    if (randomNumber == 3)
-                    {
-                        animator.SetTrigger("Atk3");
-                    }
-                    if (randomNumber == 4)
-                    {
-                        animator.SetTrigger("AtkSp");
-                    }
-                    delayAtk = 0f;
-                }
-                delayAtk += Time.deltaTime;
-            }
-        }
+		}
     }
+
+    public void moveWithPlayer(float distanceToPlayer, Vector3 direction, Vector3 relativePosition)
+    {
+		if (distanceToPlayer > stopDistance)
+		{
+			// Di chuyển theo hướng của Player
+			transform.position += direction * moveSpeed * Time.deltaTime;
+			animator.SetBool("IsMove", true);
+		}
+		if (relativePosition.x < 0) // Nếu Player ở phía sau Boss
+		{
+			if (checkRolateBoss)
+			{
+				transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+			}
+			checkRolateBoss = false;
+		}
+		if (relativePosition.x > 0) // Nếu Player ở phía sau Boss
+		{
+			if (!checkRolateBoss)
+			{
+				transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+			}
+			checkRolateBoss = true;
+		}
+	}
+
+
+	public void Acttack(float distanceToPlayer)
+    {
+		if (distanceToPlayer <= stopDistance)
+		{
+			animator.SetBool("IsMove", false);
+			if (delayAtk >= 2f)
+			{
+				
+				int randomNumber = random.Next(0, 5);
+				if (randomNumber == 1)
+				{
+					animator.SetTrigger("Atk1");
+				}
+				if (randomNumber == 2)
+				{
+					animator.SetTrigger("Atk2");
+				}
+				if (randomNumber == 3)
+				{
+					animator.SetTrigger("Atk3");
+				}
+				if (randomNumber == 4)
+				{
+					animator.SetTrigger("AtkSp");
+				}
+				BossHealth -= 100f;
+				Health.fillAmount = BossHealth / 500f;
+				Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(AttackPoint.position, attackRange, attackPlayer);
+				Debug.Log(hitPlayer.Length);
+                foreach (Collider2D attack in hitPlayer)
+                {
+					Debug.Log(attack.name);
+                }
+				delayAtk = 0f;
+			}
+			delayAtk += Time.deltaTime;
+		}
+	}
+	void OnDrawGizmos()
+	{
+		if (AttackPoint == null)
+			return;
+
+		Gizmos.color = Color.red;  // Đặt màu cho vòng tròn Gizmos
+		Gizmos.DrawWireSphere(AttackPoint.position, attackRange);  // Vẽ vòng tròn tại AttackPoint
+	}
+
+
+	public void fireBossDie()
+	{
+		
+		Fire.SetActive(true);
+	}
+
+	public void checkHeathBoss()
+	{
+		if(BossHealth <= 0)
+		{
+			Vector3 fireNow = this.gameObject.transform.position;
+			fireNow.y -= 0.5f;
+			Fire.transform.position = fireNow;
+			animator.SetTrigger("Death");
+		}
+	}
+
+	public void bossDie()
+	{
+		this.gameObject.SetActive(false);
+	}
 
 
 }

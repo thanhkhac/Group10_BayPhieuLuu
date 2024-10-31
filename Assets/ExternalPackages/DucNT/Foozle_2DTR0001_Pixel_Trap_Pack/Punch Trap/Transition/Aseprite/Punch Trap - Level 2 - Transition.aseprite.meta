@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -490,7 +488,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Punch Trap - Level 2 - Transition_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -499,7 +497,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: f6725ef7a34417a46ae30a234b001fe0
-    - name: Punch Trap - Level 2 - Transition_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -508,7 +506,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 627d340364adb5847a73bc98c2f16a02
-    - name: Punch Trap - Level 2 - Transition_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -517,7 +515,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 6f4fdd4ad1a00544c8b0e23f0a54e630
-    - name: Punch Trap - Level 2 - Transition_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -526,7 +524,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 45a6f66aaaa8d2b48b92843cc1c2abaf
-    - name: Punch Trap - Level 2 - Transition_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -535,7 +533,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 9443e9f1caa5fb4458bdec04a296cdb6
-    - name: Punch Trap - Level 2 - Transition_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -544,7 +542,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: bdff54d2522360242b22e3c22c1af2ae
-    - name: Punch Trap - Level 2 - Transition_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -553,7 +551,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 9f5bcce2880aab34c94cc6310eb8336a
-    - name: Punch Trap - Level 2 - Transition_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -562,7 +560,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 72bd8b3ec0d5ace4e8b01e8cabe2fb93
-    - name: Punch Trap - Level 2 - Transition_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -571,7 +569,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: c1ea27cc3e2297f449d337cfa2f2e86d
-    - name: Punch Trap - Level 2 - Transition_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -580,7 +578,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 90e18649727077f41a5c30ce731f5f16
-    - name: Punch Trap - Level 2 - Transition_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -589,7 +587,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 46bba50dbf0107444ad81435c00b336a
-    - name: Punch Trap - Level 2 - Transition_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -598,7 +596,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 128a6ce7e1e59e34b8f868b63912c0e7
-    - name: Punch Trap - Level 2 - Transition_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -607,7 +605,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 8ebb19eeee72aee499c412d14da8910d
-    - name: Punch Trap - Level 2 - Transition_Frame_13
+    - name: Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -616,7 +614,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 9468f449eb2c9a547994a256c14582d2
-    - name: Punch Trap - Level 2 - Transition_Frame_14
+    - name: Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -625,7 +623,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 11644fc78b3b7be4dbcca6d85c744a0a
-    - name: Punch Trap - Level 2 - Transition_Frame_15
+    - name: Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -634,7 +632,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: bd2389e6868f02d4b8051b0e6cfc7c17
-    - name: Punch Trap - Level 2 - Transition_Frame_16
+    - name: Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -643,7 +641,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 66f49c745f63e9442bead53f34c497f1
-    - name: Punch Trap - Level 2 - Transition_Frame_17
+    - name: Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:

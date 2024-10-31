@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -330,7 +328,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Saw Trap - Level 3 - Transition_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -339,7 +337,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c8b1bf45c597cb342b22068e1156acda
-    - name: Saw Trap - Level 3 - Transition_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -348,7 +346,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 22c34d422548ddb4ba5ec421c163329d
-    - name: Saw Trap - Level 3 - Transition_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -357,7 +355,7 @@ ScriptedImporter:
         width: 96
         height: 85
       spriteId: 86f5136f7d902c349afc45a03cd0f11d
-    - name: Saw Trap - Level 3 - Transition_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -366,7 +364,7 @@ ScriptedImporter:
         width: 96
         height: 79
       spriteId: b036845f3bad76e4d8b428e6b4c87baa
-    - name: Saw Trap - Level 3 - Transition_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -375,7 +373,7 @@ ScriptedImporter:
         width: 96
         height: 78
       spriteId: c0387abd4cad1104d8078d2f63a6707d
-    - name: Saw Trap - Level 3 - Transition_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -384,7 +382,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: dfbd34d2c7d7d4749a5bbf0807b4bd32
-    - name: Saw Trap - Level 3 - Transition_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -393,7 +391,7 @@ ScriptedImporter:
         width: 96
         height: 84
       spriteId: 27f442df0181bce4189144631c645d14
-    - name: Saw Trap - Level 3 - Transition_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -402,7 +400,7 @@ ScriptedImporter:
         width: 96
         height: 78
       spriteId: d2124c7d6a70a354296a149e93ae84f0
-    - name: Saw Trap - Level 3 - Transition_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -411,7 +409,7 @@ ScriptedImporter:
         width: 96
         height: 76
       spriteId: 6e3905af24b7c26439e5279155b40bdc
-    - name: Saw Trap - Level 3 - Transition_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:

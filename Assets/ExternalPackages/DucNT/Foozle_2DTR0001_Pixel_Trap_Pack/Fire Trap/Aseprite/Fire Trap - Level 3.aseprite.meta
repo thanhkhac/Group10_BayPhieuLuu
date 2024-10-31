@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -370,7 +368,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Fire Trap - Level 3_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -379,7 +377,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: 4f38f3e9c3bee544988b96121e4e3dcd
-    - name: Fire Trap - Level 3_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -388,7 +386,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: 861a332174e8ee345ab3aa7702d9fea4
-    - name: Fire Trap - Level 3_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -397,7 +395,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: e3dccc7df9ae277408acd4487d03129e
-    - name: Fire Trap - Level 3_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -406,7 +404,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: 1d983bf4f7b7d6c43822da46d38eaa3d
-    - name: Fire Trap - Level 3_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -415,7 +413,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: c73ad2f8cb2f17d4192bf4a29bcfe5ba
-    - name: Fire Trap - Level 3_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -424,7 +422,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: 5b96ad3cdb2134d4c92a243b0fd3ff02
-    - name: Fire Trap - Level 3_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -433,7 +431,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: e21235d4c75ee3c4bb43b2f3b9161dff
-    - name: Fire Trap - Level 3_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -442,7 +440,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: bfaddc94beabb974b9fcd9de5e3038bd
-    - name: Fire Trap - Level 3_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -451,7 +449,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: 4e23a93460072f44c9c04b8ca3be6822
-    - name: Fire Trap - Level 3_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -460,7 +458,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: eac6709bd8f8d3845a51d546c0efcbc8
-    - name: Fire Trap - Level 3_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -469,7 +467,7 @@ ScriptedImporter:
         width: 32
         height: 64
       spriteId: c0b8aea0a77dbc2459459348be8529d5
-    - name: Fire Trap - Level 3_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:

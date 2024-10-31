@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -390,7 +388,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_0
+    - name: Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -399,7 +397,7 @@ ScriptedImporter:
         width: 192
         height: 96
       spriteId: fa0b282703d431c4385ca6175822e37f
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_1
+    - name: Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -408,7 +406,7 @@ ScriptedImporter:
         width: 192
         height: 122
       spriteId: f4073e2a525149d4099cc5cbfd2993db
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_2
+    - name: Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -417,7 +415,7 @@ ScriptedImporter:
         width: 192
         height: 116
       spriteId: 9e305b46ab361aa4293ca38e03abe003
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_3
+    - name: Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -426,7 +424,7 @@ ScriptedImporter:
         width: 192
         height: 111
       spriteId: 1290491f0f2bbb042886ee101ce3e555
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_4
+    - name: Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -435,7 +433,7 @@ ScriptedImporter:
         width: 192
         height: 106
       spriteId: 05c40fd31d602794595c7a3be5f57e1d
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_5
+    - name: Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -444,7 +442,7 @@ ScriptedImporter:
         width: 192
         height: 100
       spriteId: 467d87114d7b1714c9fbbebfefe8f247
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_6
+    - name: Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -453,7 +451,7 @@ ScriptedImporter:
         width: 192
         height: 96
       spriteId: 15f8294b0cebb4c48a3c04570dcad665
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_7
+    - name: Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -462,7 +460,7 @@ ScriptedImporter:
         width: 192
         height: 96
       spriteId: e4aaee28724dcdc489a716083e3bd09b
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_8
+    - name: Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -471,7 +469,7 @@ ScriptedImporter:
         width: 192
         height: 96
       spriteId: e07f1a54316907b498a02d7aeab7e18f
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_9
+    - name: Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -480,7 +478,7 @@ ScriptedImporter:
         width: 192
         height: 96
       spriteId: a03ae9ad688dbc84eb5cabca76f1f646
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_10
+    - name: Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -489,7 +487,7 @@ ScriptedImporter:
         width: 192
         height: 96
       spriteId: 85bbe6503659b7d40829000211cd24bf
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_11
+    - name: Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -498,7 +496,7 @@ ScriptedImporter:
         width: 192
         height: 96
       spriteId: b23e59d1e89ef7943b51e8f298ff10a6
-    - name: Fire Breather Trap - Level 3 - Transition_Frame_12
+    - name: Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
