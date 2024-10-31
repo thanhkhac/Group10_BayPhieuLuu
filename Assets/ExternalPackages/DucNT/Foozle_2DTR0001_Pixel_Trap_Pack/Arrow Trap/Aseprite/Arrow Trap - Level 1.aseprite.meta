@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -468,7 +470,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Arrow Trap - Level 1_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -477,7 +479,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: d88ecec5f5ad4f042a8e60ed74f61e59
-    - name: Frame_1
+    - name: Arrow Trap - Level 1_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -486,7 +488,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 4c3e7e7fd8411ac4ebed5744aa950e99
-    - name: Frame_2
+    - name: Arrow Trap - Level 1_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -495,7 +497,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: f7fd9b46e54b01e4dbb89292bc59b717
-    - name: Frame_3
+    - name: Arrow Trap - Level 1_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -504,7 +506,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: bc646d2336d853a448e20fcd7521b0ae
-    - name: Frame_4
+    - name: Arrow Trap - Level 1_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -513,7 +515,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 618d20a9e348fc84b80b012d48507e6c
-    - name: Frame_5
+    - name: Arrow Trap - Level 1_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -522,7 +524,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 64261cd85fbe1384ca85c92cf9de63c2
-    - name: Frame_6
+    - name: Arrow Trap - Level 1_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -531,7 +533,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: f5ed3d9538f3cd44f918a03479af9d98
-    - name: Frame_7
+    - name: Arrow Trap - Level 1_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -540,7 +542,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 3eff9ff0a977168498e19e9849fa9b9b
-    - name: Frame_8
+    - name: Arrow Trap - Level 1_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -549,7 +551,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: bb09747cfaa399c4b8c1923715f797ef
-    - name: Frame_9
+    - name: Arrow Trap - Level 1_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -558,7 +560,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 7da6030e600f1314e9321cf12a5daacf
-    - name: Frame_10
+    - name: Arrow Trap - Level 1_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -567,7 +569,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 0948056302ad9584a9e54d73f85f33d8
-    - name: Frame_11
+    - name: Arrow Trap - Level 1_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -576,7 +578,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 14a24acf6b645504aafab52b2c1a082f
-    - name: Frame_12
+    - name: Arrow Trap - Level 1_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -585,7 +587,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 30b1a339e79f7d247a0762f82d1bdafe
-    - name: Frame_13
+    - name: Arrow Trap - Level 1_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -594,7 +596,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 5019661cc51065d48a861bf3e112609b
-    - name: Frame_14
+    - name: Arrow Trap - Level 1_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -603,7 +605,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: a86244b5d653f9e46ae1532d33d1effa
-    - name: Frame_15
+    - name: Arrow Trap - Level 1_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -612,7 +614,7 @@ ScriptedImporter:
         width: 96
         height: 32
       spriteId: 66746bda348107e4eb149e6bd534fc18
-    - name: Frame_16
+    - name: Arrow Trap - Level 1_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:

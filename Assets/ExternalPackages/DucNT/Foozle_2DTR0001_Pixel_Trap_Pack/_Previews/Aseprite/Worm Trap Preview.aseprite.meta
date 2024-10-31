@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -3188,7 +3190,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Worm Trap Preview_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -3197,7 +3199,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a467459c8f8ffdf4da7447dcaf4a87b1
-    - name: Frame_1
+    - name: Worm Trap Preview_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -3206,7 +3208,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 3ff08528d9dd55b4196841d534df73d2
-    - name: Frame_2
+    - name: Worm Trap Preview_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -3215,7 +3217,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 2eaf351d139506443a6f193cf055ea38
-    - name: Frame_3
+    - name: Worm Trap Preview_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -3224,7 +3226,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: c8c09b68bcf37714ba10f8512d95dea2
-    - name: Frame_4
+    - name: Worm Trap Preview_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -3233,7 +3235,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: eed3aa7d3e8c0334c8c3d5be4471bd6f
-    - name: Frame_5
+    - name: Worm Trap Preview_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -3242,7 +3244,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 7ac9a81e0d39e1746a9396c625f16e0c
-    - name: Frame_6
+    - name: Worm Trap Preview_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -3251,7 +3253,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 71955680d137bb7408b78a5915b6429f
-    - name: Frame_7
+    - name: Worm Trap Preview_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -3260,7 +3262,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: e9440a7792dc1494ea546a5efee59470
-    - name: Frame_8
+    - name: Worm Trap Preview_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -3269,7 +3271,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 575b4c9fd83fd314cbe67cbcee76e059
-    - name: Frame_9
+    - name: Worm Trap Preview_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -3278,7 +3280,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 82b4551df6e6df648a04e5b3681d40fe
-    - name: Frame_10
+    - name: Worm Trap Preview_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -3287,7 +3289,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a94cb04714a351442952a368f2c15257
-    - name: Frame_11
+    - name: Worm Trap Preview_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -3296,7 +3298,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 03700b7c822b94b4e8e8724b3c0cdcaa
-    - name: Frame_12
+    - name: Worm Trap Preview_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -3305,7 +3307,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: c598c56202005c141917fd536e55f661
-    - name: Frame_13
+    - name: Worm Trap Preview_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -3314,7 +3316,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a578847f54af19f41a47004c04c07d6d
-    - name: Frame_14
+    - name: Worm Trap Preview_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -3323,7 +3325,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 176c44b4b28a7c849aeddfdf9ce92a2b
-    - name: Frame_15
+    - name: Worm Trap Preview_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -3332,7 +3334,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 41da5a48e4112f149bf4fa5b02cc91b2
-    - name: Frame_16
+    - name: Worm Trap Preview_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -3341,7 +3343,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: af965497a217f664aa92152c0c76f5ee
-    - name: Frame_17
+    - name: Worm Trap Preview_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -3350,7 +3352,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 239a1da7697c44848950bdc75bc6834c
-    - name: Frame_18
+    - name: Worm Trap Preview_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -3359,7 +3361,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 2457057a8cc59f34199f8ca6c3985e4c
-    - name: Frame_19
+    - name: Worm Trap Preview_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -3368,7 +3370,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 5e9ff3c73191d904d8fb15bc1fe7f36c
-    - name: Frame_20
+    - name: Worm Trap Preview_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -3377,7 +3379,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 34d35d51127d78443b16b501fd71e732
-    - name: Frame_21
+    - name: Worm Trap Preview_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -3386,7 +3388,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: accd467e1ef56af40a9a990b5260cadc
-    - name: Frame_22
+    - name: Worm Trap Preview_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -3395,7 +3397,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: f22af248d60d7194b813303e9b20eb75
-    - name: Frame_23
+    - name: Worm Trap Preview_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -3404,7 +3406,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 38f0d7daf6c150c45965dd44647a6b68
-    - name: Frame_24
+    - name: Worm Trap Preview_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -3413,7 +3415,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 88bb46537d59c274f80702128e38d60b
-    - name: Frame_25
+    - name: Worm Trap Preview_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -3422,7 +3424,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 24f7d3945fcf5e94e8139b483dbe865b
-    - name: Frame_26
+    - name: Worm Trap Preview_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -3431,7 +3433,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: fc8e32cbc6c516f4183c9c447701dbd0
-    - name: Frame_27
+    - name: Worm Trap Preview_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -3440,7 +3442,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 3ea6d2c019c460640be8a7a07a4d8782
-    - name: Frame_28
+    - name: Worm Trap Preview_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -3449,7 +3451,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 61144786608aa4b46a6f04bdb6db6ae7
-    - name: Frame_29
+    - name: Worm Trap Preview_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -3458,7 +3460,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: e9760f12433358143b53cd1debb2f1c2
-    - name: Frame_30
+    - name: Worm Trap Preview_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -3467,7 +3469,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: ec9c01a191ad93c41ac72df3a8c5ccdb
-    - name: Frame_31
+    - name: Worm Trap Preview_Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -3476,7 +3478,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 4b77bd8eedd591341b769b4a08d1854c
-    - name: Frame_32
+    - name: Worm Trap Preview_Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -3485,7 +3487,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: be7757545c8c2954dace39d86fbd20c4
-    - name: Frame_33
+    - name: Worm Trap Preview_Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -3494,7 +3496,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 3efe124b6d184b04484b1c9d9a6c4ddc
-    - name: Frame_34
+    - name: Worm Trap Preview_Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -3503,7 +3505,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 176935b36bb7c0a479fafd1ff7e94239
-    - name: Frame_35
+    - name: Worm Trap Preview_Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -3512,7 +3514,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 5f245fcf712c64c49bde40e4caef6be9
-    - name: Frame_36
+    - name: Worm Trap Preview_Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -3521,7 +3523,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a53ef1b7ee057d140b4650f95c0ab5b1
-    - name: Frame_37
+    - name: Worm Trap Preview_Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -3530,7 +3532,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: c569da9a6cd92494fae7c6108d42548a
-    - name: Frame_38
+    - name: Worm Trap Preview_Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -3539,7 +3541,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: ddbc8d1fcf96d7a498f097d005722ccb
-    - name: Frame_39
+    - name: Worm Trap Preview_Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -3548,7 +3550,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 9f5fb34270e95cd4f843c2e43b1a6967
-    - name: Frame_40
+    - name: Worm Trap Preview_Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -3557,7 +3559,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 3e1ddd75b41a63f4093eac22475e6b71
-    - name: Frame_41
+    - name: Worm Trap Preview_Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -3566,7 +3568,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 420640f2c7271414ca1d3c58fa5fb183
-    - name: Frame_42
+    - name: Worm Trap Preview_Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -3575,7 +3577,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 928eb6941c60a4240ab4b5fad5467202
-    - name: Frame_43
+    - name: Worm Trap Preview_Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -3584,7 +3586,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 327f1dd4c53cb2644affa992c9027b50
-    - name: Frame_44
+    - name: Worm Trap Preview_Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -3593,7 +3595,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 708293fd7ccb28649aaa96807c11b4cf
-    - name: Frame_45
+    - name: Worm Trap Preview_Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -3602,7 +3604,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: b082a30cfa8a6a646bcb29fc434e32ba
-    - name: Frame_46
+    - name: Worm Trap Preview_Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -3611,7 +3613,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 1d3b1ee1da89f1f4bbe9002c8abeb367
-    - name: Frame_47
+    - name: Worm Trap Preview_Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -3620,7 +3622,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: dbbaf4bfde132714bb100abc61630473
-    - name: Frame_48
+    - name: Worm Trap Preview_Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -3629,7 +3631,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 87bc07c239222684fb175d16f38f063f
-    - name: Frame_49
+    - name: Worm Trap Preview_Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -3638,7 +3640,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 39d7520746435f04a9e01372c720ad70
-    - name: Frame_50
+    - name: Worm Trap Preview_Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -3647,7 +3649,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: d1dc1da179cff044b86fe75ae76d7aa5
-    - name: Frame_51
+    - name: Worm Trap Preview_Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -3656,7 +3658,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 8f5bb42bb0d281c49b19bf709cb33ce0
-    - name: Frame_52
+    - name: Worm Trap Preview_Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -3665,7 +3667,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: bab00915fca61d448bb18583732d91d8
-    - name: Frame_53
+    - name: Worm Trap Preview_Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -3674,7 +3676,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: eade464aa23b37f4ca9258071857d60f
-    - name: Frame_54
+    - name: Worm Trap Preview_Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -3683,7 +3685,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: b81c85439f00b904db7728901de1fe45
-    - name: Frame_55
+    - name: Worm Trap Preview_Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -3692,7 +3694,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 2a880f2b7a60c3e4f97dc24ea80e9e1a
-    - name: Frame_56
+    - name: Worm Trap Preview_Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -3701,7 +3703,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 92f0359c6a3187b449214d4361994eff
-    - name: Frame_57
+    - name: Worm Trap Preview_Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -3710,7 +3712,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 2c8e8277295784d4c96e27dce2a62181
-    - name: Frame_58
+    - name: Worm Trap Preview_Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -3719,7 +3721,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 1934a3c2fd05010469040d264d61d82a
-    - name: Frame_59
+    - name: Worm Trap Preview_Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -3728,7 +3730,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 7b41bb0429c5789409295b07c308fbc4
-    - name: Frame_60
+    - name: Worm Trap Preview_Frame_60
       frameIndex: 60
       additiveSortOrder: 0
       cellRect:
@@ -3737,7 +3739,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 760ccb818aa7db74694616e995520113
-    - name: Frame_61
+    - name: Worm Trap Preview_Frame_61
       frameIndex: 61
       additiveSortOrder: 0
       cellRect:
@@ -3746,7 +3748,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 493a8b5542442bf4da3a78055519cb65
-    - name: Frame_62
+    - name: Worm Trap Preview_Frame_62
       frameIndex: 62
       additiveSortOrder: 0
       cellRect:
@@ -3755,7 +3757,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 28f3f3ca6ca3d46459c713e27a712e21
-    - name: Frame_63
+    - name: Worm Trap Preview_Frame_63
       frameIndex: 63
       additiveSortOrder: 0
       cellRect:
@@ -3764,7 +3766,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: e97f9d01bb7a3fd43bacbedb8484eec1
-    - name: Frame_64
+    - name: Worm Trap Preview_Frame_64
       frameIndex: 64
       additiveSortOrder: 0
       cellRect:
@@ -3773,7 +3775,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 6afc03cec2c28034ebfee0c1d9b027fb
-    - name: Frame_65
+    - name: Worm Trap Preview_Frame_65
       frameIndex: 65
       additiveSortOrder: 0
       cellRect:
@@ -3782,7 +3784,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 17fbac790ced08b44aacef9843f400d1
-    - name: Frame_66
+    - name: Worm Trap Preview_Frame_66
       frameIndex: 66
       additiveSortOrder: 0
       cellRect:
@@ -3791,7 +3793,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 6dd780590ed15e945bb2e2aea580122d
-    - name: Frame_67
+    - name: Worm Trap Preview_Frame_67
       frameIndex: 67
       additiveSortOrder: 0
       cellRect:
@@ -3800,7 +3802,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 26da3cc258b6b4144996ea10ad5f4e9d
-    - name: Frame_68
+    - name: Worm Trap Preview_Frame_68
       frameIndex: 68
       additiveSortOrder: 0
       cellRect:
@@ -3809,7 +3811,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 4abac337e26f110498f00822fa221a82
-    - name: Frame_69
+    - name: Worm Trap Preview_Frame_69
       frameIndex: 69
       additiveSortOrder: 0
       cellRect:
@@ -3818,7 +3820,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: aa1d010aaab105a4fa3756803a5b0703
-    - name: Frame_70
+    - name: Worm Trap Preview_Frame_70
       frameIndex: 70
       additiveSortOrder: 0
       cellRect:
@@ -3827,7 +3829,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 74171449e2d2f814680e6a447b0aee20
-    - name: Frame_71
+    - name: Worm Trap Preview_Frame_71
       frameIndex: 71
       additiveSortOrder: 0
       cellRect:
@@ -3836,7 +3838,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 88fd21ccafcc6db4aa44b5f1685a6736
-    - name: Frame_72
+    - name: Worm Trap Preview_Frame_72
       frameIndex: 72
       additiveSortOrder: 0
       cellRect:
@@ -3845,7 +3847,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 39e5d013814800a4d8c265b4e3a7c682
-    - name: Frame_73
+    - name: Worm Trap Preview_Frame_73
       frameIndex: 73
       additiveSortOrder: 0
       cellRect:
@@ -3854,7 +3856,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: dcc8082b24594fd4d8aaea6958704db3
-    - name: Frame_74
+    - name: Worm Trap Preview_Frame_74
       frameIndex: 74
       additiveSortOrder: 0
       cellRect:
@@ -3863,7 +3865,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: b440d9dfc03a3224a90bd7ab1510c567
-    - name: Frame_75
+    - name: Worm Trap Preview_Frame_75
       frameIndex: 75
       additiveSortOrder: 0
       cellRect:
@@ -3872,7 +3874,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: b1dd13cc4e937b9499b7480375afd8cc
-    - name: Frame_76
+    - name: Worm Trap Preview_Frame_76
       frameIndex: 76
       additiveSortOrder: 0
       cellRect:
@@ -3881,7 +3883,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a0ccc4bbcb23bd440bcd49b0952d78b9
-    - name: Frame_77
+    - name: Worm Trap Preview_Frame_77
       frameIndex: 77
       additiveSortOrder: 0
       cellRect:
@@ -3890,7 +3892,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: ce857d0e6aa538243966cc7314bd8678
-    - name: Frame_78
+    - name: Worm Trap Preview_Frame_78
       frameIndex: 78
       additiveSortOrder: 0
       cellRect:
@@ -3899,7 +3901,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 9189405edbb29564987249755cf41af8
-    - name: Frame_79
+    - name: Worm Trap Preview_Frame_79
       frameIndex: 79
       additiveSortOrder: 0
       cellRect:
@@ -3908,7 +3910,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 91fd0e7f6ffa7764ba411cd0b98f7d04
-    - name: Frame_80
+    - name: Worm Trap Preview_Frame_80
       frameIndex: 80
       additiveSortOrder: 0
       cellRect:
@@ -3917,7 +3919,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 1884c4a9c6f4ffe4f9cbef9d2347516b
-    - name: Frame_81
+    - name: Worm Trap Preview_Frame_81
       frameIndex: 81
       additiveSortOrder: 0
       cellRect:
@@ -3926,7 +3928,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a89cf88c8d061b54db1a873f626da78c
-    - name: Frame_82
+    - name: Worm Trap Preview_Frame_82
       frameIndex: 82
       additiveSortOrder: 0
       cellRect:
@@ -3935,7 +3937,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: c7fb3f4176f06e448b2ba39cdf9e7b06
-    - name: Frame_83
+    - name: Worm Trap Preview_Frame_83
       frameIndex: 83
       additiveSortOrder: 0
       cellRect:
@@ -3944,7 +3946,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: c3ec7ef7247a0044c9cec6014c40052c
-    - name: Frame_84
+    - name: Worm Trap Preview_Frame_84
       frameIndex: 84
       additiveSortOrder: 0
       cellRect:
@@ -3953,7 +3955,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 1c4402d939d9a3648ba0617bee18280b
-    - name: Frame_85
+    - name: Worm Trap Preview_Frame_85
       frameIndex: 85
       additiveSortOrder: 0
       cellRect:
@@ -3962,7 +3964,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: f2d07d37f4ab35b438b3da3a69debee1
-    - name: Frame_86
+    - name: Worm Trap Preview_Frame_86
       frameIndex: 86
       additiveSortOrder: 0
       cellRect:
@@ -3971,7 +3973,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 2c4a64d7fd9cd52478571db5950766aa
-    - name: Frame_87
+    - name: Worm Trap Preview_Frame_87
       frameIndex: 87
       additiveSortOrder: 0
       cellRect:
@@ -3980,7 +3982,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: b7de66bc1e8d4364882fe788aad4df34
-    - name: Frame_88
+    - name: Worm Trap Preview_Frame_88
       frameIndex: 88
       additiveSortOrder: 0
       cellRect:
@@ -3989,7 +3991,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: b076e04eba2762349a0fdaf72d2a9b64
-    - name: Frame_89
+    - name: Worm Trap Preview_Frame_89
       frameIndex: 89
       additiveSortOrder: 0
       cellRect:
@@ -3998,7 +4000,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 3943c42e7ef7c024490fcfad063ed735
-    - name: Frame_90
+    - name: Worm Trap Preview_Frame_90
       frameIndex: 90
       additiveSortOrder: 0
       cellRect:
@@ -4007,7 +4009,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 354968ec69467ee4cb4784a7ef8d4857
-    - name: Frame_91
+    - name: Worm Trap Preview_Frame_91
       frameIndex: 91
       additiveSortOrder: 0
       cellRect:
@@ -4016,7 +4018,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: f91b71a190274bd4db5998b4d7ddfe49
-    - name: Frame_92
+    - name: Worm Trap Preview_Frame_92
       frameIndex: 92
       additiveSortOrder: 0
       cellRect:
@@ -4025,7 +4027,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 63d766ce6479e7b49b08e01b568761b3
-    - name: Frame_93
+    - name: Worm Trap Preview_Frame_93
       frameIndex: 93
       additiveSortOrder: 0
       cellRect:
@@ -4034,7 +4036,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 28d11d3205488764faba50b30d986f95
-    - name: Frame_94
+    - name: Worm Trap Preview_Frame_94
       frameIndex: 94
       additiveSortOrder: 0
       cellRect:
@@ -4043,7 +4045,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: c04f12a5be420514198202d012a86959
-    - name: Frame_95
+    - name: Worm Trap Preview_Frame_95
       frameIndex: 95
       additiveSortOrder: 0
       cellRect:
@@ -4052,7 +4054,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: c0c414ec69ed60044a62cf8b7b3a5387
-    - name: Frame_96
+    - name: Worm Trap Preview_Frame_96
       frameIndex: 96
       additiveSortOrder: 0
       cellRect:
@@ -4061,7 +4063,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: e9d804b4709a75c4c95266ac8076ed0c
-    - name: Frame_97
+    - name: Worm Trap Preview_Frame_97
       frameIndex: 97
       additiveSortOrder: 0
       cellRect:
@@ -4070,7 +4072,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: ec277331c40c89046b8ccdf3b01fa989
-    - name: Frame_98
+    - name: Worm Trap Preview_Frame_98
       frameIndex: 98
       additiveSortOrder: 0
       cellRect:
@@ -4079,7 +4081,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 98a635ed3d6d22945bef0bb292d706f1
-    - name: Frame_99
+    - name: Worm Trap Preview_Frame_99
       frameIndex: 99
       additiveSortOrder: 0
       cellRect:
@@ -4088,7 +4090,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: dd09488391c78e24d971b47115ff21c2
-    - name: Frame_100
+    - name: Worm Trap Preview_Frame_100
       frameIndex: 100
       additiveSortOrder: 0
       cellRect:
@@ -4097,7 +4099,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 0c892a18789b4ba439865fe0c8acaa52
-    - name: Frame_101
+    - name: Worm Trap Preview_Frame_101
       frameIndex: 101
       additiveSortOrder: 0
       cellRect:
@@ -4106,7 +4108,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 6e22abdcadd5ff945ad4b578ad272753
-    - name: Frame_102
+    - name: Worm Trap Preview_Frame_102
       frameIndex: 102
       additiveSortOrder: 0
       cellRect:
@@ -4115,7 +4117,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: f9445eb6bd701074e97defab10669507
-    - name: Frame_103
+    - name: Worm Trap Preview_Frame_103
       frameIndex: 103
       additiveSortOrder: 0
       cellRect:
@@ -4124,7 +4126,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 7e5224d3c9158e4469bfe2db7bcf91b0
-    - name: Frame_104
+    - name: Worm Trap Preview_Frame_104
       frameIndex: 104
       additiveSortOrder: 0
       cellRect:
@@ -4133,7 +4135,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 8224e76e82013844ba185766ba170f58
-    - name: Frame_105
+    - name: Worm Trap Preview_Frame_105
       frameIndex: 105
       additiveSortOrder: 0
       cellRect:
@@ -4142,7 +4144,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 239a0d0a680622a4d83f39aa05bcde9c
-    - name: Frame_106
+    - name: Worm Trap Preview_Frame_106
       frameIndex: 106
       additiveSortOrder: 0
       cellRect:
@@ -4151,7 +4153,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 007c99d273e476540a3109c0fd085bed
-    - name: Frame_107
+    - name: Worm Trap Preview_Frame_107
       frameIndex: 107
       additiveSortOrder: 0
       cellRect:
@@ -4160,7 +4162,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: fdb734256d1e09c4e868b5b4fdf9ec41
-    - name: Frame_108
+    - name: Worm Trap Preview_Frame_108
       frameIndex: 108
       additiveSortOrder: 0
       cellRect:
@@ -4169,7 +4171,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 8129421b2d2f98b48b0ebaec4fecab44
-    - name: Frame_109
+    - name: Worm Trap Preview_Frame_109
       frameIndex: 109
       additiveSortOrder: 0
       cellRect:
@@ -4178,7 +4180,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 9c7b6aac11258c749a7e322c7f55aaf0
-    - name: Frame_110
+    - name: Worm Trap Preview_Frame_110
       frameIndex: 110
       additiveSortOrder: 0
       cellRect:
@@ -4187,7 +4189,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: ec74edffa30fe6245ab7a43271722421
-    - name: Frame_111
+    - name: Worm Trap Preview_Frame_111
       frameIndex: 111
       additiveSortOrder: 0
       cellRect:
@@ -4196,7 +4198,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a0620b13089556f41beabe414d89fa6f
-    - name: Frame_112
+    - name: Worm Trap Preview_Frame_112
       frameIndex: 112
       additiveSortOrder: 0
       cellRect:
@@ -4205,7 +4207,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 681684f0dd1213049927b5c2fa11b234
-    - name: Frame_113
+    - name: Worm Trap Preview_Frame_113
       frameIndex: 113
       additiveSortOrder: 0
       cellRect:
@@ -4214,7 +4216,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: b57abb2e4ec7a5640861afef6e47d228
-    - name: Frame_114
+    - name: Worm Trap Preview_Frame_114
       frameIndex: 114
       additiveSortOrder: 0
       cellRect:
@@ -4223,7 +4225,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: f2cd951ee97b518489a9035ebe54c47f
-    - name: Frame_115
+    - name: Worm Trap Preview_Frame_115
       frameIndex: 115
       additiveSortOrder: 0
       cellRect:
@@ -4232,7 +4234,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 43aa4017e6fd9f64086e64d712bdb612
-    - name: Frame_116
+    - name: Worm Trap Preview_Frame_116
       frameIndex: 116
       additiveSortOrder: 0
       cellRect:
@@ -4241,7 +4243,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a47ed9678663fe64db5a7bcb38533aae
-    - name: Frame_117
+    - name: Worm Trap Preview_Frame_117
       frameIndex: 117
       additiveSortOrder: 0
       cellRect:
@@ -4250,7 +4252,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a7f88faef77ed8c418bf8bcc4f5f028a
-    - name: Frame_118
+    - name: Worm Trap Preview_Frame_118
       frameIndex: 118
       additiveSortOrder: 0
       cellRect:
@@ -4259,7 +4261,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 6f9568c760280e24b97d675e8f5556e9
-    - name: Frame_119
+    - name: Worm Trap Preview_Frame_119
       frameIndex: 119
       additiveSortOrder: 0
       cellRect:
@@ -4268,7 +4270,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 1b95214d69a4c16488a16d0a9e448b4e
-    - name: Frame_120
+    - name: Worm Trap Preview_Frame_120
       frameIndex: 120
       additiveSortOrder: 0
       cellRect:
@@ -4277,7 +4279,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 27feac32cc3a9b04e9cbfafb7323f69f
-    - name: Frame_121
+    - name: Worm Trap Preview_Frame_121
       frameIndex: 121
       additiveSortOrder: 0
       cellRect:
@@ -4286,7 +4288,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 10bf5916f97289e4691831ad31f1b369
-    - name: Frame_122
+    - name: Worm Trap Preview_Frame_122
       frameIndex: 122
       additiveSortOrder: 0
       cellRect:
@@ -4295,7 +4297,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 659d32bc8e362854f940f96f6151b1ac
-    - name: Frame_123
+    - name: Worm Trap Preview_Frame_123
       frameIndex: 123
       additiveSortOrder: 0
       cellRect:
@@ -4304,7 +4306,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 44c166e15f4cb974f8cb6c82cd6a682c
-    - name: Frame_124
+    - name: Worm Trap Preview_Frame_124
       frameIndex: 124
       additiveSortOrder: 0
       cellRect:
@@ -4313,7 +4315,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: d3b76ec24ee372141afeea9136e9ca33
-    - name: Frame_125
+    - name: Worm Trap Preview_Frame_125
       frameIndex: 125
       additiveSortOrder: 0
       cellRect:
@@ -4322,7 +4324,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 938caaefc9043d64e86a12115b8d5d93
-    - name: Frame_126
+    - name: Worm Trap Preview_Frame_126
       frameIndex: 126
       additiveSortOrder: 0
       cellRect:
@@ -4331,7 +4333,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 870f4bf530e50e44ea9302fe8c57eb25
-    - name: Frame_127
+    - name: Worm Trap Preview_Frame_127
       frameIndex: 127
       additiveSortOrder: 0
       cellRect:
@@ -4340,7 +4342,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: ff26805ca1d858c44b7d8f79e77abc10
-    - name: Frame_128
+    - name: Worm Trap Preview_Frame_128
       frameIndex: 128
       additiveSortOrder: 0
       cellRect:
@@ -4349,7 +4351,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 96ab746b46ffdd14aade833243c21764
-    - name: Frame_129
+    - name: Worm Trap Preview_Frame_129
       frameIndex: 129
       additiveSortOrder: 0
       cellRect:
@@ -4358,7 +4360,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 66a2887a8e6f8f74db48ffdb4d794b20
-    - name: Frame_130
+    - name: Worm Trap Preview_Frame_130
       frameIndex: 130
       additiveSortOrder: 0
       cellRect:
@@ -4367,7 +4369,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a7e2124db865d534eaf1b4784fa06a01
-    - name: Frame_131
+    - name: Worm Trap Preview_Frame_131
       frameIndex: 131
       additiveSortOrder: 0
       cellRect:
@@ -4376,7 +4378,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 02e3399e4864d7542a058049ecc1c7f8
-    - name: Frame_132
+    - name: Worm Trap Preview_Frame_132
       frameIndex: 132
       additiveSortOrder: 0
       cellRect:
@@ -4385,7 +4387,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 0ffaaa95a6ca3c24d86d65f102fa43b6
-    - name: Frame_133
+    - name: Worm Trap Preview_Frame_133
       frameIndex: 133
       additiveSortOrder: 0
       cellRect:
@@ -4394,7 +4396,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 5464f75553ee9904db7a1628f5af9662
-    - name: Frame_134
+    - name: Worm Trap Preview_Frame_134
       frameIndex: 134
       additiveSortOrder: 0
       cellRect:
@@ -4403,7 +4405,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 4baef042f5156b647bfc611a40c01a84
-    - name: Frame_135
+    - name: Worm Trap Preview_Frame_135
       frameIndex: 135
       additiveSortOrder: 0
       cellRect:
@@ -4412,7 +4414,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: c224060db7838134aa6de8e911cff4e6
-    - name: Frame_136
+    - name: Worm Trap Preview_Frame_136
       frameIndex: 136
       additiveSortOrder: 0
       cellRect:
@@ -4421,7 +4423,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: e7c99e76a954ab64b924fc8b2340649d
-    - name: Frame_137
+    - name: Worm Trap Preview_Frame_137
       frameIndex: 137
       additiveSortOrder: 0
       cellRect:
@@ -4430,7 +4432,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 0a142758d80894e4da960a2bb15baaa5
-    - name: Frame_138
+    - name: Worm Trap Preview_Frame_138
       frameIndex: 138
       additiveSortOrder: 0
       cellRect:
@@ -4439,7 +4441,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 3df37431e1fb2d24aaf9b045111bba25
-    - name: Frame_139
+    - name: Worm Trap Preview_Frame_139
       frameIndex: 139
       additiveSortOrder: 0
       cellRect:
@@ -4448,7 +4450,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: ae5115d3f11672c49a724304e17f16a5
-    - name: Frame_140
+    - name: Worm Trap Preview_Frame_140
       frameIndex: 140
       additiveSortOrder: 0
       cellRect:
@@ -4457,7 +4459,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 8d5f63d02c2eda44dbe5bbcebc66d0d3
-    - name: Frame_141
+    - name: Worm Trap Preview_Frame_141
       frameIndex: 141
       additiveSortOrder: 0
       cellRect:
@@ -4466,7 +4468,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: a4a1e82d0281fc24c99c4f1a43db5488
-    - name: Frame_142
+    - name: Worm Trap Preview_Frame_142
       frameIndex: 142
       additiveSortOrder: 0
       cellRect:
@@ -4475,7 +4477,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 9dd69066c2151064faccdb4a85143cdc
-    - name: Frame_143
+    - name: Worm Trap Preview_Frame_143
       frameIndex: 143
       additiveSortOrder: 0
       cellRect:
@@ -4484,7 +4486,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: da83202168fef4340a9a1c0bc58f0357
-    - name: Frame_144
+    - name: Worm Trap Preview_Frame_144
       frameIndex: 144
       additiveSortOrder: 0
       cellRect:
@@ -4493,7 +4495,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 749479c9fe4358e4daf1e94bc76dc79b
-    - name: Frame_145
+    - name: Worm Trap Preview_Frame_145
       frameIndex: 145
       additiveSortOrder: 0
       cellRect:
@@ -4502,7 +4504,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: e3ae373b203515346a75b901e167092f
-    - name: Frame_146
+    - name: Worm Trap Preview_Frame_146
       frameIndex: 146
       additiveSortOrder: 0
       cellRect:
@@ -4511,7 +4513,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 5ba9638b9f02cb14ab476d6f2f4d9326
-    - name: Frame_147
+    - name: Worm Trap Preview_Frame_147
       frameIndex: 147
       additiveSortOrder: 0
       cellRect:
@@ -4520,7 +4522,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 5f02f0b1871a798478b3a78ecea7b24a
-    - name: Frame_148
+    - name: Worm Trap Preview_Frame_148
       frameIndex: 148
       additiveSortOrder: 0
       cellRect:
@@ -4529,7 +4531,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 2e5dc96161b688f43b00e9d90916466c
-    - name: Frame_149
+    - name: Worm Trap Preview_Frame_149
       frameIndex: 149
       additiveSortOrder: 0
       cellRect:
@@ -4538,7 +4540,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: 34ea9403e7f463a4d8ab4cad501bfebb
-    - name: Frame_150
+    - name: Worm Trap Preview_Frame_150
       frameIndex: 150
       additiveSortOrder: 0
       cellRect:
@@ -4547,7 +4549,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: db0accb812ffd684bbb07a818e5e67b8
-    - name: Frame_151
+    - name: Worm Trap Preview_Frame_151
       frameIndex: 151
       additiveSortOrder: 0
       cellRect:
@@ -4556,7 +4558,7 @@ ScriptedImporter:
         width: 128
         height: 64
       spriteId: b106147aed9db4842bfc99ff037de285
-    - name: Frame_152
+    - name: Worm Trap Preview_Frame_152
       frameIndex: 152
       additiveSortOrder: 0
       cellRect:

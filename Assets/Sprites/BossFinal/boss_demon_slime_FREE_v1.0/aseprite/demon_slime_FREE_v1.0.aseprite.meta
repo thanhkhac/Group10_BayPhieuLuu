@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -1328,7 +1330,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: demon_slime_FREE_v1.0_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -1337,7 +1339,7 @@ ScriptedImporter:
         width: 80
         height: 105
       spriteId: d3d7cd40c9dec38459be60bdade0ddf5
-    - name: Frame_1
+    - name: demon_slime_FREE_v1.0_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -1346,7 +1348,7 @@ ScriptedImporter:
         width: 87
         height: 104
       spriteId: 6d543cc908535b84c90811681095ee87
-    - name: Frame_2
+    - name: demon_slime_FREE_v1.0_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -1355,7 +1357,7 @@ ScriptedImporter:
         width: 91
         height: 107
       spriteId: 67d3f4afc86d80d46a5d85d577e766bc
-    - name: Frame_3
+    - name: demon_slime_FREE_v1.0_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -1364,7 +1366,7 @@ ScriptedImporter:
         width: 91
         height: 106
       spriteId: efe338ad15af19947a4d3c156ba7376c
-    - name: Frame_4
+    - name: demon_slime_FREE_v1.0_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -1373,7 +1375,7 @@ ScriptedImporter:
         width: 91
         height: 107
       spriteId: 8e6e065667fbc014682d9c1211701cd3
-    - name: Frame_5
+    - name: demon_slime_FREE_v1.0_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -1382,7 +1384,7 @@ ScriptedImporter:
         width: 87
         height: 102
       spriteId: 3432a595da92b8a40ac7d1b0776ba0ce
-    - name: Frame_6
+    - name: demon_slime_FREE_v1.0_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -1391,7 +1393,7 @@ ScriptedImporter:
         width: 64
         height: 100
       spriteId: 868f02352804076418320a0f60a33003
-    - name: Frame_7
+    - name: demon_slime_FREE_v1.0_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -1400,7 +1402,7 @@ ScriptedImporter:
         width: 68
         height: 99
       spriteId: fc7bd15db9e3c014eac972e8de6c67d7
-    - name: Frame_8
+    - name: demon_slime_FREE_v1.0_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -1409,7 +1411,7 @@ ScriptedImporter:
         width: 67
         height: 100
       spriteId: a9cf62dcb6ef2a4499c1306ffe11d88c
-    - name: Frame_9
+    - name: demon_slime_FREE_v1.0_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -1418,7 +1420,7 @@ ScriptedImporter:
         width: 70
         height: 99
       spriteId: 34b8389825c553f4b8d36644293eae3a
-    - name: Frame_10
+    - name: demon_slime_FREE_v1.0_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -1427,7 +1429,7 @@ ScriptedImporter:
         width: 74
         height: 100
       spriteId: b10b5a145de36da4aa1740f683934b5c
-    - name: Frame_11
+    - name: demon_slime_FREE_v1.0_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -1436,7 +1438,7 @@ ScriptedImporter:
         width: 78
         height: 100
       spriteId: b6e02c2c69fe2234fadb60a8a2c11c3d
-    - name: Frame_12
+    - name: demon_slime_FREE_v1.0_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -1445,7 +1447,7 @@ ScriptedImporter:
         width: 85
         height: 99
       spriteId: 83e5db9c8db38d2408943fee3e1e9a2d
-    - name: Frame_13
+    - name: demon_slime_FREE_v1.0_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -1454,7 +1456,7 @@ ScriptedImporter:
         width: 80
         height: 99
       spriteId: ef729303285de834794a108669a5df96
-    - name: Frame_14
+    - name: demon_slime_FREE_v1.0_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -1463,7 +1465,7 @@ ScriptedImporter:
         width: 80
         height: 100
       spriteId: 5a1d86ef62528c142b0fa710f5198ba3
-    - name: Frame_15
+    - name: demon_slime_FREE_v1.0_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -1472,7 +1474,7 @@ ScriptedImporter:
         width: 73
         height: 99
       spriteId: be25cd2da4c717c4c86a8c2044a3a16a
-    - name: Frame_16
+    - name: demon_slime_FREE_v1.0_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -1481,7 +1483,7 @@ ScriptedImporter:
         width: 70
         height: 100
       spriteId: 673c284e7c78dc04fb55862346d0ac14
-    - name: Frame_17
+    - name: demon_slime_FREE_v1.0_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -1490,7 +1492,7 @@ ScriptedImporter:
         width: 68
         height: 99
       spriteId: f83c52b9774ee0c4497856f03d0f6c6d
-    - name: Frame_18
+    - name: demon_slime_FREE_v1.0_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -1499,7 +1501,7 @@ ScriptedImporter:
         width: 80
         height: 105
       spriteId: 758687060c7a79349a2f256b82005c9a
-    - name: Frame_19
+    - name: demon_slime_FREE_v1.0_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -1508,7 +1510,7 @@ ScriptedImporter:
         width: 76
         height: 104
       spriteId: 9ce606b6bd3a60b48a2fc4245a9b9122
-    - name: Frame_20
+    - name: demon_slime_FREE_v1.0_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -1517,7 +1519,7 @@ ScriptedImporter:
         width: 93
         height: 109
       spriteId: fbd2791f293c9db408fbf77e75ae6d82
-    - name: Frame_21
+    - name: demon_slime_FREE_v1.0_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -1526,7 +1528,7 @@ ScriptedImporter:
         width: 86
         height: 107
       spriteId: 23c2e3dc60118d844a74b227606fc41b
-    - name: Frame_22
+    - name: demon_slime_FREE_v1.0_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -1535,7 +1537,7 @@ ScriptedImporter:
         width: 90
         height: 109
       spriteId: adf2019ec0cf5b9499640e7e6fa8b6a2
-    - name: Frame_23
+    - name: demon_slime_FREE_v1.0_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -1544,7 +1546,7 @@ ScriptedImporter:
         width: 89
         height: 105
       spriteId: bec78fc65bb67b748ac27c5eec0b8407
-    - name: Frame_24
+    - name: demon_slime_FREE_v1.0_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -1553,7 +1555,7 @@ ScriptedImporter:
         width: 86
         height: 109
       spriteId: f76c10e482ea28e4a8aed3c6095dcf06
-    - name: Frame_25
+    - name: demon_slime_FREE_v1.0_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -1562,7 +1564,7 @@ ScriptedImporter:
         width: 86
         height: 114
       spriteId: 43b0b5539d0321640aca7ea92431046c
-    - name: Frame_26
+    - name: demon_slime_FREE_v1.0_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -1571,7 +1573,7 @@ ScriptedImporter:
         width: 86
         height: 111
       spriteId: 7acdfbd8be708a548aca606cacf2b5eb
-    - name: Frame_27
+    - name: demon_slime_FREE_v1.0_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -1580,7 +1582,7 @@ ScriptedImporter:
         width: 154
         height: 101
       spriteId: 18c77b692ee56214cb530d1fe3bde0bd
-    - name: Frame_28
+    - name: demon_slime_FREE_v1.0_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -1589,7 +1591,7 @@ ScriptedImporter:
         width: 157
         height: 101
       spriteId: 92473d8b276a61e4bb4c8dc3d665a935
-    - name: Frame_29
+    - name: demon_slime_FREE_v1.0_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -1598,7 +1600,7 @@ ScriptedImporter:
         width: 160
         height: 97
       spriteId: 8507ddca5d1f49e43ba5561317778fae
-    - name: Frame_30
+    - name: demon_slime_FREE_v1.0_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -1607,7 +1609,7 @@ ScriptedImporter:
         width: 99
         height: 102
       spriteId: 42128294e320a95418b23465fde9cec9
-    - name: Frame_31
+    - name: demon_slime_FREE_v1.0_Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -1616,7 +1618,7 @@ ScriptedImporter:
         width: 78
         height: 102
       spriteId: 9ef59c297cae9c24992a6212ed2cc04b
-    - name: Frame_32
+    - name: demon_slime_FREE_v1.0_Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -1625,7 +1627,7 @@ ScriptedImporter:
         width: 80
         height: 105
       spriteId: 2936d2406ea5d33439b5eee7bed168f5
-    - name: Frame_33
+    - name: demon_slime_FREE_v1.0_Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -1634,7 +1636,7 @@ ScriptedImporter:
         width: 80
         height: 105
       spriteId: 045a0ce572e133b47808f898a85510b0
-    - name: Frame_34
+    - name: demon_slime_FREE_v1.0_Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -1643,7 +1645,7 @@ ScriptedImporter:
         width: 85
         height: 103
       spriteId: ad3b251a828836c48b4289b38ecd757a
-    - name: Frame_35
+    - name: demon_slime_FREE_v1.0_Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -1652,7 +1654,7 @@ ScriptedImporter:
         width: 102
         height: 105
       spriteId: 7737a017501722446a8803de8555438f
-    - name: Frame_36
+    - name: demon_slime_FREE_v1.0_Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -1661,7 +1663,7 @@ ScriptedImporter:
         width: 90
         height: 102
       spriteId: 8c7356268cd147348832c68f991ebe7d
-    - name: Frame_37
+    - name: demon_slime_FREE_v1.0_Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -1670,7 +1672,7 @@ ScriptedImporter:
         width: 80
         height: 103
       spriteId: 35c400c5af161cd45aedf5c194911483
-    - name: Frame_38
+    - name: demon_slime_FREE_v1.0_Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -1679,7 +1681,7 @@ ScriptedImporter:
         width: 80
         height: 89
       spriteId: bcbd179bd93ccf246acd319b5dd96448
-    - name: Frame_39
+    - name: demon_slime_FREE_v1.0_Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -1688,7 +1690,7 @@ ScriptedImporter:
         width: 70
         height: 97
       spriteId: 615c03c51abf2004291e1b4738ca2db2
-    - name: Frame_40
+    - name: demon_slime_FREE_v1.0_Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -1697,7 +1699,7 @@ ScriptedImporter:
         width: 68
         height: 96
       spriteId: b63e2b38318f9f840abe65cf22ac2815
-    - name: Frame_41
+    - name: demon_slime_FREE_v1.0_Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -1706,7 +1708,7 @@ ScriptedImporter:
         width: 72
         height: 99
       spriteId: 02fac0b2404a99b47a0d3841ffb8dfb3
-    - name: Frame_42
+    - name: demon_slime_FREE_v1.0_Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -1715,7 +1717,7 @@ ScriptedImporter:
         width: 88
         height: 105
       spriteId: 111925839991cfb478056a29d6e1ef15
-    - name: Frame_43
+    - name: demon_slime_FREE_v1.0_Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -1724,7 +1726,7 @@ ScriptedImporter:
         width: 95
         height: 113
       spriteId: ee53c89b79e19ff448267d977fea0fa1
-    - name: Frame_44
+    - name: demon_slime_FREE_v1.0_Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -1733,7 +1735,7 @@ ScriptedImporter:
         width: 117
         height: 118
       spriteId: d9f30112f7ca5994885dc3951b49a058
-    - name: Frame_45
+    - name: demon_slime_FREE_v1.0_Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -1742,7 +1744,7 @@ ScriptedImporter:
         width: 131
         height: 121
       spriteId: d2dd7b9141b23e345813eb0d1c9a73d0
-    - name: Frame_46
+    - name: demon_slime_FREE_v1.0_Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -1751,7 +1753,7 @@ ScriptedImporter:
         width: 128
         height: 123
       spriteId: e64348d463cb86e49ac9ab4d4ba7c984
-    - name: Frame_47
+    - name: demon_slime_FREE_v1.0_Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -1760,7 +1762,7 @@ ScriptedImporter:
         width: 128
         height: 121
       spriteId: 4ba1855c00a4d8c478e26c0710effaf2
-    - name: Frame_48
+    - name: demon_slime_FREE_v1.0_Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -1769,7 +1771,7 @@ ScriptedImporter:
         width: 128
         height: 124
       spriteId: d0019f6008998c24387cf3a298e68dc6
-    - name: Frame_49
+    - name: demon_slime_FREE_v1.0_Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -1778,7 +1780,7 @@ ScriptedImporter:
         width: 128
         height: 109
       spriteId: 3ba1775c9e67fcb499448488458791e2
-    - name: Frame_50
+    - name: demon_slime_FREE_v1.0_Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -1787,7 +1789,7 @@ ScriptedImporter:
         width: 125
         height: 113
       spriteId: 5aebe442ea64ca8499ff5d9de47f1c08
-    - name: Frame_51
+    - name: demon_slime_FREE_v1.0_Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -1796,7 +1798,7 @@ ScriptedImporter:
         width: 125
         height: 115
       spriteId: 75ed358fd484b1d48b40af0d5c69f0ac
-    - name: Frame_52
+    - name: demon_slime_FREE_v1.0_Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -1805,7 +1807,7 @@ ScriptedImporter:
         width: 119
         height: 116
       spriteId: 0363e91b140104748acc9466c04ae247
-    - name: Frame_53
+    - name: demon_slime_FREE_v1.0_Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -1814,7 +1816,7 @@ ScriptedImporter:
         width: 113
         height: 121
       spriteId: f375d1cbe4ed44c4da511dccb5cdb059
-    - name: Frame_54
+    - name: demon_slime_FREE_v1.0_Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -1823,7 +1825,7 @@ ScriptedImporter:
         width: 114
         height: 123
       spriteId: cd82d7e0af7cd294795bfb09b2fb5efd
-    - name: Frame_55
+    - name: demon_slime_FREE_v1.0_Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -1832,7 +1834,7 @@ ScriptedImporter:
         width: 114
         height: 123
       spriteId: 55a4fd6fbbba7ac468a627d1b9f38211
-    - name: Frame_56
+    - name: demon_slime_FREE_v1.0_Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -1841,7 +1843,7 @@ ScriptedImporter:
         width: 114
         height: 121
       spriteId: d68bcae71bb0e274b915d6255c993e7b
-    - name: Frame_57
+    - name: demon_slime_FREE_v1.0_Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -1850,7 +1852,7 @@ ScriptedImporter:
         width: 114
         height: 85
       spriteId: 3171e465805f8e54a930cf9cbb4414d5
-    - name: Frame_58
+    - name: demon_slime_FREE_v1.0_Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -1859,7 +1861,7 @@ ScriptedImporter:
         width: 114
         height: 2
       spriteId: 54b52132832af5e4998f2f4698b6e7cd
-    - name: Frame_59
+    - name: demon_slime_FREE_v1.0_Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -1873,6 +1875,7 @@ ScriptedImporter:
   platformSettings:
   - name: Default
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1

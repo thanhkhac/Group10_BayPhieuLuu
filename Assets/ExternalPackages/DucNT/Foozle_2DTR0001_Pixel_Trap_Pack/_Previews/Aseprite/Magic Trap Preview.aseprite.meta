@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -4928,7 +4930,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Magic Trap Preview_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -4937,7 +4939,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ceb56002dcf2dc04dba23fb1d5932b75
-    - name: Frame_1
+    - name: Magic Trap Preview_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -4946,7 +4948,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 7298def0350974740a0697f4ea228fb5
-    - name: Frame_2
+    - name: Magic Trap Preview_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -4955,7 +4957,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 91206e197f30c1a42b4d68da2d4a5d22
-    - name: Frame_3
+    - name: Magic Trap Preview_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -4964,7 +4966,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 41482c22d3b92eb4c871081bed27deba
-    - name: Frame_4
+    - name: Magic Trap Preview_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -4973,7 +4975,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e6a4ce33a9012d94c8dd4e30f917a4d6
-    - name: Frame_5
+    - name: Magic Trap Preview_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -4982,7 +4984,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 820e518bfc348a24db4be28070c48e62
-    - name: Frame_6
+    - name: Magic Trap Preview_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -4991,7 +4993,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ae8999260bcf4c2449e72e3fc3df4457
-    - name: Frame_7
+    - name: Magic Trap Preview_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -5000,7 +5002,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: f53f1ffe77ea1e949878f5df62a2ebf2
-    - name: Frame_8
+    - name: Magic Trap Preview_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -5009,7 +5011,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8bda1ed0a6d0e0d46ab9e8e1414f8b2f
-    - name: Frame_9
+    - name: Magic Trap Preview_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -5018,7 +5020,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 598a26f280204ec47984c302e9be7c75
-    - name: Frame_10
+    - name: Magic Trap Preview_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -5027,7 +5029,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: b133486993b89e04fb52b9ea14d2382e
-    - name: Frame_11
+    - name: Magic Trap Preview_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -5036,7 +5038,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 96cdc436ab908ba49b5af870fe72e138
-    - name: Frame_12
+    - name: Magic Trap Preview_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -5045,7 +5047,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ef7fa9ff995bc0e4c89dc288efc80820
-    - name: Frame_13
+    - name: Magic Trap Preview_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -5054,7 +5056,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: a8bea084351ddf247babc9748673b3ef
-    - name: Frame_14
+    - name: Magic Trap Preview_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -5063,7 +5065,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 936eac56edbca744da0f7e543e2bc310
-    - name: Frame_15
+    - name: Magic Trap Preview_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -5072,7 +5074,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 0a6268d85a331ab46b7bb0bbf3222f4a
-    - name: Frame_16
+    - name: Magic Trap Preview_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -5081,7 +5083,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: b31e9743969bb4d47a1dc172fe02f4ad
-    - name: Frame_17
+    - name: Magic Trap Preview_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -5090,7 +5092,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 421211d7ea7791448bd957dad89a398c
-    - name: Frame_18
+    - name: Magic Trap Preview_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -5099,7 +5101,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: bc2534db78650b642aeae9a574c42b55
-    - name: Frame_19
+    - name: Magic Trap Preview_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -5108,7 +5110,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 348f48a5038c26e44a9a6bed57a9c7e2
-    - name: Frame_20
+    - name: Magic Trap Preview_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -5117,7 +5119,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8096d4b884cc2e945935bb9b52e03d24
-    - name: Frame_21
+    - name: Magic Trap Preview_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -5126,7 +5128,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 86290877acb0d1a4d871410e23a67273
-    - name: Frame_22
+    - name: Magic Trap Preview_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -5135,7 +5137,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: fcbe7d2c0f29b1349a51e1e785d75dee
-    - name: Frame_23
+    - name: Magic Trap Preview_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -5144,7 +5146,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 2c3ec59681c5a2a48b718bc1dda9fe07
-    - name: Frame_24
+    - name: Magic Trap Preview_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -5153,7 +5155,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: dcce7f82e5a51f348994b053c38495fd
-    - name: Frame_25
+    - name: Magic Trap Preview_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -5162,7 +5164,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 6acdb8f650d35c147ac2ed950c51581b
-    - name: Frame_26
+    - name: Magic Trap Preview_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -5171,7 +5173,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 97d0e43724406284ca2ee5aefee52fbb
-    - name: Frame_27
+    - name: Magic Trap Preview_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -5180,7 +5182,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d7c02185bd361f8449146be6afe20d2b
-    - name: Frame_28
+    - name: Magic Trap Preview_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -5189,7 +5191,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 837a95060f81a374daf934ee75b7aff3
-    - name: Frame_29
+    - name: Magic Trap Preview_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -5198,7 +5200,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 047d2e8162bc7324f82528420e629dee
-    - name: Frame_30
+    - name: Magic Trap Preview_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -5207,7 +5209,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4bec6c672b3e78d4187bcaaa81e621bb
-    - name: Frame_31
+    - name: Magic Trap Preview_Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -5216,7 +5218,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c320b1012fac02243a3ab01177d5ace5
-    - name: Frame_32
+    - name: Magic Trap Preview_Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -5225,7 +5227,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 34abf67ed93e0b74d9d1ead6743af5ca
-    - name: Frame_33
+    - name: Magic Trap Preview_Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -5234,7 +5236,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: db9f440196446564f86eb71cf24ef9b1
-    - name: Frame_34
+    - name: Magic Trap Preview_Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -5243,7 +5245,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8236e699edeb28e46a5e3e1c2cbf8be3
-    - name: Frame_35
+    - name: Magic Trap Preview_Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -5252,7 +5254,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 070c84a925fbd3b478f07aa582f09ab5
-    - name: Frame_36
+    - name: Magic Trap Preview_Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -5261,7 +5263,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: f58ceff1c4d34ca40be15575e0de46e8
-    - name: Frame_37
+    - name: Magic Trap Preview_Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -5270,7 +5272,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 5fd89c970fce11b42ab3dd3df7a9a721
-    - name: Frame_38
+    - name: Magic Trap Preview_Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -5279,7 +5281,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e1b4c25212966974288de01e65882b81
-    - name: Frame_39
+    - name: Magic Trap Preview_Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -5288,7 +5290,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4588fc1a84d160b49b40b50e3b91242e
-    - name: Frame_40
+    - name: Magic Trap Preview_Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -5297,7 +5299,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 17d0d41d22f0ac44b9ea662dd417d6c9
-    - name: Frame_41
+    - name: Magic Trap Preview_Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -5306,7 +5308,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ca5444b697a516a43a88834ce444294a
-    - name: Frame_42
+    - name: Magic Trap Preview_Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -5315,7 +5317,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8ed45e22e1a0aaf47bf9eba09dc9d127
-    - name: Frame_43
+    - name: Magic Trap Preview_Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -5324,7 +5326,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 03584cc357e0eed429cc14b1de529e42
-    - name: Frame_44
+    - name: Magic Trap Preview_Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -5333,7 +5335,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 98b84c8f418c2f44e94414f4b71b71f1
-    - name: Frame_45
+    - name: Magic Trap Preview_Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -5342,7 +5344,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 76a042bf00d56a04cada3f45835e4d7b
-    - name: Frame_46
+    - name: Magic Trap Preview_Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -5351,7 +5353,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 766b996d55588ad47b170e094040a8b1
-    - name: Frame_47
+    - name: Magic Trap Preview_Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -5360,7 +5362,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 66e9b13ab3c1663458e272d5c092ed16
-    - name: Frame_48
+    - name: Magic Trap Preview_Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -5369,7 +5371,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 318733b7296ee5d4ca733ccc0eade4f5
-    - name: Frame_49
+    - name: Magic Trap Preview_Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -5378,7 +5380,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 087e66d726bbdf94dae3c749ae035c59
-    - name: Frame_50
+    - name: Magic Trap Preview_Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -5387,7 +5389,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ec4358d5cb51c6148a64527fe8affd4d
-    - name: Frame_51
+    - name: Magic Trap Preview_Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -5396,7 +5398,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 00e6dffb8ce124847a30786c2c769e55
-    - name: Frame_52
+    - name: Magic Trap Preview_Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -5405,7 +5407,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 467de590d9fb36447b0a5c7991b8e660
-    - name: Frame_53
+    - name: Magic Trap Preview_Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -5414,7 +5416,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c922403f887173d46b9b56c86473c8dc
-    - name: Frame_54
+    - name: Magic Trap Preview_Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -5423,7 +5425,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c8847e0938144c24d86eb70068008b98
-    - name: Frame_55
+    - name: Magic Trap Preview_Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -5432,7 +5434,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 68bf055d77ddcdd448e48da24f3c102d
-    - name: Frame_56
+    - name: Magic Trap Preview_Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -5441,7 +5443,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ebd579237275e3e4caf805b6c3de3fb1
-    - name: Frame_57
+    - name: Magic Trap Preview_Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -5450,7 +5452,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: cd04187797b248e4fb5072f2e26dd2e1
-    - name: Frame_58
+    - name: Magic Trap Preview_Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -5459,7 +5461,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: a89337e7ec7c92a4bbea08fe055dd2c5
-    - name: Frame_59
+    - name: Magic Trap Preview_Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -5468,7 +5470,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 26855178dffb4cd44a78159d52e09cf4
-    - name: Frame_60
+    - name: Magic Trap Preview_Frame_60
       frameIndex: 60
       additiveSortOrder: 0
       cellRect:
@@ -5477,7 +5479,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 3deb5829936d1db4ba43f6b048f7a942
-    - name: Frame_61
+    - name: Magic Trap Preview_Frame_61
       frameIndex: 61
       additiveSortOrder: 0
       cellRect:
@@ -5486,7 +5488,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 2101cabbfdbbfbb4590614a5cde85a96
-    - name: Frame_62
+    - name: Magic Trap Preview_Frame_62
       frameIndex: 62
       additiveSortOrder: 0
       cellRect:
@@ -5495,7 +5497,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 7a09d33194fe28b41aa1eb54277f9df8
-    - name: Frame_63
+    - name: Magic Trap Preview_Frame_63
       frameIndex: 63
       additiveSortOrder: 0
       cellRect:
@@ -5504,7 +5506,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 5c1c0e179e69b2144af912b541f70261
-    - name: Frame_64
+    - name: Magic Trap Preview_Frame_64
       frameIndex: 64
       additiveSortOrder: 0
       cellRect:
@@ -5513,7 +5515,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 33b03d8bef6349149b6dd123bab0a001
-    - name: Frame_65
+    - name: Magic Trap Preview_Frame_65
       frameIndex: 65
       additiveSortOrder: 0
       cellRect:
@@ -5522,7 +5524,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 6f9ce9a10434ec147a2b03a84e15b91b
-    - name: Frame_66
+    - name: Magic Trap Preview_Frame_66
       frameIndex: 66
       additiveSortOrder: 0
       cellRect:
@@ -5531,7 +5533,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 939b467c03168a443a9571ad05427dcf
-    - name: Frame_67
+    - name: Magic Trap Preview_Frame_67
       frameIndex: 67
       additiveSortOrder: 0
       cellRect:
@@ -5540,7 +5542,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 59a1f388a765bbb4fb0557f254750034
-    - name: Frame_68
+    - name: Magic Trap Preview_Frame_68
       frameIndex: 68
       additiveSortOrder: 0
       cellRect:
@@ -5549,7 +5551,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: b28b45cf57c96454b8ac7bdd7bc9dba8
-    - name: Frame_69
+    - name: Magic Trap Preview_Frame_69
       frameIndex: 69
       additiveSortOrder: 0
       cellRect:
@@ -5558,7 +5560,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: df7c842f8743efc449023ba1b2496e59
-    - name: Frame_70
+    - name: Magic Trap Preview_Frame_70
       frameIndex: 70
       additiveSortOrder: 0
       cellRect:
@@ -5567,7 +5569,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 510df1c523de90843859a4fe0c7ad3ec
-    - name: Frame_71
+    - name: Magic Trap Preview_Frame_71
       frameIndex: 71
       additiveSortOrder: 0
       cellRect:
@@ -5576,7 +5578,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e7ba61eab6acbd64fbaa2c3eb23fd5ec
-    - name: Frame_72
+    - name: Magic Trap Preview_Frame_72
       frameIndex: 72
       additiveSortOrder: 0
       cellRect:
@@ -5585,7 +5587,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c124335fe099f51428b1fc0fe6ec5c06
-    - name: Frame_73
+    - name: Magic Trap Preview_Frame_73
       frameIndex: 73
       additiveSortOrder: 0
       cellRect:
@@ -5594,7 +5596,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4e89ab530f2486944ba2d2fd91895e75
-    - name: Frame_74
+    - name: Magic Trap Preview_Frame_74
       frameIndex: 74
       additiveSortOrder: 0
       cellRect:
@@ -5603,7 +5605,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c07108dcaa2afd54a831529786769bda
-    - name: Frame_75
+    - name: Magic Trap Preview_Frame_75
       frameIndex: 75
       additiveSortOrder: 0
       cellRect:
@@ -5612,7 +5614,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d05a3371f0c21f04f93351685babbc26
-    - name: Frame_76
+    - name: Magic Trap Preview_Frame_76
       frameIndex: 76
       additiveSortOrder: 0
       cellRect:
@@ -5621,7 +5623,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 899f75e2b9ec7a1428be209364feaf6d
-    - name: Frame_77
+    - name: Magic Trap Preview_Frame_77
       frameIndex: 77
       additiveSortOrder: 0
       cellRect:
@@ -5630,7 +5632,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: a65d5658b2da67c44a5bf13ae709f24d
-    - name: Frame_78
+    - name: Magic Trap Preview_Frame_78
       frameIndex: 78
       additiveSortOrder: 0
       cellRect:
@@ -5639,7 +5641,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 36c0e1f62ecd6a547b8adbcf1ba1bfac
-    - name: Frame_79
+    - name: Magic Trap Preview_Frame_79
       frameIndex: 79
       additiveSortOrder: 0
       cellRect:
@@ -5648,7 +5650,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: a2b773e26820c93428147c803d018a52
-    - name: Frame_80
+    - name: Magic Trap Preview_Frame_80
       frameIndex: 80
       additiveSortOrder: 0
       cellRect:
@@ -5657,7 +5659,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c162aac7096c4c645b6a568efe9105c9
-    - name: Frame_81
+    - name: Magic Trap Preview_Frame_81
       frameIndex: 81
       additiveSortOrder: 0
       cellRect:
@@ -5666,7 +5668,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: aed65d48c39baea4caa2be9d5e93d766
-    - name: Frame_82
+    - name: Magic Trap Preview_Frame_82
       frameIndex: 82
       additiveSortOrder: 0
       cellRect:
@@ -5675,7 +5677,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: b284a524de8a43f4daf963127adcbcdd
-    - name: Frame_83
+    - name: Magic Trap Preview_Frame_83
       frameIndex: 83
       additiveSortOrder: 0
       cellRect:
@@ -5684,7 +5686,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4528e149fa691524fb7d3d43ffdb133c
-    - name: Frame_84
+    - name: Magic Trap Preview_Frame_84
       frameIndex: 84
       additiveSortOrder: 0
       cellRect:
@@ -5693,7 +5695,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 9c2dbb388e3484045820e5a072de9e33
-    - name: Frame_85
+    - name: Magic Trap Preview_Frame_85
       frameIndex: 85
       additiveSortOrder: 0
       cellRect:
@@ -5702,7 +5704,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 79f34dbc120a86148b608eae6a6500cf
-    - name: Frame_86
+    - name: Magic Trap Preview_Frame_86
       frameIndex: 86
       additiveSortOrder: 0
       cellRect:
@@ -5711,7 +5713,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 7b2ba750c41be6242aa5f2d7521750d3
-    - name: Frame_87
+    - name: Magic Trap Preview_Frame_87
       frameIndex: 87
       additiveSortOrder: 0
       cellRect:
@@ -5720,7 +5722,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 800e6c753a455424daa47566e451c8ed
-    - name: Frame_88
+    - name: Magic Trap Preview_Frame_88
       frameIndex: 88
       additiveSortOrder: 0
       cellRect:
@@ -5729,7 +5731,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 884e216c4fd4c0b4ab054d923a131682
-    - name: Frame_89
+    - name: Magic Trap Preview_Frame_89
       frameIndex: 89
       additiveSortOrder: 0
       cellRect:
@@ -5738,7 +5740,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e295c48166b4de942b26c6f87189997d
-    - name: Frame_90
+    - name: Magic Trap Preview_Frame_90
       frameIndex: 90
       additiveSortOrder: 0
       cellRect:
@@ -5747,7 +5749,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d4a1298728ddfa840a66d60d6df2f7b3
-    - name: Frame_91
+    - name: Magic Trap Preview_Frame_91
       frameIndex: 91
       additiveSortOrder: 0
       cellRect:
@@ -5756,7 +5758,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 9f7ccc41b51a303479e475d890fbabe1
-    - name: Frame_92
+    - name: Magic Trap Preview_Frame_92
       frameIndex: 92
       additiveSortOrder: 0
       cellRect:
@@ -5765,7 +5767,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d86a85da22a1c5f4b890e7d012dc32c9
-    - name: Frame_93
+    - name: Magic Trap Preview_Frame_93
       frameIndex: 93
       additiveSortOrder: 0
       cellRect:
@@ -5774,7 +5776,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 3f8ee354b4f5a334faa12101d8f52b06
-    - name: Frame_94
+    - name: Magic Trap Preview_Frame_94
       frameIndex: 94
       additiveSortOrder: 0
       cellRect:
@@ -5783,7 +5785,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 154cda830939aa840a0837b6955da06c
-    - name: Frame_95
+    - name: Magic Trap Preview_Frame_95
       frameIndex: 95
       additiveSortOrder: 0
       cellRect:
@@ -5792,7 +5794,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 546bbbbcca228e141a9941f8741b5a91
-    - name: Frame_96
+    - name: Magic Trap Preview_Frame_96
       frameIndex: 96
       additiveSortOrder: 0
       cellRect:
@@ -5801,7 +5803,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d813d32c2c2f8ed418cea6c71c2fadc0
-    - name: Frame_97
+    - name: Magic Trap Preview_Frame_97
       frameIndex: 97
       additiveSortOrder: 0
       cellRect:
@@ -5810,7 +5812,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 62ceaed7bb15bae489ff78dab69886b2
-    - name: Frame_98
+    - name: Magic Trap Preview_Frame_98
       frameIndex: 98
       additiveSortOrder: 0
       cellRect:
@@ -5819,7 +5821,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 9d67c68f65bef8641910f93165243697
-    - name: Frame_99
+    - name: Magic Trap Preview_Frame_99
       frameIndex: 99
       additiveSortOrder: 0
       cellRect:
@@ -5828,7 +5830,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e5011bc731ffeaa4cba404a0339cf86b
-    - name: Frame_100
+    - name: Magic Trap Preview_Frame_100
       frameIndex: 100
       additiveSortOrder: 0
       cellRect:
@@ -5837,7 +5839,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c476093c4bdff6d4797dca6bb729672e
-    - name: Frame_101
+    - name: Magic Trap Preview_Frame_101
       frameIndex: 101
       additiveSortOrder: 0
       cellRect:
@@ -5846,7 +5848,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 2fec627054978f5468574d858a2f2c58
-    - name: Frame_102
+    - name: Magic Trap Preview_Frame_102
       frameIndex: 102
       additiveSortOrder: 0
       cellRect:
@@ -5855,7 +5857,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 6367da90934461346b751ca94a2494c6
-    - name: Frame_103
+    - name: Magic Trap Preview_Frame_103
       frameIndex: 103
       additiveSortOrder: 0
       cellRect:
@@ -5864,7 +5866,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ff63cf1d650e5a44da0360f06bf9a610
-    - name: Frame_104
+    - name: Magic Trap Preview_Frame_104
       frameIndex: 104
       additiveSortOrder: 0
       cellRect:
@@ -5873,7 +5875,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 473ce578eec65534497944cc43f83467
-    - name: Frame_105
+    - name: Magic Trap Preview_Frame_105
       frameIndex: 105
       additiveSortOrder: 0
       cellRect:
@@ -5882,7 +5884,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 0e388b194db681148b1355f824485159
-    - name: Frame_106
+    - name: Magic Trap Preview_Frame_106
       frameIndex: 106
       additiveSortOrder: 0
       cellRect:
@@ -5891,7 +5893,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 053766618444c2b4998f52915cbdc473
-    - name: Frame_107
+    - name: Magic Trap Preview_Frame_107
       frameIndex: 107
       additiveSortOrder: 0
       cellRect:
@@ -5900,7 +5902,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 2c2d8c7d19c75554cad87d783b30e980
-    - name: Frame_108
+    - name: Magic Trap Preview_Frame_108
       frameIndex: 108
       additiveSortOrder: 0
       cellRect:
@@ -5909,7 +5911,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 6960afbc87676a94286fbf677e8d93fe
-    - name: Frame_109
+    - name: Magic Trap Preview_Frame_109
       frameIndex: 109
       additiveSortOrder: 0
       cellRect:
@@ -5918,7 +5920,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 691e491fa7ed478419a3e14691bf96e0
-    - name: Frame_110
+    - name: Magic Trap Preview_Frame_110
       frameIndex: 110
       additiveSortOrder: 0
       cellRect:
@@ -5927,7 +5929,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 9edc8fbf86b476640a80cb92eb306593
-    - name: Frame_111
+    - name: Magic Trap Preview_Frame_111
       frameIndex: 111
       additiveSortOrder: 0
       cellRect:
@@ -5936,7 +5938,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 598333c73e7c3d04bbd2970188557308
-    - name: Frame_112
+    - name: Magic Trap Preview_Frame_112
       frameIndex: 112
       additiveSortOrder: 0
       cellRect:
@@ -5945,7 +5947,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: de2bb9d921b1d28408c816673846e259
-    - name: Frame_113
+    - name: Magic Trap Preview_Frame_113
       frameIndex: 113
       additiveSortOrder: 0
       cellRect:
@@ -5954,7 +5956,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 37bd79fcc349e9d45b79c693524f8a77
-    - name: Frame_114
+    - name: Magic Trap Preview_Frame_114
       frameIndex: 114
       additiveSortOrder: 0
       cellRect:
@@ -5963,7 +5965,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: de7980c9932bcd443932bef3799aa2fa
-    - name: Frame_115
+    - name: Magic Trap Preview_Frame_115
       frameIndex: 115
       additiveSortOrder: 0
       cellRect:
@@ -5972,7 +5974,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 6382c89626547b44aab63f1f82ee9e18
-    - name: Frame_116
+    - name: Magic Trap Preview_Frame_116
       frameIndex: 116
       additiveSortOrder: 0
       cellRect:
@@ -5981,7 +5983,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ebff8b9894c15ab429ad6d46425a61e1
-    - name: Frame_117
+    - name: Magic Trap Preview_Frame_117
       frameIndex: 117
       additiveSortOrder: 0
       cellRect:
@@ -5990,7 +5992,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 1cfbdb7858e491a47a5f037c9d6f0be1
-    - name: Frame_118
+    - name: Magic Trap Preview_Frame_118
       frameIndex: 118
       additiveSortOrder: 0
       cellRect:
@@ -5999,7 +6001,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d0e4428c9f152484fb012bd7900d3c80
-    - name: Frame_119
+    - name: Magic Trap Preview_Frame_119
       frameIndex: 119
       additiveSortOrder: 0
       cellRect:
@@ -6008,7 +6010,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d788677ac39694a44a2eb6a2ba1fdc94
-    - name: Frame_120
+    - name: Magic Trap Preview_Frame_120
       frameIndex: 120
       additiveSortOrder: 0
       cellRect:
@@ -6017,7 +6019,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 48c60c646e6f92f408784048cdabf151
-    - name: Frame_121
+    - name: Magic Trap Preview_Frame_121
       frameIndex: 121
       additiveSortOrder: 0
       cellRect:
@@ -6026,7 +6028,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 36c0ed330257ab84896af943840e3abe
-    - name: Frame_122
+    - name: Magic Trap Preview_Frame_122
       frameIndex: 122
       additiveSortOrder: 0
       cellRect:
@@ -6035,7 +6037,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 3c0dfb68599f8f1439612ca0f6456e32
-    - name: Frame_123
+    - name: Magic Trap Preview_Frame_123
       frameIndex: 123
       additiveSortOrder: 0
       cellRect:
@@ -6044,7 +6046,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 9dfc738d362ef094e97f3ffe37459e38
-    - name: Frame_124
+    - name: Magic Trap Preview_Frame_124
       frameIndex: 124
       additiveSortOrder: 0
       cellRect:
@@ -6053,7 +6055,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c0b62947761f8fc4fa6fc9cbf0cfdf56
-    - name: Frame_125
+    - name: Magic Trap Preview_Frame_125
       frameIndex: 125
       additiveSortOrder: 0
       cellRect:
@@ -6062,7 +6064,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ae281963d2d31d44bb7b7844c1be3e7f
-    - name: Frame_126
+    - name: Magic Trap Preview_Frame_126
       frameIndex: 126
       additiveSortOrder: 0
       cellRect:
@@ -6071,7 +6073,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 1fe875bdf5665bc49b8aab5fc0bf977d
-    - name: Frame_127
+    - name: Magic Trap Preview_Frame_127
       frameIndex: 127
       additiveSortOrder: 0
       cellRect:
@@ -6080,7 +6082,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: eae8e080b2079494a87ba228d83e525b
-    - name: Frame_128
+    - name: Magic Trap Preview_Frame_128
       frameIndex: 128
       additiveSortOrder: 0
       cellRect:
@@ -6089,7 +6091,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c5aececa15351f147b9f7bd5df367413
-    - name: Frame_129
+    - name: Magic Trap Preview_Frame_129
       frameIndex: 129
       additiveSortOrder: 0
       cellRect:
@@ -6098,7 +6100,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 902890159d71fc14c8fb63f99b40d39a
-    - name: Frame_130
+    - name: Magic Trap Preview_Frame_130
       frameIndex: 130
       additiveSortOrder: 0
       cellRect:
@@ -6107,7 +6109,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 31628a31169037245b17bd3f3aa0c178
-    - name: Frame_131
+    - name: Magic Trap Preview_Frame_131
       frameIndex: 131
       additiveSortOrder: 0
       cellRect:
@@ -6116,7 +6118,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 6a2edc3a8925bb4429286ae28921886b
-    - name: Frame_132
+    - name: Magic Trap Preview_Frame_132
       frameIndex: 132
       additiveSortOrder: 0
       cellRect:
@@ -6125,7 +6127,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 1fa1d1388f55b7f478ab0bd56240ef70
-    - name: Frame_133
+    - name: Magic Trap Preview_Frame_133
       frameIndex: 133
       additiveSortOrder: 0
       cellRect:
@@ -6134,7 +6136,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 12cf33cb322877943994117cc0848d60
-    - name: Frame_134
+    - name: Magic Trap Preview_Frame_134
       frameIndex: 134
       additiveSortOrder: 0
       cellRect:
@@ -6143,7 +6145,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 22f19ef1196aeb74da5d36140703c2ce
-    - name: Frame_135
+    - name: Magic Trap Preview_Frame_135
       frameIndex: 135
       additiveSortOrder: 0
       cellRect:
@@ -6152,7 +6154,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 5214de4b2115d504ca76ffea7d9dac06
-    - name: Frame_136
+    - name: Magic Trap Preview_Frame_136
       frameIndex: 136
       additiveSortOrder: 0
       cellRect:
@@ -6161,7 +6163,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 89f14caf36ec2d44d96b3ef9cc5d68ba
-    - name: Frame_137
+    - name: Magic Trap Preview_Frame_137
       frameIndex: 137
       additiveSortOrder: 0
       cellRect:
@@ -6170,7 +6172,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 0a833b3a881eb41439ce535163fbd1bb
-    - name: Frame_138
+    - name: Magic Trap Preview_Frame_138
       frameIndex: 138
       additiveSortOrder: 0
       cellRect:
@@ -6179,7 +6181,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: feeb482feb2b62840af4091b98bd17e3
-    - name: Frame_139
+    - name: Magic Trap Preview_Frame_139
       frameIndex: 139
       additiveSortOrder: 0
       cellRect:
@@ -6188,7 +6190,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: fa6a55c177624154eb3c1e041e78e1be
-    - name: Frame_140
+    - name: Magic Trap Preview_Frame_140
       frameIndex: 140
       additiveSortOrder: 0
       cellRect:
@@ -6197,7 +6199,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4ac3810ee2083b043858ff022c5bad6e
-    - name: Frame_141
+    - name: Magic Trap Preview_Frame_141
       frameIndex: 141
       additiveSortOrder: 0
       cellRect:
@@ -6206,7 +6208,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 7acf3e02270ad284f91f2b3af528524d
-    - name: Frame_142
+    - name: Magic Trap Preview_Frame_142
       frameIndex: 142
       additiveSortOrder: 0
       cellRect:
@@ -6215,7 +6217,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 839930284171f2c479d62ae1cfcd832b
-    - name: Frame_143
+    - name: Magic Trap Preview_Frame_143
       frameIndex: 143
       additiveSortOrder: 0
       cellRect:
@@ -6224,7 +6226,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 98baa4242eeab5a4a9bd350f94990271
-    - name: Frame_144
+    - name: Magic Trap Preview_Frame_144
       frameIndex: 144
       additiveSortOrder: 0
       cellRect:
@@ -6233,7 +6235,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: dddf9a632db087b4e84a47a875f767da
-    - name: Frame_145
+    - name: Magic Trap Preview_Frame_145
       frameIndex: 145
       additiveSortOrder: 0
       cellRect:
@@ -6242,7 +6244,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 54753e239a7ebad4294b426f5622fd66
-    - name: Frame_146
+    - name: Magic Trap Preview_Frame_146
       frameIndex: 146
       additiveSortOrder: 0
       cellRect:
@@ -6251,7 +6253,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 428249cbcf4a80b46af7d559f0f696ae
-    - name: Frame_147
+    - name: Magic Trap Preview_Frame_147
       frameIndex: 147
       additiveSortOrder: 0
       cellRect:
@@ -6260,7 +6262,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 61b05e9f90d03694cb5b7dc3267d7efa
-    - name: Frame_148
+    - name: Magic Trap Preview_Frame_148
       frameIndex: 148
       additiveSortOrder: 0
       cellRect:
@@ -6269,7 +6271,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: fbe99233d25ad6745ba7337995eef909
-    - name: Frame_149
+    - name: Magic Trap Preview_Frame_149
       frameIndex: 149
       additiveSortOrder: 0
       cellRect:
@@ -6278,7 +6280,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 73f01df800a0a65429cd42bec60eae0c
-    - name: Frame_150
+    - name: Magic Trap Preview_Frame_150
       frameIndex: 150
       additiveSortOrder: 0
       cellRect:
@@ -6287,7 +6289,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8186f73dce8d9b24ba6ab8f09af12aa2
-    - name: Frame_151
+    - name: Magic Trap Preview_Frame_151
       frameIndex: 151
       additiveSortOrder: 0
       cellRect:
@@ -6296,7 +6298,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 42f7c887dfc43e84f8eb743925662a66
-    - name: Frame_152
+    - name: Magic Trap Preview_Frame_152
       frameIndex: 152
       additiveSortOrder: 0
       cellRect:
@@ -6305,7 +6307,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: de97f9327a07d20408c42bb4a193855d
-    - name: Frame_153
+    - name: Magic Trap Preview_Frame_153
       frameIndex: 153
       additiveSortOrder: 0
       cellRect:
@@ -6314,7 +6316,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 09a74de0d2f105641beaec6002b2806b
-    - name: Frame_154
+    - name: Magic Trap Preview_Frame_154
       frameIndex: 154
       additiveSortOrder: 0
       cellRect:
@@ -6323,7 +6325,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: f719a040b3df7584dab5875435f2831b
-    - name: Frame_155
+    - name: Magic Trap Preview_Frame_155
       frameIndex: 155
       additiveSortOrder: 0
       cellRect:
@@ -6332,7 +6334,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 03c715bf4401d0d4a87edcaf1f03490c
-    - name: Frame_156
+    - name: Magic Trap Preview_Frame_156
       frameIndex: 156
       additiveSortOrder: 0
       cellRect:
@@ -6341,7 +6343,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 804c35277b0b70845a41ccba70c6749d
-    - name: Frame_157
+    - name: Magic Trap Preview_Frame_157
       frameIndex: 157
       additiveSortOrder: 0
       cellRect:
@@ -6350,7 +6352,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4664081cc02752745988a9e278b8814b
-    - name: Frame_158
+    - name: Magic Trap Preview_Frame_158
       frameIndex: 158
       additiveSortOrder: 0
       cellRect:
@@ -6359,7 +6361,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: de348996692d8bb4aa302cc40b546d74
-    - name: Frame_159
+    - name: Magic Trap Preview_Frame_159
       frameIndex: 159
       additiveSortOrder: 0
       cellRect:
@@ -6368,7 +6370,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 5f0e346ad958b9f4abcaa2265e43edf1
-    - name: Frame_160
+    - name: Magic Trap Preview_Frame_160
       frameIndex: 160
       additiveSortOrder: 0
       cellRect:
@@ -6377,7 +6379,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 34556969e3be6ea4b8490ef15a2e4cca
-    - name: Frame_161
+    - name: Magic Trap Preview_Frame_161
       frameIndex: 161
       additiveSortOrder: 0
       cellRect:
@@ -6386,7 +6388,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: eee98a9a42260134688391469b6c313e
-    - name: Frame_162
+    - name: Magic Trap Preview_Frame_162
       frameIndex: 162
       additiveSortOrder: 0
       cellRect:
@@ -6395,7 +6397,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8a597468e7c989644b59e877e8e15d0f
-    - name: Frame_163
+    - name: Magic Trap Preview_Frame_163
       frameIndex: 163
       additiveSortOrder: 0
       cellRect:
@@ -6404,7 +6406,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 71415ebe30e451248805f2378df1bf8a
-    - name: Frame_164
+    - name: Magic Trap Preview_Frame_164
       frameIndex: 164
       additiveSortOrder: 0
       cellRect:
@@ -6413,7 +6415,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 2db0e694e69aded4193ffea97f731255
-    - name: Frame_165
+    - name: Magic Trap Preview_Frame_165
       frameIndex: 165
       additiveSortOrder: 0
       cellRect:
@@ -6422,7 +6424,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e570d91d58a180c42b92f3c7ca52b7bd
-    - name: Frame_166
+    - name: Magic Trap Preview_Frame_166
       frameIndex: 166
       additiveSortOrder: 0
       cellRect:
@@ -6431,7 +6433,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: cd34bb6ddb145e24cb9742e30c508895
-    - name: Frame_167
+    - name: Magic Trap Preview_Frame_167
       frameIndex: 167
       additiveSortOrder: 0
       cellRect:
@@ -6440,7 +6442,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 12077404c1528f042b6c40d8cb4610ed
-    - name: Frame_168
+    - name: Magic Trap Preview_Frame_168
       frameIndex: 168
       additiveSortOrder: 0
       cellRect:
@@ -6449,7 +6451,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d710372156ed1f14a90b8bf78e50dc3d
-    - name: Frame_169
+    - name: Magic Trap Preview_Frame_169
       frameIndex: 169
       additiveSortOrder: 0
       cellRect:
@@ -6458,7 +6460,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 9ba2b6434d4e7654cabb82b0f261d430
-    - name: Frame_170
+    - name: Magic Trap Preview_Frame_170
       frameIndex: 170
       additiveSortOrder: 0
       cellRect:
@@ -6467,7 +6469,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 03f1dc86bd7db8b4c9f1cfc697f63bf2
-    - name: Frame_171
+    - name: Magic Trap Preview_Frame_171
       frameIndex: 171
       additiveSortOrder: 0
       cellRect:
@@ -6476,7 +6478,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: be2c6e8d71d39004ead771b49e1556ab
-    - name: Frame_172
+    - name: Magic Trap Preview_Frame_172
       frameIndex: 172
       additiveSortOrder: 0
       cellRect:
@@ -6485,7 +6487,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 25177222192f44842b23b359ab6dd4cf
-    - name: Frame_173
+    - name: Magic Trap Preview_Frame_173
       frameIndex: 173
       additiveSortOrder: 0
       cellRect:
@@ -6494,7 +6496,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 5ca16d3cda78c214aae0523c4a4dbb24
-    - name: Frame_174
+    - name: Magic Trap Preview_Frame_174
       frameIndex: 174
       additiveSortOrder: 0
       cellRect:
@@ -6503,7 +6505,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 603f59b4d02a9cf49a3e55c446bc77d4
-    - name: Frame_175
+    - name: Magic Trap Preview_Frame_175
       frameIndex: 175
       additiveSortOrder: 0
       cellRect:
@@ -6512,7 +6514,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: a0d7d1892c504094db881d4c04eb4aa5
-    - name: Frame_176
+    - name: Magic Trap Preview_Frame_176
       frameIndex: 176
       additiveSortOrder: 0
       cellRect:
@@ -6521,7 +6523,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 82c79154a73e406408efbabd3519b199
-    - name: Frame_177
+    - name: Magic Trap Preview_Frame_177
       frameIndex: 177
       additiveSortOrder: 0
       cellRect:
@@ -6530,7 +6532,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 59458aac9ae947542b27f1f895443b1c
-    - name: Frame_178
+    - name: Magic Trap Preview_Frame_178
       frameIndex: 178
       additiveSortOrder: 0
       cellRect:
@@ -6539,7 +6541,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: db611f39ed9da7d4d9e5fa3b5aa98b25
-    - name: Frame_179
+    - name: Magic Trap Preview_Frame_179
       frameIndex: 179
       additiveSortOrder: 0
       cellRect:
@@ -6548,7 +6550,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 03e19c920ce027144bc96f2862546ac7
-    - name: Frame_180
+    - name: Magic Trap Preview_Frame_180
       frameIndex: 180
       additiveSortOrder: 0
       cellRect:
@@ -6557,7 +6559,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 25c11fe97d968084281e8bc5f0c1008e
-    - name: Frame_181
+    - name: Magic Trap Preview_Frame_181
       frameIndex: 181
       additiveSortOrder: 0
       cellRect:
@@ -6566,7 +6568,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 531616fd2df86284790efdf69d03f0c6
-    - name: Frame_182
+    - name: Magic Trap Preview_Frame_182
       frameIndex: 182
       additiveSortOrder: 0
       cellRect:
@@ -6575,7 +6577,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ab488ce9c8bdf0443a06821dcc32c044
-    - name: Frame_183
+    - name: Magic Trap Preview_Frame_183
       frameIndex: 183
       additiveSortOrder: 0
       cellRect:
@@ -6584,7 +6586,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 7da3d8c6c20128148af3b4b9d515d0ea
-    - name: Frame_184
+    - name: Magic Trap Preview_Frame_184
       frameIndex: 184
       additiveSortOrder: 0
       cellRect:
@@ -6593,7 +6595,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 0fbd305086ab56f418fdaac44cd24378
-    - name: Frame_185
+    - name: Magic Trap Preview_Frame_185
       frameIndex: 185
       additiveSortOrder: 0
       cellRect:
@@ -6602,7 +6604,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 90252643ddc1afe418e6a1bc89094ec8
-    - name: Frame_186
+    - name: Magic Trap Preview_Frame_186
       frameIndex: 186
       additiveSortOrder: 0
       cellRect:
@@ -6611,7 +6613,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c439d3fb2252ce249bb6f72b566f3a4a
-    - name: Frame_187
+    - name: Magic Trap Preview_Frame_187
       frameIndex: 187
       additiveSortOrder: 0
       cellRect:
@@ -6620,7 +6622,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8171368809f32114c9fbed9ed1b15362
-    - name: Frame_188
+    - name: Magic Trap Preview_Frame_188
       frameIndex: 188
       additiveSortOrder: 0
       cellRect:
@@ -6629,7 +6631,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e054d7abb6ab56647a7447ffcd53b22d
-    - name: Frame_189
+    - name: Magic Trap Preview_Frame_189
       frameIndex: 189
       additiveSortOrder: 0
       cellRect:
@@ -6638,7 +6640,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 9e602f1afb351834f850ec3b6e869020
-    - name: Frame_190
+    - name: Magic Trap Preview_Frame_190
       frameIndex: 190
       additiveSortOrder: 0
       cellRect:
@@ -6647,7 +6649,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4840d9c08ba815b43b15bb24e69df53a
-    - name: Frame_191
+    - name: Magic Trap Preview_Frame_191
       frameIndex: 191
       additiveSortOrder: 0
       cellRect:
@@ -6656,7 +6658,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 322b5767e672cc744ae363bfde501e68
-    - name: Frame_192
+    - name: Magic Trap Preview_Frame_192
       frameIndex: 192
       additiveSortOrder: 0
       cellRect:
@@ -6665,7 +6667,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4319d1c0f8146a64bb566d1988f64d20
-    - name: Frame_193
+    - name: Magic Trap Preview_Frame_193
       frameIndex: 193
       additiveSortOrder: 0
       cellRect:
@@ -6674,7 +6676,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 182d5a84dfd6bdb48bc21774d7255b6c
-    - name: Frame_194
+    - name: Magic Trap Preview_Frame_194
       frameIndex: 194
       additiveSortOrder: 0
       cellRect:
@@ -6683,7 +6685,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 5d19a159b879f8e4898d2e8d20f06c9e
-    - name: Frame_195
+    - name: Magic Trap Preview_Frame_195
       frameIndex: 195
       additiveSortOrder: 0
       cellRect:
@@ -6692,7 +6694,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 169e6182374a8894a99b921f0a588055
-    - name: Frame_196
+    - name: Magic Trap Preview_Frame_196
       frameIndex: 196
       additiveSortOrder: 0
       cellRect:
@@ -6701,7 +6703,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 77649f03ee2b3214eb818b49cd5d0ebf
-    - name: Frame_197
+    - name: Magic Trap Preview_Frame_197
       frameIndex: 197
       additiveSortOrder: 0
       cellRect:
@@ -6710,7 +6712,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: efda3f33c853bd745934336ecb781bd2
-    - name: Frame_198
+    - name: Magic Trap Preview_Frame_198
       frameIndex: 198
       additiveSortOrder: 0
       cellRect:
@@ -6719,7 +6721,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 40045716adc871f4aaa249cf69735a97
-    - name: Frame_199
+    - name: Magic Trap Preview_Frame_199
       frameIndex: 199
       additiveSortOrder: 0
       cellRect:
@@ -6728,7 +6730,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d91362fb3712a3c4ebf990a517d3523b
-    - name: Frame_200
+    - name: Magic Trap Preview_Frame_200
       frameIndex: 200
       additiveSortOrder: 0
       cellRect:
@@ -6737,7 +6739,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 418c875d91207d845be03a0308a3d3c2
-    - name: Frame_201
+    - name: Magic Trap Preview_Frame_201
       frameIndex: 201
       additiveSortOrder: 0
       cellRect:
@@ -6746,7 +6748,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 27029839024b55844ac3a5d5746057ef
-    - name: Frame_202
+    - name: Magic Trap Preview_Frame_202
       frameIndex: 202
       additiveSortOrder: 0
       cellRect:
@@ -6755,7 +6757,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: b1f024faec46a6244bdeaf71db874a46
-    - name: Frame_203
+    - name: Magic Trap Preview_Frame_203
       frameIndex: 203
       additiveSortOrder: 0
       cellRect:
@@ -6764,7 +6766,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d6c29b39159acac4bbd9e8ee6c28d537
-    - name: Frame_204
+    - name: Magic Trap Preview_Frame_204
       frameIndex: 204
       additiveSortOrder: 0
       cellRect:
@@ -6773,7 +6775,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e5be165ab6367474cbdc3c5cb1a9280a
-    - name: Frame_205
+    - name: Magic Trap Preview_Frame_205
       frameIndex: 205
       additiveSortOrder: 0
       cellRect:
@@ -6782,7 +6784,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: bc3278a297c73104e971c681044b3c22
-    - name: Frame_206
+    - name: Magic Trap Preview_Frame_206
       frameIndex: 206
       additiveSortOrder: 0
       cellRect:
@@ -6791,7 +6793,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: cfdcaf7b633d7364bbf33a40d56dd889
-    - name: Frame_207
+    - name: Magic Trap Preview_Frame_207
       frameIndex: 207
       additiveSortOrder: 0
       cellRect:
@@ -6800,7 +6802,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ef3542835f0dd8640b6dccf00b89fbb6
-    - name: Frame_208
+    - name: Magic Trap Preview_Frame_208
       frameIndex: 208
       additiveSortOrder: 0
       cellRect:
@@ -6809,7 +6811,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4b60533207f411247a0c17a67beaeff5
-    - name: Frame_209
+    - name: Magic Trap Preview_Frame_209
       frameIndex: 209
       additiveSortOrder: 0
       cellRect:
@@ -6818,7 +6820,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8b0e7135eb9743b4082d13be5f1a998d
-    - name: Frame_210
+    - name: Magic Trap Preview_Frame_210
       frameIndex: 210
       additiveSortOrder: 0
       cellRect:
@@ -6827,7 +6829,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 2f370afd4a4d89542b2b2c8639abe1f1
-    - name: Frame_211
+    - name: Magic Trap Preview_Frame_211
       frameIndex: 211
       additiveSortOrder: 0
       cellRect:
@@ -6836,7 +6838,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ef49ce1d44648c4489198b43aff617ab
-    - name: Frame_212
+    - name: Magic Trap Preview_Frame_212
       frameIndex: 212
       additiveSortOrder: 0
       cellRect:
@@ -6845,7 +6847,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: c2b53c260f20bd349a19c5f0f71dd28e
-    - name: Frame_213
+    - name: Magic Trap Preview_Frame_213
       frameIndex: 213
       additiveSortOrder: 0
       cellRect:
@@ -6854,7 +6856,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 66d7f42a406ff354b9fea26d907f52ea
-    - name: Frame_214
+    - name: Magic Trap Preview_Frame_214
       frameIndex: 214
       additiveSortOrder: 0
       cellRect:
@@ -6863,7 +6865,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 8036031e3c77f2644bcfb44be38b81bd
-    - name: Frame_215
+    - name: Magic Trap Preview_Frame_215
       frameIndex: 215
       additiveSortOrder: 0
       cellRect:
@@ -6872,7 +6874,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 4f318ac83f2217a46bd0fd2184caf73f
-    - name: Frame_216
+    - name: Magic Trap Preview_Frame_216
       frameIndex: 216
       additiveSortOrder: 0
       cellRect:
@@ -6881,7 +6883,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 7a6c914c04e348947b95ff927a0551c7
-    - name: Frame_217
+    - name: Magic Trap Preview_Frame_217
       frameIndex: 217
       additiveSortOrder: 0
       cellRect:
@@ -6890,7 +6892,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 6213dc9af4689fd43989e833750181a0
-    - name: Frame_218
+    - name: Magic Trap Preview_Frame_218
       frameIndex: 218
       additiveSortOrder: 0
       cellRect:
@@ -6899,7 +6901,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 5d7a8dcd1574ed94996bb6b68b8e21ba
-    - name: Frame_219
+    - name: Magic Trap Preview_Frame_219
       frameIndex: 219
       additiveSortOrder: 0
       cellRect:
@@ -6908,7 +6910,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: bcfbc7ae21c73e44b8d402161595c2cb
-    - name: Frame_220
+    - name: Magic Trap Preview_Frame_220
       frameIndex: 220
       additiveSortOrder: 0
       cellRect:
@@ -6917,7 +6919,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: f34c1339482b2a24cac63af273009c59
-    - name: Frame_221
+    - name: Magic Trap Preview_Frame_221
       frameIndex: 221
       additiveSortOrder: 0
       cellRect:
@@ -6926,7 +6928,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 1b9d9e3f2d4a2d740b9c60be0462b6f4
-    - name: Frame_222
+    - name: Magic Trap Preview_Frame_222
       frameIndex: 222
       additiveSortOrder: 0
       cellRect:
@@ -6935,7 +6937,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 30bb02b9191faeb4ba324d151c82cc7e
-    - name: Frame_223
+    - name: Magic Trap Preview_Frame_223
       frameIndex: 223
       additiveSortOrder: 0
       cellRect:
@@ -6944,7 +6946,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 04b747cd14afa4748952fa601b324d7a
-    - name: Frame_224
+    - name: Magic Trap Preview_Frame_224
       frameIndex: 224
       additiveSortOrder: 0
       cellRect:
@@ -6953,7 +6955,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: a05a726963ee95142b9821edbb31691c
-    - name: Frame_225
+    - name: Magic Trap Preview_Frame_225
       frameIndex: 225
       additiveSortOrder: 0
       cellRect:
@@ -6962,7 +6964,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 74816dcc3f6bcf343bba13cd6f9e0a4a
-    - name: Frame_226
+    - name: Magic Trap Preview_Frame_226
       frameIndex: 226
       additiveSortOrder: 0
       cellRect:
@@ -6971,7 +6973,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e22be0c26e2918f4fbc927055cc5991f
-    - name: Frame_227
+    - name: Magic Trap Preview_Frame_227
       frameIndex: 227
       additiveSortOrder: 0
       cellRect:
@@ -6980,7 +6982,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: b5d3906db531f254e9b258e382d6f193
-    - name: Frame_228
+    - name: Magic Trap Preview_Frame_228
       frameIndex: 228
       additiveSortOrder: 0
       cellRect:
@@ -6989,7 +6991,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: bd787da5e31d5dc4fb4107168cf68781
-    - name: Frame_229
+    - name: Magic Trap Preview_Frame_229
       frameIndex: 229
       additiveSortOrder: 0
       cellRect:
@@ -6998,7 +7000,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 3df5442f18a3a504f9e018f2390a8283
-    - name: Frame_230
+    - name: Magic Trap Preview_Frame_230
       frameIndex: 230
       additiveSortOrder: 0
       cellRect:
@@ -7007,7 +7009,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e433383a423244c4ea518635011ed888
-    - name: Frame_231
+    - name: Magic Trap Preview_Frame_231
       frameIndex: 231
       additiveSortOrder: 0
       cellRect:
@@ -7016,7 +7018,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 5807fe1f05490a1428ccdef19a336657
-    - name: Frame_232
+    - name: Magic Trap Preview_Frame_232
       frameIndex: 232
       additiveSortOrder: 0
       cellRect:
@@ -7025,7 +7027,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 088aa893d13cf83479fa70c409c3e680
-    - name: Frame_233
+    - name: Magic Trap Preview_Frame_233
       frameIndex: 233
       additiveSortOrder: 0
       cellRect:
@@ -7034,7 +7036,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: d64b9c9f6de1e424294c00bcb029032a
-    - name: Frame_234
+    - name: Magic Trap Preview_Frame_234
       frameIndex: 234
       additiveSortOrder: 0
       cellRect:
@@ -7043,7 +7045,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 84265e12c9260ea4a8a916b8b2cce2c0
-    - name: Frame_235
+    - name: Magic Trap Preview_Frame_235
       frameIndex: 235
       additiveSortOrder: 0
       cellRect:
@@ -7052,7 +7054,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: e6b5fa8e57358a047bc2168240b4e4f4
-    - name: Frame_236
+    - name: Magic Trap Preview_Frame_236
       frameIndex: 236
       additiveSortOrder: 0
       cellRect:
@@ -7061,7 +7063,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: ea0758f2d59f9384c844a19845839e76
-    - name: Frame_237
+    - name: Magic Trap Preview_Frame_237
       frameIndex: 237
       additiveSortOrder: 0
       cellRect:
@@ -7070,7 +7072,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: 36170946a933e524b9fd985385cd0663
-    - name: Frame_238
+    - name: Magic Trap Preview_Frame_238
       frameIndex: 238
       additiveSortOrder: 0
       cellRect:
@@ -7079,7 +7081,7 @@ ScriptedImporter:
         width: 144
         height: 64
       spriteId: a418b5fbd5bd19440a9b401905f408ed
-    - name: Frame_239
+    - name: Magic Trap Preview_Frame_239
       frameIndex: 239
       additiveSortOrder: 0
       cellRect:

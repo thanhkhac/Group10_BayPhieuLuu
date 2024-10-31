@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -1928,7 +1930,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Fire Trap Preview_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -1937,7 +1939,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 85c30e7b8194cc34fb080ac81e8e1c88
-    - name: Frame_1
+    - name: Fire Trap Preview_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -1946,7 +1948,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: cea41cc6c112f964dbee1fd2e5124b1b
-    - name: Frame_2
+    - name: Fire Trap Preview_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -1955,7 +1957,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: e300c9d168b70b24188e0cd977d1bfe1
-    - name: Frame_3
+    - name: Fire Trap Preview_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -1964,7 +1966,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6f1ad4e2332e9784b9c435453062798f
-    - name: Frame_4
+    - name: Fire Trap Preview_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -1973,7 +1975,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 66445b9767907e445aa25be823f43445
-    - name: Frame_5
+    - name: Fire Trap Preview_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -1982,7 +1984,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ddd42b13260209d4c96a4d004c1a736d
-    - name: Frame_6
+    - name: Fire Trap Preview_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -1991,7 +1993,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 4559db368cf4a4f42a76190cea7f4392
-    - name: Frame_7
+    - name: Fire Trap Preview_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -2000,7 +2002,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: a8e462f91efaa2d43b989009c5150b9b
-    - name: Frame_8
+    - name: Fire Trap Preview_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -2009,7 +2011,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 170a20915d2828348913f4777a633050
-    - name: Frame_9
+    - name: Fire Trap Preview_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -2018,7 +2020,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 712895e33993a6c46b79a27a80ade006
-    - name: Frame_10
+    - name: Fire Trap Preview_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -2027,7 +2029,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d1fcec0b0ebd24b4a89417cc986a01c9
-    - name: Frame_11
+    - name: Fire Trap Preview_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -2036,7 +2038,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 4e46d156fe4507a409d0dfe6b4080906
-    - name: Frame_12
+    - name: Fire Trap Preview_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -2045,7 +2047,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 51b31378f885978478e177baa4242f6a
-    - name: Frame_13
+    - name: Fire Trap Preview_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -2054,7 +2056,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 8a5b5fdab55eb3f4a9bb2fada80a7dbb
-    - name: Frame_14
+    - name: Fire Trap Preview_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -2063,7 +2065,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 029be2b0ebb493849825fdf410a7cf77
-    - name: Frame_15
+    - name: Fire Trap Preview_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -2072,7 +2074,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d82162eeafd236e40a9b6d382fd9497d
-    - name: Frame_16
+    - name: Fire Trap Preview_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -2081,7 +2083,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7f3c18c167acfd846aab199cf8650f5a
-    - name: Frame_17
+    - name: Fire Trap Preview_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -2090,7 +2092,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 951d96ea3274793458a97b375a5c2112
-    - name: Frame_18
+    - name: Fire Trap Preview_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
@@ -2099,7 +2101,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7a179fc580aa747448ce12f6d4e11dee
-    - name: Frame_19
+    - name: Fire Trap Preview_Frame_19
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
@@ -2108,7 +2110,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7f7c9906ac3f7b648bac1e9a9494080b
-    - name: Frame_20
+    - name: Fire Trap Preview_Frame_20
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
@@ -2117,7 +2119,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6c9b785f28959fe4cacc77dcf3538cf0
-    - name: Frame_21
+    - name: Fire Trap Preview_Frame_21
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
@@ -2126,7 +2128,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: e33134e2ea38b624eba980ec5cd36118
-    - name: Frame_22
+    - name: Fire Trap Preview_Frame_22
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
@@ -2135,7 +2137,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: b786cf782791d364e8ea2130e836d7d3
-    - name: Frame_23
+    - name: Fire Trap Preview_Frame_23
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
@@ -2144,7 +2146,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6fa1734995885654e99f63077dae5e52
-    - name: Frame_24
+    - name: Fire Trap Preview_Frame_24
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
@@ -2153,7 +2155,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ceacca3cd38814e4faf4407ee8c07d81
-    - name: Frame_25
+    - name: Fire Trap Preview_Frame_25
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
@@ -2162,7 +2164,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 3ff0a7baf1cd2b040badd84657dfa138
-    - name: Frame_26
+    - name: Fire Trap Preview_Frame_26
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
@@ -2171,7 +2173,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 65a00da720898244b8e9f04b723c2943
-    - name: Frame_27
+    - name: Fire Trap Preview_Frame_27
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
@@ -2180,7 +2182,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: fd0f38c4e8a35a94786b42bbfff18285
-    - name: Frame_28
+    - name: Fire Trap Preview_Frame_28
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
@@ -2189,7 +2191,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c464c29c8dacfba47ba7f8db798d7be0
-    - name: Frame_29
+    - name: Fire Trap Preview_Frame_29
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
@@ -2198,7 +2200,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 36b4398d4516c5642bcb74f57fdc19e4
-    - name: Frame_30
+    - name: Fire Trap Preview_Frame_30
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
@@ -2207,7 +2209,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f0e68ee1769212643bff3612ade46e9d
-    - name: Frame_31
+    - name: Fire Trap Preview_Frame_31
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
@@ -2216,7 +2218,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 69a9cca83148e044eb036903a40b82ff
-    - name: Frame_32
+    - name: Fire Trap Preview_Frame_32
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
@@ -2225,7 +2227,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 80955ebeab405a4438c94d4a3ebd5910
-    - name: Frame_33
+    - name: Fire Trap Preview_Frame_33
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
@@ -2234,7 +2236,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 25c6753c4fe1bd744a78047eb6c35853
-    - name: Frame_34
+    - name: Fire Trap Preview_Frame_34
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
@@ -2243,7 +2245,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7cabb032dd2461b4aadb59cc006f6a01
-    - name: Frame_35
+    - name: Fire Trap Preview_Frame_35
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
@@ -2252,7 +2254,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7e624c8db921d524bae265e71cd0df98
-    - name: Frame_36
+    - name: Fire Trap Preview_Frame_36
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
@@ -2261,7 +2263,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 342a951a06d6a694994d579325f4a19b
-    - name: Frame_37
+    - name: Fire Trap Preview_Frame_37
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
@@ -2270,7 +2272,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7757df0919136c847910da39c9f744d8
-    - name: Frame_38
+    - name: Fire Trap Preview_Frame_38
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
@@ -2279,7 +2281,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 9a36b439cd41509468f8e96b53971cf7
-    - name: Frame_39
+    - name: Fire Trap Preview_Frame_39
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
@@ -2288,7 +2290,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6e50247f9713f7840aa1a39cc79f2ae0
-    - name: Frame_40
+    - name: Fire Trap Preview_Frame_40
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
@@ -2297,7 +2299,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: dc9d96d5d563df24c817c8231a927527
-    - name: Frame_41
+    - name: Fire Trap Preview_Frame_41
       frameIndex: 41
       additiveSortOrder: 0
       cellRect:
@@ -2306,7 +2308,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: b79e555f68fdbde40bc39e2bb9c3ccca
-    - name: Frame_42
+    - name: Fire Trap Preview_Frame_42
       frameIndex: 42
       additiveSortOrder: 0
       cellRect:
@@ -2315,7 +2317,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6d3250defe510614fab49e5795d55d26
-    - name: Frame_43
+    - name: Fire Trap Preview_Frame_43
       frameIndex: 43
       additiveSortOrder: 0
       cellRect:
@@ -2324,7 +2326,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f77c71987079a22449c58bdb6be05988
-    - name: Frame_44
+    - name: Fire Trap Preview_Frame_44
       frameIndex: 44
       additiveSortOrder: 0
       cellRect:
@@ -2333,7 +2335,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 04737bda3a62c1b46afdb5d88584b4de
-    - name: Frame_45
+    - name: Fire Trap Preview_Frame_45
       frameIndex: 45
       additiveSortOrder: 0
       cellRect:
@@ -2342,7 +2344,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c5533c4f694b6ef4099a6f2e770c545e
-    - name: Frame_46
+    - name: Fire Trap Preview_Frame_46
       frameIndex: 46
       additiveSortOrder: 0
       cellRect:
@@ -2351,7 +2353,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 8884bbd4a0273034c991c95dad0a27cb
-    - name: Frame_47
+    - name: Fire Trap Preview_Frame_47
       frameIndex: 47
       additiveSortOrder: 0
       cellRect:
@@ -2360,7 +2362,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1050ba6c9d28404459eab3b90f717c1e
-    - name: Frame_48
+    - name: Fire Trap Preview_Frame_48
       frameIndex: 48
       additiveSortOrder: 0
       cellRect:
@@ -2369,7 +2371,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ae65666f3abf0b147b9625751e20bd6c
-    - name: Frame_49
+    - name: Fire Trap Preview_Frame_49
       frameIndex: 49
       additiveSortOrder: 0
       cellRect:
@@ -2378,7 +2380,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 3ac9630fbadd06e449d09ac0c5b2dec9
-    - name: Frame_50
+    - name: Fire Trap Preview_Frame_50
       frameIndex: 50
       additiveSortOrder: 0
       cellRect:
@@ -2387,7 +2389,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 3a50f2a0b0adec843b7663bb13ab51ea
-    - name: Frame_51
+    - name: Fire Trap Preview_Frame_51
       frameIndex: 51
       additiveSortOrder: 0
       cellRect:
@@ -2396,7 +2398,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: eed71963692b014469438d47e4227b97
-    - name: Frame_52
+    - name: Fire Trap Preview_Frame_52
       frameIndex: 52
       additiveSortOrder: 0
       cellRect:
@@ -2405,7 +2407,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1a062edb542f2f24aa7e326b52cd1ca8
-    - name: Frame_53
+    - name: Fire Trap Preview_Frame_53
       frameIndex: 53
       additiveSortOrder: 0
       cellRect:
@@ -2414,7 +2416,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 77be99b096dfd9840a6af7c505487f38
-    - name: Frame_54
+    - name: Fire Trap Preview_Frame_54
       frameIndex: 54
       additiveSortOrder: 0
       cellRect:
@@ -2423,7 +2425,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 71f4e059c2c5bbf4ba98d0217cfff2a0
-    - name: Frame_55
+    - name: Fire Trap Preview_Frame_55
       frameIndex: 55
       additiveSortOrder: 0
       cellRect:
@@ -2432,7 +2434,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 2f97dadceddd2db4b932b9264ea93dac
-    - name: Frame_56
+    - name: Fire Trap Preview_Frame_56
       frameIndex: 56
       additiveSortOrder: 0
       cellRect:
@@ -2441,7 +2443,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 648cc6bebe0bf784095e2ac874b04c69
-    - name: Frame_57
+    - name: Fire Trap Preview_Frame_57
       frameIndex: 57
       additiveSortOrder: 0
       cellRect:
@@ -2450,7 +2452,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c69a452e8aba8924fba50df19026f343
-    - name: Frame_58
+    - name: Fire Trap Preview_Frame_58
       frameIndex: 58
       additiveSortOrder: 0
       cellRect:
@@ -2459,7 +2461,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f5c946f585448764db8cda586c8cd0ec
-    - name: Frame_59
+    - name: Fire Trap Preview_Frame_59
       frameIndex: 59
       additiveSortOrder: 0
       cellRect:
@@ -2468,7 +2470,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: fa6b929792675854b94a84eae0bd73f5
-    - name: Frame_60
+    - name: Fire Trap Preview_Frame_60
       frameIndex: 60
       additiveSortOrder: 0
       cellRect:
@@ -2477,7 +2479,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c2ac8cfb1625db74b987c02fcc28821b
-    - name: Frame_61
+    - name: Fire Trap Preview_Frame_61
       frameIndex: 61
       additiveSortOrder: 0
       cellRect:
@@ -2486,7 +2488,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 38dfb09bec2b0fe4fa51972d9c0988f7
-    - name: Frame_62
+    - name: Fire Trap Preview_Frame_62
       frameIndex: 62
       additiveSortOrder: 0
       cellRect:
@@ -2495,7 +2497,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 4d7b348d40d703c44a956ce5d18c8a34
-    - name: Frame_63
+    - name: Fire Trap Preview_Frame_63
       frameIndex: 63
       additiveSortOrder: 0
       cellRect:
@@ -2504,7 +2506,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 2cb374cf28285094cb336d106f49f119
-    - name: Frame_64
+    - name: Fire Trap Preview_Frame_64
       frameIndex: 64
       additiveSortOrder: 0
       cellRect:
@@ -2513,7 +2515,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 393a393bcca30174abb6d3c4cb8132a9
-    - name: Frame_65
+    - name: Fire Trap Preview_Frame_65
       frameIndex: 65
       additiveSortOrder: 0
       cellRect:
@@ -2522,7 +2524,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f6e4011f0d5816e42aa9b5403b57f338
-    - name: Frame_66
+    - name: Fire Trap Preview_Frame_66
       frameIndex: 66
       additiveSortOrder: 0
       cellRect:
@@ -2531,7 +2533,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 3896a6b64ee7a20408d61872e1ffbd8e
-    - name: Frame_67
+    - name: Fire Trap Preview_Frame_67
       frameIndex: 67
       additiveSortOrder: 0
       cellRect:
@@ -2540,7 +2542,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: fe9ec90308ccc9945856f1e877a45c65
-    - name: Frame_68
+    - name: Fire Trap Preview_Frame_68
       frameIndex: 68
       additiveSortOrder: 0
       cellRect:
@@ -2549,7 +2551,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6c1fe2481ec51e642a27d111a2153d4a
-    - name: Frame_69
+    - name: Fire Trap Preview_Frame_69
       frameIndex: 69
       additiveSortOrder: 0
       cellRect:
@@ -2558,7 +2560,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 6112f6416596fa245ab9035f6f19cc4c
-    - name: Frame_70
+    - name: Fire Trap Preview_Frame_70
       frameIndex: 70
       additiveSortOrder: 0
       cellRect:
@@ -2567,7 +2569,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 4078de09a49fb874bad1f6ee85bcf6c3
-    - name: Frame_71
+    - name: Fire Trap Preview_Frame_71
       frameIndex: 71
       additiveSortOrder: 0
       cellRect:
@@ -2576,7 +2578,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1e4bf375d6673c345a9105bd580ff016
-    - name: Frame_72
+    - name: Fire Trap Preview_Frame_72
       frameIndex: 72
       additiveSortOrder: 0
       cellRect:
@@ -2585,7 +2587,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 97a7046d963f2de47a9c640a5fae829b
-    - name: Frame_73
+    - name: Fire Trap Preview_Frame_73
       frameIndex: 73
       additiveSortOrder: 0
       cellRect:
@@ -2594,7 +2596,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7350b4608ca233140a46bf662a036159
-    - name: Frame_74
+    - name: Fire Trap Preview_Frame_74
       frameIndex: 74
       additiveSortOrder: 0
       cellRect:
@@ -2603,7 +2605,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 67711281a04c2cc4dbfeb62c0d726a4b
-    - name: Frame_75
+    - name: Fire Trap Preview_Frame_75
       frameIndex: 75
       additiveSortOrder: 0
       cellRect:
@@ -2612,7 +2614,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: cb52191ad10e2d24ebe03b8004c238dc
-    - name: Frame_76
+    - name: Fire Trap Preview_Frame_76
       frameIndex: 76
       additiveSortOrder: 0
       cellRect:
@@ -2621,7 +2623,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 3337732c44d5d3f4d8b0faf5ae60d73c
-    - name: Frame_77
+    - name: Fire Trap Preview_Frame_77
       frameIndex: 77
       additiveSortOrder: 0
       cellRect:
@@ -2630,7 +2632,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5ccdfa1e79db4244bafdf6bb6c450d6c
-    - name: Frame_78
+    - name: Fire Trap Preview_Frame_78
       frameIndex: 78
       additiveSortOrder: 0
       cellRect:
@@ -2639,7 +2641,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ab8b2720e7dcb234da6719c03f0064dd
-    - name: Frame_79
+    - name: Fire Trap Preview_Frame_79
       frameIndex: 79
       additiveSortOrder: 0
       cellRect:
@@ -2648,7 +2650,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c7099b68cefc92c42b3640f4e282e217
-    - name: Frame_80
+    - name: Fire Trap Preview_Frame_80
       frameIndex: 80
       additiveSortOrder: 0
       cellRect:
@@ -2657,7 +2659,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 7d733640e144ad8429199871a7f2490d
-    - name: Frame_81
+    - name: Fire Trap Preview_Frame_81
       frameIndex: 81
       additiveSortOrder: 0
       cellRect:
@@ -2666,7 +2668,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: fd588ebff6665b941ad7fada80eb28d0
-    - name: Frame_82
+    - name: Fire Trap Preview_Frame_82
       frameIndex: 82
       additiveSortOrder: 0
       cellRect:
@@ -2675,7 +2677,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: c59cda58b6b9f604c85ad8eea9dd9748
-    - name: Frame_83
+    - name: Fire Trap Preview_Frame_83
       frameIndex: 83
       additiveSortOrder: 0
       cellRect:
@@ -2684,7 +2686,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d3c34d94ee2a1a04e95fcae9d55925c4
-    - name: Frame_84
+    - name: Fire Trap Preview_Frame_84
       frameIndex: 84
       additiveSortOrder: 0
       cellRect:
@@ -2693,7 +2695,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 2728d90fb772d124eb2efbcdfa139eeb
-    - name: Frame_85
+    - name: Fire Trap Preview_Frame_85
       frameIndex: 85
       additiveSortOrder: 0
       cellRect:
@@ -2702,7 +2704,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: b148db6b18740df458c5967055aa0291
-    - name: Frame_86
+    - name: Fire Trap Preview_Frame_86
       frameIndex: 86
       additiveSortOrder: 0
       cellRect:
@@ -2711,7 +2713,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: b40890d55f831c24aa970c8a2c86b848
-    - name: Frame_87
+    - name: Fire Trap Preview_Frame_87
       frameIndex: 87
       additiveSortOrder: 0
       cellRect:
@@ -2720,7 +2722,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 1072f84524c8a0848928de09f4b4bf7a
-    - name: Frame_88
+    - name: Fire Trap Preview_Frame_88
       frameIndex: 88
       additiveSortOrder: 0
       cellRect:
@@ -2729,7 +2731,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 4379eb5f471c40a4dad2684a1fa2dbf8
-    - name: Frame_89
+    - name: Fire Trap Preview_Frame_89
       frameIndex: 89
       additiveSortOrder: 0
       cellRect:
