@@ -35,7 +35,6 @@ public class BossDemonScript : MonoBehaviour
         fireRangeL = transform.position.x - 5;
         fireRangeR = transform.position.x + 5;
 
-
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         if (player != null)
