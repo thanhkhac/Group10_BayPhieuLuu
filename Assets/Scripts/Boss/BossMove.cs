@@ -61,6 +61,7 @@ public class BossMove : MonoBehaviour
 
 			if(BossHealth.health >= 0)
 			{
+				delayAtk += Time.deltaTime;
 				moveWithPlayer(distanceToPlayer, direction, relativePosition);
 				Acttack(distanceToPlayer);
 			}
@@ -98,8 +99,8 @@ public class BossMove : MonoBehaviour
 
 	public void Acttack(float distanceToPlayer)
     {
-		delayAtk += Time.deltaTime;
-		if (distanceToPlayer <= stopDistance + 0.3f)
+		
+		if (distanceToPlayer <= stopDistance + 0.5f)
 		{
 			animator.SetBool("IsMove", false);
 		}

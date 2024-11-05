@@ -224,6 +224,46 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[0].x
+      value: 0.24715891
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[0].y
+      value: -0.79491234
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[2].x
+      value: 0.3666418
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[2].y
+      value: -0.7876307
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[35].y
+      value: -0.7905366
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[36].x
+      value: -0.08034296
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[36].y
+      value: -0.7905236
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[40].x
+      value: 0.24503702
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792293, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: m_Points.Array.data[40].y
+      value: -0.79548806
+      objectReference: {fileID: 0}
+    - target: {fileID: 7250582915079792298, guid: 0666b14244b79344f8641379f8de0888, type: 3}
+      propertyPath: moveSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 7250582913399482819, guid: 0666b14244b79344f8641379f8de0888, type: 3}
@@ -252,6 +292,10 @@ PrefabInstance:
       propertyPath: Fire
       value: 
       objectReference: {fileID: 6926910791951528150}
+    - target: {fileID: 1385540547381281929, guid: d6e4196617851984c92cdd63e6b07396, type: 3}
+      propertyPath: moveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1385540547381281930, guid: d6e4196617851984c92cdd63e6b07396, type: 3}
       propertyPath: m_RootOrder
       value: 1

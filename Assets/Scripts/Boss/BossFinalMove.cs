@@ -88,7 +88,11 @@ public class BossFinalMove : MonoBehaviour
 		if (distanceToPlayer <= stopDistance)
 		{
 			animator.SetBool("IsMove", false);
-			if (delayAtk >= 3f)
+		}
+		if (distanceToPlayer <= stopDistance + 2f)
+		{
+			animator.SetBool("IsMove", false);
+			if (delayAtk >= 2f)
 			{
 				BossMove.BossDame.dame = 250f;
 				animator.SetTrigger("Atk");
