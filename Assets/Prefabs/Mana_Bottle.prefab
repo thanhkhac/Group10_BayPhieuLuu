@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5335780655610879756}
   m_Layer: 8
   m_Name: Mana_Bottle
-  m_TagString: Untagged
+  m_TagString: ManaBottle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

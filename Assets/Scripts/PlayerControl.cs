@@ -15,6 +15,9 @@ public class PlayerControl : MonoBehaviour
     public Animator animator;
     public Image bloodBar;
     public Image manaBar;
+    
+    public Canvas gameUi;
+    public Canvas gameOver;
 
 
     private bool isJumping = false;
@@ -23,12 +26,23 @@ public class PlayerControl : MonoBehaviour
     private bool isPlayable = false;
     void Awake()
     {
+        PlayerData.PLayerMana = PlayerData.OldPlayerMana;
+        PlayerData.PLayerHealth = PlayerData.OldPLayerHealth;
+        UpdateHealthBar();
+        UpdateManaBar();
+        
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
+        if (PlayerData.PLayerHealth <= 0)
+        {
+            gameUi.enabled = false;
+            gameOver.enabled = true;
+            gameObject.SetActive(false);
+        }
         UpdateAnimationStates();
         horizontal = Input.GetAxis("Horizontal");
         Move();
@@ -67,7 +81,10 @@ public class PlayerControl : MonoBehaviour
         }
         else { animator.SetBool("isRangeAttacking", false); }
 
-        if (Input.GetKeyDown(KeyCode.Q)) { animator.SetBool("isUltimate", true); }
+        if (Input.GetKeyDown(KeyCode.Q) && PlayerData.PLayerMana >= 100)
+        {
+            animator.SetBool("isUltimate", true); 
+        }
         else { animator.SetBool("isUltimate", false); }
 
         if (Input.GetKeyDown(KeyCode.Mouse1)) { animator.SetBool("isDefending", true); }
@@ -98,7 +115,7 @@ public class PlayerControl : MonoBehaviour
         Debug.Log("DisableMove");
         canMove = false;
     }
-    
+
     public void DisableHit()
     {
         Debug.Log("Hit");
@@ -125,11 +142,17 @@ public class PlayerControl : MonoBehaviour
 
     public void UpdateHealthBar()
     {
-        bloodBar.fillAmount = GameManager.PLayerHealth / 100f;
+        bloodBar.fillAmount = PlayerData.PLayerHealth / 100f;
     }
     public void UpdateManaBar()
     {
-        manaBar.fillAmount = GameManager.PLayerMana / 100f;
+        manaBar.fillAmount = PlayerData.PLayerMana / 100f;
+    }
+    
+    public void EnableUltimate()
+    {
+        PlayerData.PLayerMana = 0;
+        UpdateManaBar();
     }
 
     // private void OnTriggerEnter2D(Collider2D collision)

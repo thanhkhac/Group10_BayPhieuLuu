@@ -6,7 +6,7 @@ namespace DefaultNamespace
     public class PlaySoundOnAwake : MonoBehaviour
     {
         private AudioSource audioSource;
-
+        private bool IsFirst = true;
         private void Awake()
         {
             audioSource = GetComponent<AudioSource>();
@@ -15,7 +15,15 @@ namespace DefaultNamespace
         }
         private void OnEnable()
         {
-            audioSource.Play();
+            if (IsFirst)
+            {
+                IsFirst = false;
+                return;
+            }
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
         }
     }
 }
