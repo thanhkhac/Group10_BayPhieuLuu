@@ -13,16 +13,11 @@ public class BossFinalMove : MonoBehaviour
 	float delayAtk = 0;
 	bool checkRolateBoss = true;
 	private System.Random random = new System.Random();
-	public Transform AttackPoint;
-	public float attackRange;
-	public LayerMask attackPlayer;
-	public float BossHealth = 500f;
-	public Image Health;
 	public Image Mana;
 
 	void Start()
 	{
-
+		BossMove.BossHealth.health = 500f;
 		animator = GetComponent<Animator>();
 		// Tìm đối tượng có tag "Player"
 		GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -93,29 +88,15 @@ public class BossFinalMove : MonoBehaviour
 		{
 			animator.SetBool("IsMove", false);
 			if (delayAtk >= 3f)
-			{		
+			{
+				BossMove.BossDame.dame = 250f;
 				animator.SetTrigger("Atk");
-				BossHealth -= 10f;
-				Health.fillAmount = BossHealth / 500f;
-				Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(AttackPoint.position, attackRange, attackPlayer);
-				Debug.Log(hitPlayer.Length);
-				foreach (Collider2D attack in hitPlayer)
-				{
-					Debug.Log(attack.name);
-				}
 				delayAtk = 0f;
 			}
 			delayAtk += Time.deltaTime;
 		}
 	}
-	void OnDrawGizmos()
-	{
-		if (AttackPoint == null)
-			return;
 
-		Gizmos.color = Color.red;  // Đặt màu cho vòng tròn Gizmos
-		Gizmos.DrawWireSphere(AttackPoint.position, attackRange);  // Vẽ vòng tròn tại AttackPoint
-	}
 
 
 }

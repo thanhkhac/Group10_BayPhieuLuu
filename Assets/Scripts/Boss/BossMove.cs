@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,17 +15,21 @@ public class BossMove : MonoBehaviour
     float delayAtk = 0;
     bool checkRolateBoss = true;
     private System.Random random = new System.Random();
-	public Transform AttackPoint;
-	public float attackRange;
-	public LayerMask attackPlayer;
-	public float BossHealth = 500f;
-	public Image Health;
 	public Image Mana;
 	public GameObject Fire;
+
+
+	public class BossHealth
+	{
+		public static float health = 500f;
+	}
+	public class BossDame
+	{
+		public static float dame = 50f;
+	}
 	void Start()
     {
-
-        animator = GetComponent<Animator>();
+		animator = GetComponent<Animator>();
         // Tìm đối tượng có tag "Player"
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
@@ -54,7 +59,7 @@ public class BossMove : MonoBehaviour
             float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
 			// Kiểm tra khoảng cách đến Player
 
-			if(BossHealth >= 0)
+			if(BossHealth.health >= 0)
 			{
 				moveWithPlayer(distanceToPlayer, direction, relativePosition);
 				Acttack(distanceToPlayer);
@@ -99,44 +104,33 @@ public class BossMove : MonoBehaviour
 			if (delayAtk >= 2f)
 			{
 				
-				int randomNumber = random.Next(0, 5);
+				int randomNumber = random.Next(1, 4);
 				if (randomNumber == 1)
 				{
+					BossDame.dame = 50f;
 					animator.SetTrigger("Atk1");
 				}
 				if (randomNumber == 2)
 				{
+					BossDame.dame = 100f;
 					animator.SetTrigger("Atk2");
 				}
 				if (randomNumber == 3)
 				{
+					BossDame.dame = 150f;
 					animator.SetTrigger("Atk3");
 				}
 				if (randomNumber == 4)
 				{
+					BossDame.dame = 200f;
 					animator.SetTrigger("AtkSp");
 				}
-				BossHealth -= 100f;
-				Health.fillAmount = BossHealth / 500f;
-				Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(AttackPoint.position, attackRange, attackPlayer);
-				Debug.Log(hitPlayer.Length);
-                foreach (Collider2D attack in hitPlayer)
-                {
-					Debug.Log(attack.name);
-                }
 				delayAtk = 0f;
 			}
 			delayAtk += Time.deltaTime;
 		}
 	}
-	void OnDrawGizmos()
-	{
-		if (AttackPoint == null)
-			return;
 
-		Gizmos.color = Color.red;  // Đặt màu cho vòng tròn Gizmos
-		Gizmos.DrawWireSphere(AttackPoint.position, attackRange);  // Vẽ vòng tròn tại AttackPoint
-	}
 
 
 	public void fireBossDie()
@@ -147,7 +141,7 @@ public class BossMove : MonoBehaviour
 
 	public void checkHeathBoss()
 	{
-		if(BossHealth <= 0)
+		if(BossHealth.health <= 0)
 		{
 			Vector3 fireNow = this.gameObject.transform.position;
 			fireNow.y -= 0.5f;
@@ -160,6 +154,7 @@ public class BossMove : MonoBehaviour
 	{
 		this.gameObject.SetActive(false);
 	}
+
 
 
 }
