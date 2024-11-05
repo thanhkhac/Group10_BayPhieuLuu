@@ -389343,6 +389343,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.21
       objectReference: {fileID: 0}
+    - target: {fileID: 4913370014044638943, guid: 17d8e07011bcb97498e3474eb236f374, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 419459228}
     - target: {fileID: 5030712202697376590, guid: 17d8e07011bcb97498e3474eb236f374, type: 3}
       propertyPath: ghost
       value: 

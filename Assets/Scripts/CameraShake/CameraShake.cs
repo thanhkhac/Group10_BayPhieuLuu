@@ -56,10 +56,19 @@ public class CameraShake : MonoBehaviour
 		shakeCoroutine = Shake(0.5f, 0.15f); // Rung trong 1 giây với cường độ 0.1
 		StartCoroutine(shakeCoroutine);
 	}
+    public void StartNightmareShakeAttack()
+    {
+        if (isShaking)
+        {
+            StopShake();
+        }
+        shakeCoroutine = Shake(1f, 0.15f); // Rung trong 1 giây với cường độ 0.1
+        StartCoroutine(shakeCoroutine);
+    }
 
 
-	// Hàm gọi để dừng rung camera
-	public void StopShake()
+    // Hàm gọi để dừng rung camera
+    public void StopShake()
 	{
 		if (shakeCoroutine != null)
 		{
