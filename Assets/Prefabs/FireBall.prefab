@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 41659112752299658}
   m_Layer: 0
   m_Name: FireBall
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,7 +121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  playerAnimator: {fileID: 2804364797857768306, guid: a46421de494d13e4b9302be95360b938, type: 3}
 --- !u!58 &41659112752299658
 CircleCollider2D:
   m_ObjectHideFlags: 0
