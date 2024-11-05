@@ -85,9 +85,17 @@ public class GhostScript : MonoBehaviour
         {
             //player hit
             //sound
+            Debug.Log("var");
             gameObject.GetComponent<Animator>().SetTrigger("Die");
         }
-    }
+		if (collision.CompareTag("PlayerAttack"))
+		{
+			//player hit
+			//sound
+			Debug.Log("var");
+			gameObject.GetComponent<Animator>().SetTrigger("Die");
+		}
+	}
 
     public void Die()
     {
