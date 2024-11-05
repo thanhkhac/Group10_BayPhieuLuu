@@ -10,7 +10,6 @@ namespace DefaultNamespace
         private Animator animator;
         private PlayerControl playerControl;
         [SerializeField] public GameObject player;
-
         private void Awake()
         {
             animator = player.GetComponent<Animator>();
