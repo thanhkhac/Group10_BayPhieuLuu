@@ -20,8 +20,10 @@ namespace DefaultNamespace
         {
             if (collision.CompareTag("EnemyAttack") && !playerControl.isImmortal)
             {
+                animator.SetBool("isHit", true);
                 animator.SetTrigger("Hit");
                 GameManager.PLayerHealth -= 10;
+                playerControl.UpdateHealthBar();
                 Debug.Log(GameManager.PLayerHealth);
             }
         }

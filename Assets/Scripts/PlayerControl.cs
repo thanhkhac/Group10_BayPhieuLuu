@@ -1,6 +1,8 @@
 ﻿using System;
 using ThanhNK;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -11,6 +13,9 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     public Animator animator;
+    public Image bloodBar;
+    public Image manaBar;
+
 
     private bool isJumping = false;
     public bool isImmortal = false;
@@ -61,17 +66,11 @@ public class PlayerControl : MonoBehaviour
             animator.SetBool("isRangeAttacking", true);
         }
         else { animator.SetBool("isRangeAttacking", false); }
-        
-        if (Input.GetKeyDown(KeyCode.Q)) 
-        {
-            animator.SetBool("isUltimate", true);
-        }
+
+        if (Input.GetKeyDown(KeyCode.Q)) { animator.SetBool("isUltimate", true); }
         else { animator.SetBool("isUltimate", false); }
-        
-        if (Input.GetKeyDown(KeyCode.Mouse1)) 
-        {
-            animator.SetBool("isDefending", true);
-        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse1)) { animator.SetBool("isDefending", true); }
         else { animator.SetBool("isDefending", false); }
     }
 
@@ -100,24 +99,39 @@ public class PlayerControl : MonoBehaviour
         canMove = false;
     }
     
+    public void DisableHit()
+    {
+        Debug.Log("Hit");
+        animator.SetBool("isHit", false);
+    }
+
     public void EnableImmortal()
     {
         Debug.Log("Enable Immortal");
         isImmortal = true;
     }
-    
+
     public void DisableImmortal()
     {
         Debug.Log("Disable Immortal");
         isImmortal = false;
     }
-    
+
     public void EnablePlayable()
     {
         isPlayable = true;
         animator.SetBool("isPlayable", true);
     }
-    
+
+    public void UpdateHealthBar()
+    {
+        bloodBar.fillAmount = GameManager.PLayerHealth / 100f;
+    }
+    public void UpdateManaBar()
+    {
+        manaBar.fillAmount = GameManager.PLayerMana / 100f;
+    }
+
     // private void OnTriggerEnter2D(Collider2D collision)
     // {
     //     if (collision.CompareTag("EnemyAttack") && !isImmortal)
