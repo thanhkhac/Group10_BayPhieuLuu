@@ -37,7 +37,7 @@ public class SlimeMove : MonoBehaviour
             ChangeDirection(); // Đảo ngược hướng di chuyển khi va chạm với tường
         }
 
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("PlayerAttack"))
         {
             steerSpeed = 0;
             anim.SetBool("Die", true);

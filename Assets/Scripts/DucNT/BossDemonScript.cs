@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,10 +17,14 @@ public class BossDemonScript : MonoBehaviour
     [SerializeField] NightMareScript nightMare;
     [SerializeField] GhostScript ghost;
 
+    [SerializeField] AudioClip SpecialAttackSound;
+    [SerializeField] AudioClip AttackSound;
+
     public float moveSpeed = 1f; // Tốc độ di chuyển
     public float stopDistance = 1f; // Khoảng cách dừng lại
 
     private Transform playerTransform; // Biến để lưu Transform của Player
+    private AudioSource audioSource;
 
     float attackTimerCoolDown;
     float specialTimerCoolDown;
@@ -36,18 +41,28 @@ public class BossDemonScript : MonoBehaviour
     public float BossCurrentHealth = 500f;
     public Image HealthImg;
 
+    public Transform attackPoint;
+    public LayerMask enemyLayer;
+
+    public int attackDamage = 1;
+    public float attackRange = 0.5f;
+
     // Start is called before the first frame update
     void Start()
     {
         fireRangeL = transform.position.x - 5;
         fireRangeR = transform.position.x + 5;
         BossCurrentHealth = BossHealth;
+
+        audioSource = GetComponent<AudioSource>();
+
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         if (player != null)
         {
             playerTransform = player.transform; // Lưu Transform của Player
         }
+
     }
 
     // Update is called once per frame
@@ -64,9 +79,15 @@ public class BossDemonScript : MonoBehaviour
         fireRangeR = transform.position.x;
 
         var playerX = player.transform.position.x;
+
+        if ((playerX >= fireRangeL - 5 && playerX <= fireRangeR + 10))
+        {
+            gameObject.SetActive(true);
+        }
+
         canSpecialAttack = (playerX >= fireRangeL - 10 && playerX <= fireRangeR + 10) && (specialAttackcooldown <= specialTimerCoolDown);
 
-        canAttack = (playerX >= fireRangeL && playerX <= fireRangeR);
+        canAttack = (playerX >= fireRangeL - 5 && playerX <= fireRangeR + 10);
 
         attackTimerCoolDown += Time.deltaTime;
         specialTimerCoolDown += Time.deltaTime;
@@ -76,9 +97,10 @@ public class BossDemonScript : MonoBehaviour
         {
             SpecialAttack();
         }
-
-        Attack();
-
+        if (canAttack)
+        {
+            Attack();
+        }
         // Check player in range only once per frame
 
         BossMovement();
@@ -140,24 +162,30 @@ public class BossDemonScript : MonoBehaviour
 
     void SpecialAttack()
     {
-        BossCurrentHealth -= 150f;
-        HealthImg.fillAmount = BossCurrentHealth / BossHealth;
-
         gameObject.GetComponent<Animator>().SetTrigger("SpecialAttack");
+
+        audioSource.PlayOneShot(SpecialAttackSound);
+
         specialTimerCoolDown = 0;
         attackTimerCoolDown = 0;
     }
-
 
     void Attack()
     {
         if (attackCooldown <= attackTimerCoolDown)
         {
-            BossCurrentHealth -= 100f;
-            HealthImg.fillAmount = BossCurrentHealth / BossHealth;
-
             gameObject.GetComponent<Animator>().SetTrigger("Attack");
+
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+
+            foreach (Collider2D e in hitEnemies)
+            {
+                Debug.Log("Hit: " + e.name);
+            }
+
+            audioSource.PlayOneShot(AttackSound);
             attackTimerCoolDown = 0;
+
             SummonGhost();
         }
     }
@@ -180,5 +208,21 @@ public class BossDemonScript : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "PlayerAttack")
+        {
+            BossCurrentHealth -= 10;
+            HealthImg.fillAmount = BossCurrentHealth / 500f;
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint != null)
+        {
+            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        }
     }
 }

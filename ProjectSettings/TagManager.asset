@@ -12,6 +12,7 @@ TagManager:
   - BossAttack
   - BloodBottle
   - ManaBottle
+  - CombatBoss
   layers:
   - Default
   - TransparentFX
