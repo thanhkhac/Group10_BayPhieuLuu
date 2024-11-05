@@ -176,7 +176,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.3833334
+  - time: 2
     functionName: playerDie
     data: 
     objectReferenceParameter: {fileID: 0}

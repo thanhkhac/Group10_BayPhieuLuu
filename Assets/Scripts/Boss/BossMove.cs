@@ -61,6 +61,7 @@ public class BossMove : MonoBehaviour
 
 			if(BossHealth.health >= 0)
 			{
+				delayAtk += Time.deltaTime;
 				moveWithPlayer(distanceToPlayer, direction, relativePosition);
 				Acttack(distanceToPlayer);
 			}
@@ -98,8 +99,8 @@ public class BossMove : MonoBehaviour
 
 	public void Acttack(float distanceToPlayer)
     {
-		delayAtk += Time.deltaTime;
-		if (distanceToPlayer <= stopDistance + 0.3f)
+		
+		if (distanceToPlayer <= stopDistance + 0.5f)
 		{
 			animator.SetBool("IsMove", false);
 		}
@@ -112,22 +113,22 @@ public class BossMove : MonoBehaviour
 				int randomNumber = random.Next(1, 4);
 				if (randomNumber == 1)
 				{
-					BossDame.dame = 50f;
+					BossDame.dame = 15f;
 					animator.SetTrigger("Atk1");
 				}
 				if (randomNumber == 2)
 				{
-					BossDame.dame = 100f;
+					BossDame.dame = 20f;
 					animator.SetTrigger("Atk2");
 				}
 				if (randomNumber == 3)
 				{
-					BossDame.dame = 150f;
+					BossDame.dame = 255f;
 					animator.SetTrigger("Atk3");
 				}
 				if (randomNumber == 4)
 				{
-					BossDame.dame = 200f;
+					BossDame.dame = 30f;
 					animator.SetTrigger("AtkSp");
 				}
 				delayAtk = 0f;
@@ -166,7 +167,7 @@ public class BossMove : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "PlayerAttack")
 		{
-			Debug.Log(1);
+			animator.SetTrigger("TakeHit");
 			BossHealth.health -= 100;
 			Health.fillAmount = BossHealth.health / 500f;
 		}
