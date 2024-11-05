@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.PackageManager;
+using UnityEditor.Tilemaps;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossMove : MonoBehaviour
 {
@@ -12,10 +15,21 @@ public class BossMove : MonoBehaviour
     float delayAtk = 0;
     bool checkRolateBoss = true;
     private System.Random random = new System.Random();
-    void Start()
-    {
+	public Image Health;
+	public GameObject Fire;
 
-        animator = GetComponent<Animator>();
+	public class BossHealth
+	{
+		public static float health = 500f;
+	}
+	public class BossDame
+	{
+		public static float dame = 50f;
+	}
+	void Start()
+    {
+		
+		animator = GetComponent<Animator>();
         // Tìm đối tượng có tag "Player"
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
@@ -43,60 +57,120 @@ public class BossMove : MonoBehaviour
             ).normalized;
 
             float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
-            Debug.Log(distanceToPlayer);
-            // Kiểm tra khoảng cách đến Player
-            if (distanceToPlayer > stopDistance)
-            {
-                // Di chuyển theo hướng của Player
-                transform.position += direction * moveSpeed * Time.deltaTime;
-                animator.SetBool("IsMove", true);
-            }
-            if (relativePosition.x < 0 ) // Nếu Player ở phía sau Boss
-            {
-                if (checkRolateBoss)
-                {
-                    transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
-                }
-                checkRolateBoss = false;
-            }
-            if (relativePosition.x > 0) // Nếu Player ở phía sau Boss
-            {
-                if (!checkRolateBoss)
-                {
-                    transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
-                }
-                checkRolateBoss = true;
-            }
+			// Kiểm tra khoảng cách đến Player
 
+			if(BossHealth.health >= 0)
+			{
+				moveWithPlayer(distanceToPlayer, direction, relativePosition);
+				Acttack(distanceToPlayer);
+			}
+			checkHeathBoss();
 
-            if (distanceToPlayer <= stopDistance)
-            {
-                animator.SetBool("IsMove", false);
-                if (delayAtk >= 2f)
-                {
-                    int randomNumber = random.Next(0, 5);
-                    if (randomNumber == 1)
-                    {
-                        animator.SetTrigger("Atk1");
-                    }
-                    if (randomNumber == 2)
-                    {
-                        animator.SetTrigger("Atk2");
-                    }
-                    if (randomNumber == 3)
-                    {
-                        animator.SetTrigger("Atk3");
-                    }
-                    if (randomNumber == 4)
-                    {
-                        animator.SetTrigger("AtkSp");
-                    }
-                    delayAtk = 0f;
-                }
-                delayAtk += Time.deltaTime;
-            }
-        }
+		}
     }
+
+    public void moveWithPlayer(float distanceToPlayer, Vector3 direction, Vector3 relativePosition)
+    {
+		if (distanceToPlayer > stopDistance)
+		{
+			// Di chuyển theo hướng của Player
+			transform.position += direction * moveSpeed * Time.deltaTime;
+			animator.SetBool("IsMove", true);
+		}
+		if (relativePosition.x < 0) // Nếu Player ở phía sau Boss
+		{
+			if (checkRolateBoss)
+			{
+				transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+			}
+			checkRolateBoss = false;
+		}
+		if (relativePosition.x > 0) // Nếu Player ở phía sau Boss
+		{
+			if (!checkRolateBoss)
+			{
+				transform.localScale = new Vector2(-transform.localScale.x, transform.localScale.y);
+			}
+			checkRolateBoss = true;
+		}
+	}
+
+
+	public void Acttack(float distanceToPlayer)
+    {
+		delayAtk += Time.deltaTime;
+		if (distanceToPlayer <= stopDistance + 0.3f)
+		{
+			animator.SetBool("IsMove", false);
+		}
+		if (distanceToPlayer <= stopDistance + 3f)
+		{
+			Debug.Log(delayAtk);
+			if (delayAtk >= 2f)
+			{
+				
+				int randomNumber = random.Next(1, 4);
+				if (randomNumber == 1)
+				{
+					BossDame.dame = 50f;
+					animator.SetTrigger("Atk1");
+				}
+				if (randomNumber == 2)
+				{
+					BossDame.dame = 100f;
+					animator.SetTrigger("Atk2");
+				}
+				if (randomNumber == 3)
+				{
+					BossDame.dame = 150f;
+					animator.SetTrigger("Atk3");
+				}
+				if (randomNumber == 4)
+				{
+					BossDame.dame = 200f;
+					animator.SetTrigger("AtkSp");
+				}
+				delayAtk = 0f;
+			}
+			
+		}
+	}
+
+
+
+	public void fireBossDie()
+	{
+		
+		Fire.SetActive(true);
+	}
+
+	public void checkHeathBoss()
+	{
+		if(BossHealth.health <= 0)
+		{
+			Vector3 fireNow = this.gameObject.transform.position;
+			fireNow.y += 3f;
+			Fire.transform.position = fireNow;
+			animator.SetTrigger("Death");
+		}
+	}
+	public void bossCbDie()
+	{
+		moveSpeed = 0f;
+	}
+	public void bossDie()
+	{
+		this.gameObject.SetActive(false);
+	}
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.gameObject.tag == "PlayerAttack")
+		{
+			Debug.Log(1);
+			BossHealth.health -= 100;
+			Health.fillAmount = BossHealth.health / 500f;
+		}
+	}
 
 
 }

@@ -6,8 +6,10 @@ TagManager:
   tags:
   - Enemy
   - Wall
+  - BossHealth
   - EnemyAttack
   - PlayerAttack
+  - BossAttack
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - UI
   - DucNT-Wall
   - Enemies
-  - 
+  - Player
   - 
   - 
   - 

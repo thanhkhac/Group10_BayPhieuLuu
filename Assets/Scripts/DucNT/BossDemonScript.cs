@@ -1,19 +1,32 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossDemonScript : MonoBehaviour
 {
     [SerializeField] GameObject player;
 
-    [SerializeField] float attackcooldown = 5f;
+    [SerializeField] float attackCooldown = 5f;
     [SerializeField] float specialAttackcooldown = 15f;
 
-    [SerializeField] GameObject summonPoint;
+    [SerializeField] GameObject nightmareSummonPoint;
+    [SerializeField] GameObject ghostSummonPoint;
     [SerializeField] NightMareScript nightMare;
+    [SerializeField] GhostScript ghost;
 
-    float timerCoolDown;
+    [SerializeField] AudioClip SpecialAttackSound;
+    [SerializeField] AudioClip AttackSound;
+
+    public float moveSpeed = 1f; // Tốc độ di chuyển
+    public float stopDistance = 1f; // Khoảng cách dừng lại
+
+    private Transform playerTransform; // Biến để lưu Transform của Player
+    private AudioSource audioSource;
+
+    float attackTimerCoolDown;
     float specialTimerCoolDown;
     private bool isFacingRight = true;
 
@@ -22,30 +35,75 @@ public class BossDemonScript : MonoBehaviour
 
     private float fireRangeL;
     private float fireRangeR;
+    private float delayTime = 5f;
+
+    public float BossHealth = 500f;
+    public float BossCurrentHealth = 500f;
+    public Image HealthImg;
+
+    public Transform attackPoint;
+    public LayerMask enemyLayer;
+
+    public int attackDamage = 1;
+    public float attackRange = 0.5f;
 
     // Start is called before the first frame update
     void Start()
     {
         fireRangeL = transform.position.x - 5;
         fireRangeR = transform.position.x + 5;
+        BossCurrentHealth = BossHealth;
+
+        audioSource = GetComponent<AudioSource>();
+
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+
+        if (player != null)
+        {
+            playerTransform = player.transform; // Lưu Transform của Player
+        }
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (BossCurrentHealth <= 0)
+        {
+            gameObject.GetComponent<Animator>().SetTrigger("Die");
+        }
+
         UpdateDirection();
 
-        timerCoolDown += Time.deltaTime;
+        fireRangeL = transform.position.x;
+        fireRangeR = transform.position.x;
+
+        var playerX = player.transform.position.x;
+
+        if ((playerX >= fireRangeL - 5 && playerX <= fireRangeR + 10))
+        {
+            gameObject.SetActive(true);
+        }
+
+        canSpecialAttack = (playerX >= fireRangeL - 10 && playerX <= fireRangeR + 10) && (specialAttackcooldown <= specialTimerCoolDown);
+
+        canAttack = (playerX >= fireRangeL - 5 && playerX <= fireRangeR + 10);
+
+        attackTimerCoolDown += Time.deltaTime;
         specialTimerCoolDown += Time.deltaTime;
 
         // Call attack methods based on conditions
         if (canSpecialAttack)
+        {
             SpecialAttack();
-        else if (canAttack)
+        }
+        if (canAttack)
+        {
             Attack();
-
+        }
         // Check player in range only once per frame
-        canAttack = canSpecialAttack = player.transform.position.x >= fireRangeL && player.transform.position.x <= fireRangeR;
+
+        BossMovement();
     }
 
     void UpdateDirection()
@@ -67,28 +125,104 @@ public class BossDemonScript : MonoBehaviour
         transform.localScale = scaler;
     }
 
+    void BossMovement()
+    {
+        Vector3 relativePosition = playerTransform.position - transform.position;
+
+        delayTime += Time.deltaTime;
+        if (playerTransform != null)
+        {
+            // Tính toán hướng di chuyển (bỏ qua thành phần Y)
+            Vector3 direction = new Vector3(
+                playerTransform.position.x - transform.position.x,
+                0, // Bỏ qua trục Y
+                playerTransform.position.z - transform.position.z
+            ).normalized;
+
+            float distanceToPlayer = Vector3.Distance(transform.position, playerTransform.position);
+            // Kiểm tra khoảng cách đến Player
+
+            MoveWithPlayer(distanceToPlayer, direction, relativePosition);
+
+            //if (BossHealth >= 0)
+            //{
+            //    Acttack(distanceToPlayer);
+            //}
+            //checkHeathBoss();
+        }
+    }
+    public void MoveWithPlayer(float distanceToPlayer, Vector3 direction, Vector3 relativePosition)
+    {
+        if (distanceToPlayer > stopDistance)
+        {
+            // Di chuyển theo hướng của Player
+            transform.position += direction * moveSpeed * Time.deltaTime;
+        }
+    }
+
     void SpecialAttack()
     {
-        if (specialAttackcooldown <= specialTimerCoolDown)
-        {
-            gameObject.GetComponent<Animator>().SetTrigger("SpecialAttack");
-            specialTimerCoolDown = 0;
-        }
+        gameObject.GetComponent<Animator>().SetTrigger("SpecialAttack");
+
+        audioSource.PlayOneShot(SpecialAttackSound);
+
+        specialTimerCoolDown = 0;
+        attackTimerCoolDown = 0;
     }
 
     void Attack()
     {
-        if (attackcooldown <= timerCoolDown)
+        if (attackCooldown <= attackTimerCoolDown)
         {
             gameObject.GetComponent<Animator>().SetTrigger("Attack");
-            timerCoolDown = 0;
+
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+
+            foreach (Collider2D e in hitEnemies)
+            {
+                Debug.Log("Hit: " + e.name);
+            }
+
+            audioSource.PlayOneShot(AttackSound);
+            attackTimerCoolDown = 0;
+
+            SummonGhost();
         }
     }
-
     public void SummonNightMare()
     {
         var newNightMare = Instantiate(nightMare);
-        newNightMare.transform.position = summonPoint.transform.position;
+        newNightMare.transform.position = nightmareSummonPoint.transform.position;
         newNightMare.SetDirection(transform.localScale.x);
+        SummonGhost();
+    }
+
+    void SummonGhost()
+    {
+        var newGhost = Instantiate(ghost);
+        newGhost.transform.position = ghostSummonPoint.transform.position;
+        newGhost.SetDirection(new Vector2(-transform.localScale.x, transform.localScale.y));
+        newGhost.gameObject.SetActive(true);
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "PlayerAttack")
+        {
+            BossCurrentHealth -= 10;
+            HealthImg.fillAmount = BossCurrentHealth / 500f;
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint != null)
+        {
+            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        }
     }
 }

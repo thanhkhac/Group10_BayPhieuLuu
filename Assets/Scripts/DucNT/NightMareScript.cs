@@ -35,13 +35,24 @@ public class NightMareScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        
+
+        if (collision.CompareTag("Player") )
         {
             //player hurt
             if (player == null) return;
 
             player.GetComponent<Animator>().SetTrigger("Hit");
             //Destroy(gameObject);
+        }
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ThanhNK_Ground"))
+        {
+            Destroy(gameObject);
         }
     }
 }
