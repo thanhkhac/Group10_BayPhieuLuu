@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -408,7 +410,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Ceiling Trap - Level 1_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -417,7 +419,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 04c9e5951c0c4d8429182b5aa064a7d5
-    - name: Frame_1
+    - name: Ceiling Trap - Level 1_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -426,7 +428,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 953dd2a6063194a49908666da2365306
-    - name: Frame_2
+    - name: Ceiling Trap - Level 1_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -435,7 +437,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: b7b6f3aa1db3ecc43bd44ebb1ab2e447
-    - name: Frame_3
+    - name: Ceiling Trap - Level 1_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -444,7 +446,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d03dba1fd3e343740be52b97dae01b61
-    - name: Frame_4
+    - name: Ceiling Trap - Level 1_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -453,7 +455,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 7599f9cc8a496714a8d72a99e745cd54
-    - name: Frame_5
+    - name: Ceiling Trap - Level 1_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -462,7 +464,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: a235d809f3bc7994b8f05c23440dd93c
-    - name: Frame_6
+    - name: Ceiling Trap - Level 1_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -471,7 +473,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: e1973ec30cac52f46bb4913153b02c4e
-    - name: Frame_7
+    - name: Ceiling Trap - Level 1_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -480,7 +482,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 044850836efdbbd49808d68407995ed2
-    - name: Frame_8
+    - name: Ceiling Trap - Level 1_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -489,7 +491,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 9d3336857d4e0374d899e0ab42f8787e
-    - name: Frame_9
+    - name: Ceiling Trap - Level 1_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -498,7 +500,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: e3480811ca8b4c14b9c38b74a8083b20
-    - name: Frame_10
+    - name: Ceiling Trap - Level 1_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -507,7 +509,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 74c5ebbd0bfb8ba4fbae82e08b064142
-    - name: Frame_11
+    - name: Ceiling Trap - Level 1_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -516,7 +518,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: d8cfa16c058c1684687300b19a0da4a7
-    - name: Frame_12
+    - name: Ceiling Trap - Level 1_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -525,7 +527,7 @@ ScriptedImporter:
         width: 64
         height: 64
       spriteId: 5db5af264b272674ab06baf7a0a276e9
-    - name: Frame_13
+    - name: Ceiling Trap - Level 1_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:

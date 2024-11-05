@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -408,7 +410,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Magic trap - Level 1 - Transition_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -417,7 +419,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: 789016c7d1b4755498f425c56d6782a3
-    - name: Frame_1
+    - name: Magic trap - Level 1 - Transition_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -426,7 +428,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: 66e061b2ba346b94382582905c64e501
-    - name: Frame_2
+    - name: Magic trap - Level 1 - Transition_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -435,7 +437,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: 6d300f400207113498511c6623d94fae
-    - name: Frame_3
+    - name: Magic trap - Level 1 - Transition_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -444,7 +446,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: 15e7f765ff70c584ba98bcb18cbf37f5
-    - name: Frame_4
+    - name: Magic trap - Level 1 - Transition_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -453,7 +455,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: 1701e52ee2ad37d4898dfc9f9e5d0b3a
-    - name: Frame_5
+    - name: Magic trap - Level 1 - Transition_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -462,7 +464,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: 2da22275eea94d440a2777445bf2d4df
-    - name: Frame_6
+    - name: Magic trap - Level 1 - Transition_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -471,7 +473,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: a6f2e542d69d654499acf505e65bef01
-    - name: Frame_7
+    - name: Magic trap - Level 1 - Transition_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -480,7 +482,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: e2acdcd0467919d409c97e4f764dedae
-    - name: Frame_13
+    - name: Magic trap - Level 1 - Transition_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -489,7 +491,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: c7bdf3f63b98ba6429d81397de7a6d16
-    - name: Frame_8
+    - name: Magic trap - Level 1 - Transition_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -498,7 +500,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: 0acbcda9c54718049853dd7976250291
-    - name: Frame_9
+    - name: Magic trap - Level 1 - Transition_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -507,7 +509,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: d724fc1288a4cd4428e9017edbe76659
-    - name: Frame_10
+    - name: Magic trap - Level 1 - Transition_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -516,7 +518,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: 58abfe28f751b444baab2c792c5a5911
-    - name: Frame_11
+    - name: Magic trap - Level 1 - Transition_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -525,7 +527,7 @@ ScriptedImporter:
         width: 32
         height: 32
       spriteId: d0f8f1a4d43a5644793c2c3adf72212b
-    - name: Frame_12
+    - name: Magic trap - Level 1 - Transition_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:

@@ -21,11 +21,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -508,7 +510,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: Frame_0
+    - name: Magic trap - Level 2 - Transition_Frame_0
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
@@ -517,7 +519,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 8148d3b87fa6e044aac8f483c91841f3
-    - name: Frame_1
+    - name: Magic trap - Level 2 - Transition_Frame_1
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
@@ -526,7 +528,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 83fd47c750bf4fa4b917d1b24e5754d2
-    - name: Frame_2
+    - name: Magic trap - Level 2 - Transition_Frame_2
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
@@ -535,7 +537,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 9f9568820626af84faeb3d94e444f187
-    - name: Frame_3
+    - name: Magic trap - Level 2 - Transition_Frame_3
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
@@ -544,7 +546,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 95f36cfdeaf14d8449b5267a980f13a4
-    - name: Frame_4
+    - name: Magic trap - Level 2 - Transition_Frame_4
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
@@ -553,7 +555,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 817803843c557324eb5c008accba744e
-    - name: Frame_5
+    - name: Magic trap - Level 2 - Transition_Frame_5
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
@@ -562,7 +564,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5ddb7007732e75e409b20737a46ad9f8
-    - name: Frame_6
+    - name: Magic trap - Level 2 - Transition_Frame_6
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
@@ -571,7 +573,7 @@ ScriptedImporter:
         width: 96
         height: 65
       spriteId: 933f5a7fec4a5a5419b203b8da40ccc1
-    - name: Frame_7
+    - name: Magic trap - Level 2 - Transition_Frame_7
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
@@ -580,7 +582,7 @@ ScriptedImporter:
         width: 96
         height: 65
       spriteId: 728fda963db900c4cbeceb51fe3b3fb5
-    - name: Frame_8
+    - name: Magic trap - Level 2 - Transition_Frame_8
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
@@ -589,7 +591,7 @@ ScriptedImporter:
         width: 96
         height: 65
       spriteId: 2144900c290f88342a7aa2ebe3b88a20
-    - name: Frame_9
+    - name: Magic trap - Level 2 - Transition_Frame_9
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
@@ -598,7 +600,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 5ad90e2c16fa6064ca68c4e2efbef63c
-    - name: Frame_10
+    - name: Magic trap - Level 2 - Transition_Frame_10
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
@@ -607,7 +609,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: ec268a5cdec63bb48addc079653e40b2
-    - name: Frame_11
+    - name: Magic trap - Level 2 - Transition_Frame_11
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
@@ -616,7 +618,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 97acfb0e8c687424694baa0e2b6d80ea
-    - name: Frame_12
+    - name: Magic trap - Level 2 - Transition_Frame_12
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
@@ -625,7 +627,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 84825ad9987efc44f89b4fc3ddcae600
-    - name: Frame_13
+    - name: Magic trap - Level 2 - Transition_Frame_13
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
@@ -634,7 +636,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: f9603a5656f434840b054528dff7d2bf
-    - name: Frame_14
+    - name: Magic trap - Level 2 - Transition_Frame_14
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
@@ -643,7 +645,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: a2d4119838847dc47b1bc926511b031d
-    - name: Frame_15
+    - name: Magic trap - Level 2 - Transition_Frame_15
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
@@ -652,7 +654,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: d9700cd0d6a06e94ba75addc8e04768b
-    - name: Frame_16
+    - name: Magic trap - Level 2 - Transition_Frame_16
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
@@ -661,7 +663,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: 34c3ba2a8f7e18f4ba10c8eddbb6caf5
-    - name: Frame_17
+    - name: Magic trap - Level 2 - Transition_Frame_17
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
@@ -670,7 +672,7 @@ ScriptedImporter:
         width: 96
         height: 64
       spriteId: bef87f072e78e7644a8536b5082548bb
-    - name: Frame_18
+    - name: Magic trap - Level 2 - Transition_Frame_18
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
