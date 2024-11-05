@@ -8,6 +8,9 @@ public class BossFinalMove : MonoBehaviour
 {
 	public float moveSpeed = 1f; // Tốc độ di chuyển
 	public float stopDistance = 1f; // Khoảng cách dừng lại
+	public GameObject response1;
+	public GameObject response2;
+	[SerializeField] GhostScript ghost;
 	private Transform playerTransform; // Biến để lưu Transform của Player
 	Animator animator;
 	private float delayTime = 5f;
@@ -15,7 +18,7 @@ public class BossFinalMove : MonoBehaviour
 	bool checkRolateBoss = true;
 	private System.Random random = new System.Random();
 	public Image Health;
-
+	float timeToResponse = 0f;
 	void Start()
 	{
 		BossMove.BossHealth.health = 500f;
@@ -35,6 +38,7 @@ public class BossFinalMove : MonoBehaviour
 
 	void Update()
 	{
+		
 		Vector3 relativePosition = playerTransform.position - transform.position;
 		delayTime += Time.deltaTime;
 		if (playerTransform != null)
@@ -52,8 +56,43 @@ public class BossFinalMove : MonoBehaviour
 			moveWithPlayer(distanceToPlayer, direction, relativePosition);
 			Acttack(distanceToPlayer);
 
+			int randomNumber = random.Next(1, 4);
+			timeToResponse += Time.deltaTime;
+			if (timeToResponse >= 5f)
+			{
+				if (randomNumber == 1)
+				{
+					SummonGhost(response1);
+					timeToResponse = 0f;
+				}
+				if (randomNumber == 2)
+				{
+					SummonGhost(response2);
+					timeToResponse = 0f;
+				}
+				if(randomNumber == 3)
+				{
+					SummonGhost(response1);
+					SummonGhost(response2);
+					timeToResponse = 0f;
+				}
+			}
+			
 
 		}
+	}
+
+	void SummonGhost(GameObject response)
+	{
+		var newGhost = Instantiate(ghost);
+		newGhost.transform.position = response.transform.position;
+		newGhost.SetDirection(new Vector2(transform.localScale.x, transform.localScale.y));
+		Vector3 scale = newGhost.transform.localScale; // Lấy giá trị hiện tại của scale
+		scale.x = 1.2974f; // Thay đổi giá trị của x
+		scale.y = 1.1593f;
+		scale.z = 1;
+		newGhost.transform.localScale = scale;
+		newGhost.gameObject.SetActive(true);
 	}
 
 	public void moveWithPlayer(float distanceToPlayer, Vector3 direction, Vector3 relativePosition)

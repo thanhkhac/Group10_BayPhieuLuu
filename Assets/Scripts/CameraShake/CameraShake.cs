@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Cinemachine;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,44 +7,52 @@ public class CameraShake : MonoBehaviour
 {
 	private IEnumerator shakeCoroutine;
 	private bool isShaking = false;
-	public Camera camera;
-	// Hàm coroutine thực hiện rung camera
+	public CinemachineVirtualCamera virtualCamera;
+	private CinemachineBasicMultiChannelPerlin perlinNoise;
+
+	void Start()
+	{
+		if (virtualCamera != null)
+		{
+			perlinNoise = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+		}
+		else
+		{
+			Debug.LogError("Null");
+		}
+	}
+
 	public IEnumerator Shake(float duration, float magnitude)
 	{
-		if (camera == null)
+		if (perlinNoise == null)
 		{
-			Debug.LogError("Camera không được truyền vào.");
+			Debug.LogError("Null");
 			yield break;
 		}
 
-		Vector3 originalPosition = camera.transform.localPosition;
-		float elapsed = 0.0f;
 		isShaking = true;
+		perlinNoise.m_AmplitudeGain = magnitude;
+		perlinNoise.m_FrequencyGain = magnitude;
+		float elapsed = 0.0f;
 
 		while (elapsed < duration && isShaking)
 		{
-			float x = Random.Range(-1f, 1f) * magnitude;
-			float y = Random.Range(-1f, 1f) * magnitude;
-
-			camera.transform.localPosition = new Vector3(originalPosition.x + x, originalPosition.y + y, originalPosition.z);
-
 			elapsed += Time.deltaTime;
-
 			yield return null;
 		}
 
-		camera.transform.localPosition = originalPosition;
+		perlinNoise.m_AmplitudeGain = 0;
 		isShaking = false;
 	}
 
-	// Hàm gọi để bắt đầu rung camera trong 1 giây
+	// Hàm gọi để bắt đầu rung camera
 	public void StartShake()
 	{
 		if (isShaking)
 		{
 			StopShake();
 		}
-		shakeCoroutine = Shake(3.0f, 0.15f); // Rung trong 1 giây với cường độ 0.1
+		shakeCoroutine = Shake(2.5f, 3f);
 		StartCoroutine(shakeCoroutine);
 	}
 
@@ -53,28 +62,33 @@ public class CameraShake : MonoBehaviour
 		{
 			StopShake();
 		}
-		shakeCoroutine = Shake(0.5f, 0.15f); // Rung trong 1 giây với cường độ 0.1
+		shakeCoroutine = Shake(0.5f, 3f);
 		StartCoroutine(shakeCoroutine);
 	}
-    public void StartNightmareShakeAttack()
-    {
-        if (isShaking)
-        {
-            StopShake();
-        }
-        shakeCoroutine = Shake(1f, 0.15f); // Rung trong 1 giây với cường độ 0.1
-        StartCoroutine(shakeCoroutine);
-    }
 
+	public void StartNightmareShakeAttack()
+	{
+		if (isShaking)
+		{
+			StopShake();
+		}
+		shakeCoroutine = Shake(1f, 3f);
+		StartCoroutine(shakeCoroutine);
+	}
 
-    // Hàm gọi để dừng rung camera
-    public void StopShake()
+	// Hàm gọi để dừng rung camera
+	public void StopShake()
 	{
 		if (shakeCoroutine != null)
 		{
 			isShaking = false;
 			StopCoroutine(shakeCoroutine);
 			shakeCoroutine = null;
+
+			if (perlinNoise != null)
+			{
+				perlinNoise.m_AmplitudeGain = 0;
+			}
 		}
 	}
 }
