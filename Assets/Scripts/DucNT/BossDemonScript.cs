@@ -16,10 +16,14 @@ public class BossDemonScript : MonoBehaviour
     [SerializeField] NightMareScript nightMare;
     [SerializeField] GhostScript ghost;
 
+    [SerializeField] AudioClip SpecialAttackSound;
+    [SerializeField] AudioClip AttackSound;
+
     public float moveSpeed = 1f; // Tốc độ di chuyển
     public float stopDistance = 1f; // Khoảng cách dừng lại
 
     private Transform playerTransform; // Biến để lưu Transform của Player
+    private AudioSource audioSource;
 
     float attackTimerCoolDown;
     float specialTimerCoolDown;
@@ -42,12 +46,16 @@ public class BossDemonScript : MonoBehaviour
         fireRangeL = transform.position.x - 5;
         fireRangeR = transform.position.x + 5;
         BossCurrentHealth = BossHealth;
+
+        audioSource = GetComponent<AudioSource>();
+
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         if (player != null)
         {
             playerTransform = player.transform; // Lưu Transform của Player
         }
+
     }
 
     // Update is called once per frame
@@ -64,9 +72,16 @@ public class BossDemonScript : MonoBehaviour
         fireRangeR = transform.position.x;
 
         var playerX = player.transform.position.x;
+
+        if ((playerX >= fireRangeL - 5 && playerX <= fireRangeR + 10))
+        {
+            gameObject.SetActive(true);
+        }
+
+
         canSpecialAttack = (playerX >= fireRangeL - 10 && playerX <= fireRangeR + 10) && (specialAttackcooldown <= specialTimerCoolDown);
 
-        canAttack = (playerX >= fireRangeL && playerX <= fireRangeR);
+        canAttack = (playerX >= fireRangeL - 5 && playerX <= fireRangeR + 10);
 
         attackTimerCoolDown += Time.deltaTime;
         specialTimerCoolDown += Time.deltaTime;
@@ -76,9 +91,10 @@ public class BossDemonScript : MonoBehaviour
         {
             SpecialAttack();
         }
-
-        Attack();
-
+        if (canAttack)
+        {
+            Attack();
+        }
         // Check player in range only once per frame
 
         BossMovement();
@@ -144,10 +160,12 @@ public class BossDemonScript : MonoBehaviour
         HealthImg.fillAmount = BossCurrentHealth / BossHealth;
 
         gameObject.GetComponent<Animator>().SetTrigger("SpecialAttack");
+
+        audioSource.PlayOneShot(SpecialAttackSound);
+
         specialTimerCoolDown = 0;
         attackTimerCoolDown = 0;
     }
-
 
     void Attack()
     {
@@ -156,7 +174,11 @@ public class BossDemonScript : MonoBehaviour
             BossCurrentHealth -= 100f;
             HealthImg.fillAmount = BossCurrentHealth / BossHealth;
 
+
             gameObject.GetComponent<Animator>().SetTrigger("Attack");
+
+            audioSource.PlayOneShot(AttackSound);
+
             attackTimerCoolDown = 0;
             SummonGhost();
         }

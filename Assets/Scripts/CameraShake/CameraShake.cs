@@ -62,7 +62,7 @@ public class CameraShake : MonoBehaviour
         {
             StopShake();
         }
-        shakeCoroutine = Shake(1f, 0.15f); // Rung trong 1 giây với cường độ 0.1
+        shakeCoroutine = Shake(3f, 0.15f); // Rung trong 1 giây với cường độ 0.1
         StartCoroutine(shakeCoroutine);
     }
 

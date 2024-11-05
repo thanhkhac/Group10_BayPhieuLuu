@@ -8,13 +8,18 @@ public class GhostScript : MonoBehaviour
     public GameObject target;
     private Vector2 direction;
 
+    [SerializeField] AudioClip sound;
+
     public float health = 15f;
     private float timer;
+    private AudioSource audioSource;
+
 
     // Start is called before the first frame update
     void Start()
     {
         timer = 0;
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,6 +28,7 @@ public class GhostScript : MonoBehaviour
         timer += Time.deltaTime;
         if (timer > health)
         {
+            audioSource.PlayOneShot(sound);
             gameObject.GetComponent<Animator>().SetTrigger("Die");
         }
     }
@@ -85,6 +91,7 @@ public class GhostScript : MonoBehaviour
         {
             //player hit
             //sound
+            audioSource.PlayOneShot(sound);
             gameObject.GetComponent<Animator>().SetTrigger("Die");
         }
     }
