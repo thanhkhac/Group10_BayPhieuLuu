@@ -2,23 +2,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossDemonScript : MonoBehaviour
 {
     [SerializeField] GameObject player;
 
-    [SerializeField] float attackcooldown = 5f;
+    [SerializeField] float attackCooldown = 5f;
     [SerializeField] float specialAttackcooldown = 15f;
 
-    [SerializeField] GameObject summonPoint;
+    [SerializeField] GameObject nightmareSummonPoint;
+    [SerializeField] GameObject ghostSummonPoint;
     [SerializeField] NightMareScript nightMare;
+    [SerializeField] GhostScript ghost;
 
     public float moveSpeed = 1f; // Tốc độ di chuyển
     public float stopDistance = 1f; // Khoảng cách dừng lại
 
     private Transform playerTransform; // Biến để lưu Transform của Player
 
-    float timerCoolDown;
+    float attackTimerCoolDown;
     float specialTimerCoolDown;
     private bool isFacingRight = true;
 
@@ -29,12 +32,16 @@ public class BossDemonScript : MonoBehaviour
     private float fireRangeR;
     private float delayTime = 5f;
 
+    public float BossHealth = 500f;
+    public float BossCurrentHealth = 500f;
+    public Image HealthImg;
+
     // Start is called before the first frame update
     void Start()
     {
         fireRangeL = transform.position.x - 5;
         fireRangeR = transform.position.x + 5;
-
+        BossCurrentHealth = BossHealth;
         GameObject player = GameObject.FindGameObjectWithTag("Player");
 
         if (player != null)
@@ -46,19 +53,33 @@ public class BossDemonScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (BossCurrentHealth <= 0)
+        {
+            gameObject.GetComponent<Animator>().SetTrigger("Die");
+        }
+
         UpdateDirection();
 
-        timerCoolDown += Time.deltaTime;
+        fireRangeL = transform.position.x;
+        fireRangeR = transform.position.x;
+
+        var playerX = player.transform.position.x;
+        canSpecialAttack = (playerX >= fireRangeL - 10 && playerX <= fireRangeR + 10) && (specialAttackcooldown <= specialTimerCoolDown);
+
+        canAttack = (playerX >= fireRangeL && playerX <= fireRangeR);
+
+        attackTimerCoolDown += Time.deltaTime;
         specialTimerCoolDown += Time.deltaTime;
 
         // Call attack methods based on conditions
         if (canSpecialAttack)
+        {
             SpecialAttack();
-        else if (canAttack)
-            Attack();
+        }
+
+        Attack();
 
         // Check player in range only once per frame
-        canAttack = canSpecialAttack = player.transform.position.x >= fireRangeL && player.transform.position.x <= fireRangeR;
 
         BossMovement();
     }
@@ -119,26 +140,45 @@ public class BossDemonScript : MonoBehaviour
 
     void SpecialAttack()
     {
-        if (specialAttackcooldown <= specialTimerCoolDown)
-        {
-            gameObject.GetComponent<Animator>().SetTrigger("SpecialAttack");
-            specialTimerCoolDown = 0;
-        }
+        BossCurrentHealth -= 150f;
+        HealthImg.fillAmount = BossCurrentHealth / BossHealth;
+
+        gameObject.GetComponent<Animator>().SetTrigger("SpecialAttack");
+        specialTimerCoolDown = 0;
+        attackTimerCoolDown = 0;
     }
+
 
     void Attack()
     {
-        if (attackcooldown <= timerCoolDown)
+        if (attackCooldown <= attackTimerCoolDown)
         {
+            BossCurrentHealth -= 100f;
+            HealthImg.fillAmount = BossCurrentHealth / BossHealth;
+
             gameObject.GetComponent<Animator>().SetTrigger("Attack");
-            timerCoolDown = 0;
+            attackTimerCoolDown = 0;
+            SummonGhost();
         }
     }
-
     public void SummonNightMare()
     {
         var newNightMare = Instantiate(nightMare);
-        newNightMare.transform.position = summonPoint.transform.position;
+        newNightMare.transform.position = nightmareSummonPoint.transform.position;
         newNightMare.SetDirection(transform.localScale.x);
+        SummonGhost();
+    }
+
+    void SummonGhost()
+    {
+        var newGhost = Instantiate(ghost);
+        newGhost.transform.position = ghostSummonPoint.transform.position;
+        newGhost.SetDirection(new Vector2(-transform.localScale.x, transform.localScale.y));
+        newGhost.gameObject.SetActive(true);
+    }
+
+    public void Die()
+    {
+        Destroy(gameObject);
     }
 }
