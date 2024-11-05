@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace DefaultNamespace
 {
-    public class PlayerHitBox : MonoBehaviour
+    public class  PlayerHitBox : MonoBehaviour
     {
         private Animator animator;
         private PlayerControl playerControl;

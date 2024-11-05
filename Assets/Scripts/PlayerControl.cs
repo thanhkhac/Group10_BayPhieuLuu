@@ -117,7 +117,7 @@ public class PlayerControl : MonoBehaviour
         isPlayable = true;
         animator.SetBool("isPlayable", true);
     }
-
+    
     // private void OnTriggerEnter2D(Collider2D collision)
     // {
     //     if (collision.CompareTag("EnemyAttack") && !isImmortal)
