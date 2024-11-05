@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static BossMove;
 
 public class BossFinalMove : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class BossFinalMove : MonoBehaviour
 	float delayAtk = 0;
 	bool checkRolateBoss = true;
 	private System.Random random = new System.Random();
-	public Image Mana;
+	public Image Health;
 
 	void Start()
 	{
@@ -96,7 +97,15 @@ public class BossFinalMove : MonoBehaviour
 			delayAtk += Time.deltaTime;
 		}
 	}
-
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.gameObject.tag == "PlayerAttack")
+		{
+			Debug.Log(1);
+			BossHealth.health -= 10;
+			Health.fillAmount = BossHealth.health / 500f;
+		}
+	}
 
 
 }

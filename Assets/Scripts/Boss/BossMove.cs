@@ -15,9 +15,8 @@ public class BossMove : MonoBehaviour
     float delayAtk = 0;
     bool checkRolateBoss = true;
     private System.Random random = new System.Random();
-	public Image Mana;
+	public Image Health;
 	public GameObject Fire;
-
 
 	public class BossHealth
 	{
@@ -29,6 +28,7 @@ public class BossMove : MonoBehaviour
 	}
 	void Start()
     {
+		
 		animator = GetComponent<Animator>();
         // Tìm đối tượng có tag "Player"
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -144,17 +144,28 @@ public class BossMove : MonoBehaviour
 		if(BossHealth.health <= 0)
 		{
 			Vector3 fireNow = this.gameObject.transform.position;
-			fireNow.y -= 0.5f;
+			fireNow.y += 3f;
 			Fire.transform.position = fireNow;
 			animator.SetTrigger("Death");
 		}
 	}
-
+	public void bossCbDie()
+	{
+		moveSpeed = 0f;
+	}
 	public void bossDie()
 	{
 		this.gameObject.SetActive(false);
 	}
-
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.gameObject.tag == "PlayerAttack")
+		{
+			Debug.Log(1);
+			BossHealth.health -= 100;
+			Health.fillAmount = BossHealth.health / 500f;
+		}
+	}
 
 
 }

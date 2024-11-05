@@ -22,11 +22,11 @@ public class checkAttackPlayer : MonoBehaviour
 	}
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		if (collision.gameObject.tag == "Player" && count >=1.2)
+		if (collision.gameObject.tag == "PlayerAttack" && count >=1.2)
 		{
-			Debug.Log(1);
-			BossHealth.health -= BossDame.dame;
-			Health.fillAmount = BossHealth.health / 500f;
+			//Debug.Log(1);
+			//BossHealth.health -= 10;
+			//Health.fillAmount = BossHealth.health / 500f;
 		}
 	}
 	
