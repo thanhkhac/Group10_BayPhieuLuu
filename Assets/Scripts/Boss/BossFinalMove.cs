@@ -19,6 +19,7 @@ public class BossFinalMove : MonoBehaviour
 	private System.Random random = new System.Random();
 	public Image Health;
 	float timeToResponse = 0f;
+	bool Response = true;
 	void Start()
 	{
 		BossMove.BossHealth.health = 500f;
@@ -38,7 +39,12 @@ public class BossFinalMove : MonoBehaviour
 
 	void Update()
 	{
-		
+		if(BossMove.BossHealth.health <= 0)
+		{
+			animator.SetTrigger("Die");
+			moveSpeed = 0f;
+			Response = false;
+		}
 		Vector3 relativePosition = playerTransform.position - transform.position;
 		delayTime += Time.deltaTime;
 		if (playerTransform != null)
@@ -58,7 +64,7 @@ public class BossFinalMove : MonoBehaviour
 
 			int randomNumber = random.Next(1, 4);
 			timeToResponse += Time.deltaTime;
-			if (timeToResponse >= 5f)
+			if (timeToResponse >= 5f && Response == true)
 			{
 				if (randomNumber == 1)
 				{
@@ -144,8 +150,8 @@ public class BossFinalMove : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "PlayerAttack")
 		{
-			Debug.Log(1);
-			BossHealth.health -= 10;
+			animator.SetTrigger("TakeHit");
+			BossHealth.health -= 100;
 			Health.fillAmount = BossHealth.health / 500f;
 		}
 	}
