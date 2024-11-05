@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -40,6 +41,12 @@ public class BossDemonScript : MonoBehaviour
     public float BossCurrentHealth = 500f;
     public Image HealthImg;
 
+    public Transform attackPoint;
+    public LayerMask enemyLayer;
+
+    public int attackDamage = 1;
+    public float attackRange = 0.5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -77,7 +84,6 @@ public class BossDemonScript : MonoBehaviour
         {
             gameObject.SetActive(true);
         }
-
 
         canSpecialAttack = (playerX >= fireRangeL - 10 && playerX <= fireRangeR + 10) && (specialAttackcooldown <= specialTimerCoolDown);
 
@@ -156,9 +162,6 @@ public class BossDemonScript : MonoBehaviour
 
     void SpecialAttack()
     {
-        BossCurrentHealth -= 150f;
-        HealthImg.fillAmount = BossCurrentHealth / BossHealth;
-
         gameObject.GetComponent<Animator>().SetTrigger("SpecialAttack");
 
         audioSource.PlayOneShot(SpecialAttackSound);
@@ -171,15 +174,18 @@ public class BossDemonScript : MonoBehaviour
     {
         if (attackCooldown <= attackTimerCoolDown)
         {
-            BossCurrentHealth -= 100f;
-            HealthImg.fillAmount = BossCurrentHealth / BossHealth;
-
-
             gameObject.GetComponent<Animator>().SetTrigger("Attack");
 
-            audioSource.PlayOneShot(AttackSound);
+            Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
 
+            foreach (Collider2D e in hitEnemies)
+            {
+                Debug.Log("Hit: " + e.name);
+            }
+
+            audioSource.PlayOneShot(AttackSound);
             attackTimerCoolDown = 0;
+
             SummonGhost();
         }
     }
@@ -202,5 +208,21 @@ public class BossDemonScript : MonoBehaviour
     public void Die()
     {
         Destroy(gameObject);
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "PlayerAttack")
+        {
+            BossCurrentHealth -= 10;
+            HealthImg.fillAmount = BossCurrentHealth / 500f;
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (attackPoint != null)
+        {
+            Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+        }
     }
 }
