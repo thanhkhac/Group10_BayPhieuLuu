@@ -98,9 +98,14 @@ public class BossMove : MonoBehaviour
 
 	public void Acttack(float distanceToPlayer)
     {
-		if (distanceToPlayer <= stopDistance)
+		delayAtk += Time.deltaTime;
+		if (distanceToPlayer <= stopDistance + 0.3f)
 		{
 			animator.SetBool("IsMove", false);
+		}
+		if (distanceToPlayer <= stopDistance + 3f)
+		{
+			Debug.Log(delayAtk);
 			if (delayAtk >= 2f)
 			{
 				
@@ -127,7 +132,7 @@ public class BossMove : MonoBehaviour
 				}
 				delayAtk = 0f;
 			}
-			delayAtk += Time.deltaTime;
+			
 		}
 	}
 
