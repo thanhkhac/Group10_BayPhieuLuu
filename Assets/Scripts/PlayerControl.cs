@@ -1,6 +1,8 @@
 ﻿using System;
 using ThanhNK;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -11,6 +13,12 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     public Animator animator;
+    public Image bloodBar;
+    public Image manaBar;
+    
+    public Canvas gameUi;
+    public Canvas gameOver;
+
 
     private bool isJumping = false;
     public bool isImmortal = false;
@@ -18,17 +26,28 @@ public class PlayerControl : MonoBehaviour
     private bool isPlayable = false;
     void Awake()
     {
+        PlayerData.PLayerMana = PlayerData.OldPlayerMana;
+        PlayerData.PLayerHealth = PlayerData.OldPLayerHealth;
+        UpdateHealthBar();
+        UpdateManaBar();
+        
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 
     void Update()
     {
+        if (PlayerData.PLayerHealth <= 0)
+        {
+            gameUi.enabled = false;
+            gameOver.enabled = true;
+            gameObject.SetActive(false);
+        }
         UpdateAnimationStates();
         horizontal = Input.GetAxis("Horizontal");
         Move();
 
-        if (Input.GetButtonDown("Jump") && IsGrounded()) { Jump(); }
+        if (Input.GetButtonDown("Jump") && IsGrounded() && canMove) { Jump(); }
         animator.SetBool("IsJumping", !IsGrounded());
         animator.SetFloat("yVelocity", rb.velocity.y);
     }
@@ -61,17 +80,14 @@ public class PlayerControl : MonoBehaviour
             animator.SetBool("isRangeAttacking", true);
         }
         else { animator.SetBool("isRangeAttacking", false); }
-        
-        if (Input.GetKeyDown(KeyCode.Q)) 
+
+        if (Input.GetKeyDown(KeyCode.Q) && PlayerData.PLayerMana >= 100)
         {
-            animator.SetBool("isUltimate", true);
+            animator.SetBool("isUltimate", true); 
         }
         else { animator.SetBool("isUltimate", false); }
-        
-        if (Input.GetKeyDown(KeyCode.Mouse1)) 
-        {
-            animator.SetBool("isDefending", true);
-        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse1)) { animator.SetBool("isDefending", true); }
         else { animator.SetBool("isDefending", false); }
     }
 
@@ -99,23 +115,44 @@ public class PlayerControl : MonoBehaviour
         Debug.Log("DisableMove");
         canMove = false;
     }
-    
+
+    public void DisableHit()
+    {
+        Debug.Log("Hit");
+        animator.SetBool("isHit", false);
+    }
+
     public void EnableImmortal()
     {
         Debug.Log("Enable Immortal");
         isImmortal = true;
     }
-    
+
     public void DisableImmortal()
     {
         Debug.Log("Disable Immortal");
         isImmortal = false;
     }
-    
+
     public void EnablePlayable()
     {
         isPlayable = true;
         animator.SetBool("isPlayable", true);
+    }
+
+    public void UpdateHealthBar()
+    {
+        bloodBar.fillAmount = PlayerData.PLayerHealth / 100f;
+    }
+    public void UpdateManaBar()
+    {
+        manaBar.fillAmount = PlayerData.PLayerMana / 100f;
+    }
+    
+    public void EnableUltimate()
+    {
+        PlayerData.PLayerMana = 0;
+        UpdateManaBar();
     }
 
     // private void OnTriggerEnter2D(Collider2D collision)

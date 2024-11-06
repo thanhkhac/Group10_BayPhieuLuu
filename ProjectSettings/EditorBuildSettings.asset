@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DucNT-Level1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 644e13890119ed743a5285870813b29d
+  - enabled: 1
+    path: Assets/Scenes/DuongNM.unity
+    guid: bb2520d308f46be49a49ff553899d4e3
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 61ced1ba7d9b5914298809b22743720f
+  - enabled: 1
+    path: Assets/Scenes/Instruction.unity
+    guid: 672702ae94e9be5428ba3f414c39ac69
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 457c41cd6b879694692debe25804e7e0
   m_configObjects: {}
