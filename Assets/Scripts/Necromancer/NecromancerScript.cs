@@ -7,6 +7,10 @@ public class NecromancerSrc : MonoBehaviour
 {
     [SerializeField] GameObject skeleton;
     [SerializeField] GameObject point;
+
+    public GameObject angelFinalPoint;
+
+
     private Transform playerTransform;
     private float distanceToSpawn = 7f;
     private float spawnCooldown = 2f;
@@ -21,7 +25,7 @@ public class NecromancerSrc : MonoBehaviour
     {
         currentBlood = maxBlood;
         blood.UpdateBlood(currentBlood, maxBlood);
-        
+
         anim = GetComponent<Animator>();
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
@@ -43,9 +47,9 @@ public class NecromancerSrc : MonoBehaviour
         // {
         //     canSpawn = true;
         // }
-        
+
         distanceToPlayer();
-    
+
         // Đếm thời gian và kiểm tra nếu đã qua thời gian spawnCooldown
         if (!canSpawn)
         {
@@ -99,12 +103,17 @@ public class NecromancerSrc : MonoBehaviour
             {
                 anim.SetTrigger("Die");
             }
-            
+
         }
     }
 
     public void Destroy()
     {
         Destroy(this.gameObject);
+        if (angelFinalPoint != null)
+        {
+            var finalPoint = Instantiate(angelFinalPoint);
+            finalPoint.transform.position = transform.position;
+        }
     }
 }
