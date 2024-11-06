@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 
 public class SlimeMove : MonoBehaviour
@@ -41,6 +42,8 @@ public class SlimeMove : MonoBehaviour
         {
             steerSpeed = 0;
             anim.SetBool("Die", true);
+            PlayerData.Point += 10;
+            PlayerData.Kills += 1;
             GetComponent<Collider2D>().enabled = false;
         }
     }

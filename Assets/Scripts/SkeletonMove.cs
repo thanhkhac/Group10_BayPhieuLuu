@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 
 public class SkeletonMove : MonoBehaviour
@@ -73,6 +74,8 @@ public class SkeletonMove : MonoBehaviour
         steerSpeed = 0; 
         rb2d.velocity = Vector2.zero;
         anim.SetTrigger("Hit");  // Chạy hoạt ảnh "Hit"
+        PlayerData.Point += 20;
+        PlayerData.Kills += 1;
         rb2d.isKinematic = true;
         EnableChildBoxColliders(false);
     }
