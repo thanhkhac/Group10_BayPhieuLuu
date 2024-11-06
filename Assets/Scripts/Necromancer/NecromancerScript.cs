@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 
 public class NecromancerSrc : MonoBehaviour
@@ -109,6 +110,8 @@ public class NecromancerSrc : MonoBehaviour
 
     public void Destroy()
     {
+        PlayerData.Point += 50;
+        PlayerData.Kills += 1;
         Destroy(this.gameObject);
         if (angelFinalPoint != null)
         {
