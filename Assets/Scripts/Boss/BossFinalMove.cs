@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using static BossMove;
+using UnityEngine.SceneManagement;
 
 public class BossFinalMove : MonoBehaviour
 {
@@ -159,6 +160,7 @@ public class BossFinalMove : MonoBehaviour
 	public void die()
 	{
 		this.gameObject.SetActive(false);
+		SceneManager.LoadScene("WinGame");
 	}
 
 
