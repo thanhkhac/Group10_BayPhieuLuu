@@ -1,11 +1,14 @@
+using ThanhNK;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace DefaultNamespace
 {
-    public class ButtonAction : MonoBehaviour
+    public class GameManager : MonoBehaviour
     {
-        // Hàm Reload lại Scene hiện tại
+    
+        public Canvas PauseScene;
+        
         public void ReloadScene()
         {
             Scene currentScene = SceneManager.GetActiveScene();
@@ -33,15 +36,17 @@ namespace DefaultNamespace
         // Hàm New Game, có thể là khởi đầu lại từ đầu
         public void NewGame()
         {
-            SceneManager.LoadScene("Level1");
-            // GameManager.Instance.ResetGame(); // Đặt lại game nếu cần thiết
+            ContinueGame();
+            PlayerData.PLayerHealth = 100;
+            PlayerData.PLayerMana = 100;
+            PlayerData.OldPLayerHealth = 100;
+            PlayerData.OldPlayerMana = 100;
         }
 
         // Hàm Continue để tiếp tục game từ điểm lưu trước đó
         public void ContinueGame()
         {
-            string lastScene = PlayerPrefs.GetString("LastSavedScene", "Home");
-            SceneManager.LoadScene(lastScene);
+            SceneManager.LoadScene("Level"+ PlayerData.CurrentLevel);
             // GameManager.Instance.LoadGame(); // Tải trạng thái của người chơi nếu có
         }
 
@@ -50,15 +55,15 @@ namespace DefaultNamespace
         {
             Time.timeScale = 0; // Dừng tất cả các hoạt động trong game
             Debug.Log("Game is paused.");
-            // Hiển thị UI Pause nếu có (chẳng hạn kích hoạt một Canvas Pause)
+            PauseScene.enabled = true;
         }
 
         // Hàm Resume game
         public void ResumeGame()
         {
-            Time.timeScale = 1; // Tiếp tục tất cả các hoạt động trong game
+            Time.timeScale = 1; 
             Debug.Log("Game is resumed.");
-            // Ẩn UI Pause nếu có
+            PauseScene.enabled = false;
         }
     }
 }

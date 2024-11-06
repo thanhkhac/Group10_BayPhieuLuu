@@ -72,7 +72,7 @@ public class SkeletonMove : MonoBehaviour
         isHit = true;  // Đặt isHit thành true để ngừng di chuyển
         steerSpeed = 0; 
         rb2d.velocity = Vector2.zero;
-        anim.SetBool("Hit", true);  // Chạy hoạt ảnh "Hit"
+        anim.SetTrigger("Hit");  // Chạy hoạt ảnh "Hit"
         rb2d.isKinematic = true;
         EnableChildBoxColliders(false);
     }

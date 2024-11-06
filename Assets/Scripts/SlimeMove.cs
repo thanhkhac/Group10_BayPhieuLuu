@@ -41,6 +41,7 @@ public class SlimeMove : MonoBehaviour
         {
             steerSpeed = 0;
             anim.SetBool("Die", true);
+            GetComponent<Collider2D>().enabled = false;
         }
     }
 

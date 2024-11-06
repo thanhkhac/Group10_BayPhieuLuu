@@ -2451,37 +2451,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.17822266, y: 1.4384289}
   m_EdgeRadius: 0
---- !u!1 &405032311
-GameObject:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 7653994464718761489, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-  m_PrefabInstance: {fileID: 2337929286584911140}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 405032317}
-  m_Layer: 0
-  m_Name: 'Player (Missing Prefab with guid: f4ad730146bd6ea49a2a501cf51ca1b8)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &405032317
-Transform:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-  m_PrefabInstance: {fileID: 2337929286584911140}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 405032311}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.51, y: -7.33, z: -0.0046049594}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &425160109
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,7 +2853,7 @@ GameObject:
   - component: {fileID: 482509409}
   m_Layer: 0
   m_Name: CeilingTrap-Level1
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3654,6 +3623,10 @@ PrefabInstance:
     - target: {fileID: 8814193440311526536, guid: 2c88bb589fe37d843b187179aa0c8471, type: 3}
       propertyPath: m_Name
       value: Final_Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8911494573898095504, guid: 2c88bb589fe37d843b187179aa0c8471, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8929288320497717918, guid: 2c88bb589fe37d843b187179aa0c8471, type: 3}
       propertyPath: m_LocalPosition.x
@@ -61160,7 +61133,7 @@ GameObject:
   - component: {fileID: 925175665}
   m_Layer: 0
   m_Name: CeilingTrap-Level1
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61557,7 +61530,7 @@ GameObject:
   - component: {fileID: 992811064}
   m_Layer: 0
   m_Name: CeilingTrap-Level1
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61723,7 +61696,7 @@ GameObject:
   - component: {fileID: 1010771811}
   m_Layer: 0
   m_Name: CeilingTrap-Level1
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70572,7 +70545,7 @@ GameObject:
   - component: {fileID: 1560930348}
   m_Layer: 0
   m_Name: Saw Trap - Level 1_0
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70642,7 +70615,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.011569807, y: 0.43498856}
@@ -96757,7 +96730,7 @@ GameObject:
   - component: {fileID: 1811502328}
   m_Layer: 0
   m_Name: CeilingTrap-Level1
-  m_TagString: Untagged
+  m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106753,63 +106726,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1001 &2337929286584911140
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.51
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -7.33
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.0046049594
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293135660049603191, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7653994464718761489, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f4ad730146bd6ea49a2a501cf51ca1b8, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -106818,7 +106734,6 @@ SceneRoots:
   - {fileID: 1213686613}
   - {fileID: 1784433717}
   - {fileID: 1337538029}
-  - {fileID: 2337929286584911140}
   - {fileID: 1317336477}
   - {fileID: 1903489858}
   - {fileID: 564423082}

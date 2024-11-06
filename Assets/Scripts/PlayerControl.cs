@@ -47,7 +47,7 @@ public class PlayerControl : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         Move();
 
-        if (Input.GetButtonDown("Jump") && IsGrounded()) { Jump(); }
+        if (Input.GetButtonDown("Jump") && IsGrounded() && canMove) { Jump(); }
         animator.SetBool("IsJumping", !IsGrounded());
         animator.SetFloat("yVelocity", rb.velocity.y);
     }

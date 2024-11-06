@@ -30,6 +30,15 @@ namespace DefaultNamespace
 
         private void OnCollisionEnter2D(Collision2D other)
         {
+            if (other.collider.CompareTag("EnemyAttack") && !playerControl.isImmortal)
+            {
+                animator.SetBool("isHit", true);
+                animator.SetTrigger("Hit");
+                PlayerData.PLayerHealth -= 10;
+                if (PlayerData.PLayerHealth < 0) { PlayerData.PLayerHealth = 0; }
+                playerControl.UpdateHealthBar();
+            }
+        
             if (other.collider.CompareTag("BloodBottle") && !playerControl.isImmortal)
             {
                 PlayerData.PLayerHealth += 10;
