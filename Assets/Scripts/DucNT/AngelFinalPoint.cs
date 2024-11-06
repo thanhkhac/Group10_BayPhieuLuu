@@ -21,6 +21,7 @@ public class AngelFinalPoint : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            Debug.Log("HitPlayer");
             LoadScene();
         }
     }

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 3205372465723203753}
   - component: {fileID: 1331776050783991232}
   - component: {fileID: 7600266481412345142}
-  - component: {fileID: 3937111756690720066}
+  - component: {fileID: 1976657674323786159}
+  - component: {fileID: 5106574101162797468}
   m_Layer: 0
   m_Name: Angel
   m_TagString: Enemy
@@ -107,8 +108,8 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!60 &3937111756690720066
-PolygonCollider2D:
+--- !u!70 &1976657674323786159
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -140,38 +141,17 @@ PolygonCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.5625, y: 2.375}
-    newSize: {x: 2.5625, y: 2.375}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 1.28125, y: 0.1875}
-      - {x: 1.28125, y: 0.8125}
-      - {x: 1.0625, y: 1.09375}
-      - {x: 0.875, y: 1.1875}
-      - {x: 0.375, y: 1.1875}
-      - {x: 0.4375, y: 0.90625}
-      - {x: 0.21875, y: 0.34375}
-      - {x: 0.09375, y: 0.5}
-      - {x: -0.28125, y: 0.5}
-      - {x: -0.46875, y: 0.6875}
-      - {x: -0.375, y: 1.1875}
-      - {x: -0.9375, y: 1.1875}
-      - {x: -1.28125, y: 0.84375}
-      - {x: -1.28125, y: 0.15625}
-      - {x: -1.03125, y: -0.125}
-      - {x: -0.21875, y: -0.4375}
-      - {x: -0.34375, y: -0.53125}
-      - {x: -0.3125, y: -0.8125}
-      - {x: -0.15625, y: -1.1875}
-      - {x: 0.25, y: -1.1875}
-      - {x: 0.375, y: -0.96875}
-      - {x: 0.1875, y: -0.5}
-      - {x: 1.09375, y: -0.03125}
-  m_UseDelaunayMesh: 0
+  m_Size: {x: 2.5625, y: 2.375}
+  m_Direction: 0
+--- !u!114 &5106574101162797468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2791552697672512696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caebec35335d34f4dac4fd1dc6c53a75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
