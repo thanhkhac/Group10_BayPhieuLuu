@@ -11,8 +11,7 @@ namespace DefaultNamespace
         
         public void ReloadScene()
         {
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            ContinueGame();
         }
 
         // Hàm Load Scene Home
@@ -36,6 +35,7 @@ namespace DefaultNamespace
         // Hàm New Game, có thể là khởi đầu lại từ đầu
         public void NewGame()
         {
+            PlayerData.CurrentLevel = 1;
             ContinueGame();
             PlayerData.PLayerHealth = 100;
             PlayerData.PLayerMana = 100;
