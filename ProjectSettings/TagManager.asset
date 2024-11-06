@@ -11,6 +11,8 @@ TagManager:
   - PlayerAttack
   - BossAttack
   - CombatBoss
+  - Boss
+  - FinalBoss
   layers:
   - Default
   - TransparentFX

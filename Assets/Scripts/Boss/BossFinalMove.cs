@@ -155,6 +155,10 @@ public class BossFinalMove : MonoBehaviour
 			Health.fillAmount = BossHealth.health / 500f;
 		}
 	}
+	public void die()
+	{
+		this.gameObject.SetActive(false);
+	}
 
 
 }
