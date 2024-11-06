@@ -153,13 +153,14 @@ public class BossFinalMove : MonoBehaviour
 		if (collision.gameObject.tag == "PlayerAttack")
 		{
 			animator.SetTrigger("TakeHit");
-			BossHealth.health -= 15f;
+			BossHealth.health -= 150f;
 			Health.fillAmount = BossHealth.health / 1000f;
 			Debug.Log(BossHealth.health);
 		}
 	}
 	public void die()
 	{
+		PlayerData.Point +=100;
 		this.gameObject.SetActive(false);
 		SceneManager.LoadScene("WinGame");
 		PlayerData.CurrentLevel = 1;
