@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 using UnityEngine.UI;
 using static BossMove;
+using UnityEngine.SceneManagement;
 
 public class BossFinalMove : MonoBehaviour
 {
@@ -22,7 +24,7 @@ public class BossFinalMove : MonoBehaviour
 	bool Response = true;
 	void Start()
 	{
-		BossMove.BossHealth.health = 500f;
+		BossMove.BossHealth.health = 1000f;
 		animator = GetComponent<Animator>();
 		// Tìm đối tượng có tag "Player"
 		GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -151,9 +153,21 @@ public class BossFinalMove : MonoBehaviour
 		if (collision.gameObject.tag == "PlayerAttack")
 		{
 			animator.SetTrigger("TakeHit");
-			BossHealth.health -= 100;
-			Health.fillAmount = BossHealth.health / 500f;
+			BossHealth.health -= 15f;
+			Health.fillAmount = BossHealth.health / 1000f;
+			Debug.Log(BossHealth.health);
 		}
+	}
+	public void die()
+	{
+		this.gameObject.SetActive(false);
+		SceneManager.LoadScene("WinGame");
+		PlayerData.CurrentLevel = 1;
+		PlayerData.PLayerHealth = 100;
+		PlayerData.PLayerMana = 100;
+		PlayerData.OldPlayerMana = 100;
+		PlayerData.OldPLayerHealth = 100;
+
 	}
 
 

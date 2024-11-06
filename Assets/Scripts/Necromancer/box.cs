@@ -6,6 +6,8 @@ using UnityEngine;
 public class box : MonoBehaviour
 {
     public GameObject enemy;
+
+
     void Start()
     {
         

@@ -13,6 +13,9 @@ TagManager:
   - BloodBottle
   - ManaBottle
   - CombatBoss
+  - Boss
+  - FinalBoss
+  - Hazard
   layers:
   - Default
   - TransparentFX
