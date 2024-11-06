@@ -14,6 +14,10 @@ namespace ThanhNK
         
         public static int Kills { get; set; } = 0;
         
+        public static int OldKills { get; set; } = 0;
+        
+        public static int OldPoints { get; set; } = 0;
+        
         public static int CurrentLevel { get; set; } = 1;
     }
 }

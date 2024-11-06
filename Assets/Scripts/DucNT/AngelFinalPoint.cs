@@ -36,8 +36,10 @@ public class AngelFinalPoint : MonoBehaviour
                 {
                     SceneManager.LoadScene("Level2");
                     PlayerData.CurrentLevel = 2;
-                    PlayerData.OldPLayerHealth = 100;
-                    PlayerData.OldPlayerMana = 100;
+                    PlayerData.OldPLayerHealth = PlayerData.PLayerHealth;
+                    PlayerData.OldPlayerMana = PlayerData.PLayerMana;
+                    PlayerData.OldKills = PlayerData.Kills;
+                    PlayerData.OldPoints = PlayerData.Point;
                     break;
                 }
             case "Level2":

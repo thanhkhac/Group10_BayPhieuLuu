@@ -161,6 +161,7 @@ public class BossFinalMove : MonoBehaviour
 	public void die()
 	{
 		PlayerData.Point +=100;
+		PlayerData.Kills +=1;
 		this.gameObject.SetActive(false);
 		SceneManager.LoadScene("WinGame");
 		PlayerData.CurrentLevel = 1;
@@ -168,7 +169,8 @@ public class BossFinalMove : MonoBehaviour
 		PlayerData.PLayerMana = 100;
 		PlayerData.OldPlayerMana = 100;
 		PlayerData.OldPLayerHealth = 100;
-
+		PlayerData.OldKills = 0;
+		PlayerData.OldPoints = 0;
 	}
 
 

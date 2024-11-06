@@ -29,6 +29,8 @@ public class PlayerControl : MonoBehaviour
     {
         PlayerData.PLayerMana = PlayerData.OldPlayerMana;
         PlayerData.PLayerHealth = PlayerData.OldPLayerHealth;
+        PlayerData.Point = PlayerData.OldPoints;
+        PlayerData.Kills = PlayerData.OldKills;
         UpdateHealthBar();
         UpdateManaBar();
         

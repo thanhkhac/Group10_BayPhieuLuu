@@ -41,6 +41,11 @@ namespace DefaultNamespace
             PlayerData.PLayerMana = 100;
             PlayerData.OldPLayerHealth = 100;
             PlayerData.OldPlayerMana = 100;
+            PlayerData.Point = 0;
+            PlayerData.Kills = 0;
+            PlayerData.OldKills = 0;
+            PlayerData.OldPoints = 0;
+            Time.timeScale = 1; 
         }
 
         // Hàm Continue để tiếp tục game từ điểm lưu trước đó
@@ -48,6 +53,7 @@ namespace DefaultNamespace
         {
             SceneManager.LoadScene("Level"+ PlayerData.CurrentLevel);
             // GameManager.Instance.LoadGame(); // Tải trạng thái của người chơi nếu có
+            Time.timeScale = 1; 
         }
 
         // Hàm Pause game

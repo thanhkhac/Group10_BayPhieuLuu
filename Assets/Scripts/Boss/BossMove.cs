@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.PackageManager;
-using UnityEditor.Tilemaps;
+// using UnityEditor.PackageManager;
+// using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.UI;
 
