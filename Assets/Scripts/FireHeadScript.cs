@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 
 public class FireHeadScript : MonoBehaviour
@@ -42,12 +43,21 @@ public class FireHeadScript : MonoBehaviour
             // Ignore collision with other enemies
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
         }
+
+        if (collision.gameObject.CompareTag("PlayerAttack"))
+        {
+            
+
+            gameObject.GetComponent<Animator>().SetTrigger("Die");
+        }
+
     }
 
-  
-
+    
     public void Die()
     {
+        PlayerData.Kills += 1;
+        PlayerData.Point += 20;
         Destroy(gameObject);
     }
 

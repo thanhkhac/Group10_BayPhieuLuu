@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using ThanhNK;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -207,6 +208,8 @@ public class BossDemonScript : MonoBehaviour
 
     public void Die()
     {
+        PlayerData.Kills += 1;
+        PlayerData.Point += 100;
         Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
