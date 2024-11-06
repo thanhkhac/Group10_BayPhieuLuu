@@ -15,6 +15,7 @@ TagManager:
   - CombatBoss
   - Boss
   - FinalBoss
+  - Hazard
   layers:
   - Default
   - TransparentFX

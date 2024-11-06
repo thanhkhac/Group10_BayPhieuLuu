@@ -26,6 +26,16 @@ namespace DefaultNamespace
                 if (PlayerData.PLayerHealth < 0) { PlayerData.PLayerHealth = 0; }
                 playerControl.UpdateHealthBar();
             }
+            
+            if (collision.CompareTag("Hazard") && !playerControl.isImmortal)
+            {
+                animator.SetBool("isHit", true);
+                animator.SetTrigger("Hit");
+                PlayerData.PLayerHealth = 0;
+                if (PlayerData.PLayerHealth < 0) { PlayerData.PLayerHealth = 0; }
+                playerControl.UpdateHealthBar();
+            }
+            
             if ((collision.CompareTag("BossAttack") ||collision.CompareTag("BossAttack")) && !playerControl.isImmortal)
             {
                 animator.SetBool("isHit", true);

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 using UnityEngine.UI;
 using static BossMove;
@@ -161,6 +162,12 @@ public class BossFinalMove : MonoBehaviour
 	{
 		this.gameObject.SetActive(false);
 		SceneManager.LoadScene("WinGame");
+		PlayerData.CurrentLevel = 1;
+		PlayerData.PLayerHealth = 100;
+		PlayerData.PLayerMana = 100;
+		PlayerData.OldPlayerMana = 100;
+		PlayerData.OldPLayerHealth = 100;
+
 	}
 
 
