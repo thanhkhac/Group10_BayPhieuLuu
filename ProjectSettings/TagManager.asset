@@ -13,6 +13,8 @@ TagManager:
   - BloodBottle
   - ManaBottle
   - CombatBoss
+  - Boss
+  - FinalBoss
   layers:
   - Default
   - TransparentFX

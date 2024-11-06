@@ -168,7 +168,7 @@ public class BossMove : MonoBehaviour
 		if (collision.gameObject.tag == "PlayerAttack")
 		{
 			animator.SetTrigger("TakeHit");
-			BossHealth.health -= 100;
+			BossHealth.health -= 15;
 			Health.fillAmount = BossHealth.health / 500f;
 		}
 	}
