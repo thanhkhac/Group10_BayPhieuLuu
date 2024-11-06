@@ -11,8 +11,7 @@ namespace DefaultNamespace
         
         public void ReloadScene()
         {
-            Scene currentScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(currentScene.name);
+            ContinueGame();
         }
 
         // Hàm Load Scene Home

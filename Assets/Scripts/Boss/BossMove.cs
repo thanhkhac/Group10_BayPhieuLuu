@@ -24,7 +24,7 @@ public class BossMove : MonoBehaviour
 	}
 	public class BossDame
 	{
-		public static float dame = 50f;
+		public static int dame = 10;
 	}
 	void Start()
     {
@@ -113,22 +113,22 @@ public class BossMove : MonoBehaviour
 				int randomNumber = random.Next(1, 4);
 				if (randomNumber == 1)
 				{
-					BossDame.dame = 15f;
+					BossDame.dame = 15;
 					animator.SetTrigger("Atk1");
 				}
 				if (randomNumber == 2)
 				{
-					BossDame.dame = 20f;
+					BossDame.dame = 17;
 					animator.SetTrigger("Atk2");
 				}
 				if (randomNumber == 3)
 				{
-					BossDame.dame = 255f;
+					BossDame.dame = 19;
 					animator.SetTrigger("Atk3");
 				}
 				if (randomNumber == 4)
 				{
-					BossDame.dame = 30f;
+					BossDame.dame = 20;
 					animator.SetTrigger("AtkSp");
 				}
 				delayAtk = 0f;

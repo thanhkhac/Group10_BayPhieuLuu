@@ -139,7 +139,7 @@ public class BossFinalMove : MonoBehaviour
 			animator.SetBool("IsMove", false);
 			if (delayAtk >= 2f)
 			{
-				BossMove.BossDame.dame = 250f;
+				BossMove.BossDame.dame = 25;
 				animator.SetTrigger("Atk");
 				delayAtk = 0f;
 			}

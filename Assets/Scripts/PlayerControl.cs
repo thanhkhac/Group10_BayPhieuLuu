@@ -1,6 +1,7 @@
 ﻿using System;
 using ThanhNK;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -17,7 +18,7 @@ public class PlayerControl : MonoBehaviour
     public Image manaBar;
     
     public Canvas gameUi;
-    public Canvas gameOver;
+    // public Canvas gameOver;
 
 
     private bool isJumping = false;
@@ -40,7 +41,8 @@ public class PlayerControl : MonoBehaviour
         if (PlayerData.PLayerHealth <= 0)
         {
             gameUi.enabled = false;
-            gameOver.enabled = true;
+            SceneManager.LoadScene("GameOver");
+
             gameObject.SetActive(false);
         }
         UpdateAnimationStates();
@@ -81,7 +83,7 @@ public class PlayerControl : MonoBehaviour
         }
         else { animator.SetBool("isRangeAttacking", false); }
 
-        if (Input.GetKeyDown(KeyCode.Q) && PlayerData.PLayerMana >= 100)
+        if (Input.GetKeyDown(KeyCode.Q) && PlayerData.PLayerMana > 0)
         {
             animator.SetBool("isUltimate", true); 
         }
@@ -151,7 +153,7 @@ public class PlayerControl : MonoBehaviour
     
     public void EnableUltimate()
     {
-        PlayerData.PLayerMana = 0;
+        PlayerData.PLayerMana -=10;
         UpdateManaBar();
     }
 

@@ -30,11 +30,20 @@ namespace DefaultNamespace
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            if (other.collider.CompareTag("EnemyAttack") && !playerControl.isImmortal)
+            if ((other.collider.CompareTag("EnemyAttack") || other.collider.CompareTag("EnemyAttack")) && !playerControl.isImmortal)
             {
                 animator.SetBool("isHit", true);
                 animator.SetTrigger("Hit");
                 PlayerData.PLayerHealth -= 10;
+                if (PlayerData.PLayerHealth < 0) { PlayerData.PLayerHealth = 0; }
+                playerControl.UpdateHealthBar();
+            }
+            
+            if ((other.collider.CompareTag("BossAttack") || other.collider.CompareTag("BossAttack")) && !playerControl.isImmortal)
+            {
+                animator.SetBool("isHit", true);
+                animator.SetTrigger("Hit");
+                PlayerData.PLayerHealth -= BossMove.BossDame.dame;
                 if (PlayerData.PLayerHealth < 0) { PlayerData.PLayerHealth = 0; }
                 playerControl.UpdateHealthBar();
             }
@@ -45,6 +54,7 @@ namespace DefaultNamespace
                 if (PlayerData.PLayerHealth > 100) { PlayerData.PLayerHealth = 100; }
                 playerControl.UpdateHealthBar();
             }
+            
 
             if (other.collider.CompareTag("ManaBottle") && !playerControl.isImmortal)
             {
