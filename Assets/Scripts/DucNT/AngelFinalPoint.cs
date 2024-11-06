@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -35,6 +36,9 @@ public class AngelFinalPoint : MonoBehaviour
             case "Level1":
                 {
                     SceneManager.LoadScene("Level2");
+                    PlayerData.CurrentLevel = 2;
+                    PlayerData.OldPLayerHealth = PlayerData.PLayerHealth;
+                    PlayerData.OldPlayerMana = PlayerData.PLayerMana;
                     break;
                 }
             case "Level2":
