@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 
 public class GhostScript : MonoBehaviour
@@ -110,6 +111,9 @@ public class GhostScript : MonoBehaviour
 
 	public void Die()
     {
+        PlayerData.Kills += 1;
+        PlayerData.Point += 10;
+
         Destroy(gameObject);
     }
 }

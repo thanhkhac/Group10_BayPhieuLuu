@@ -1058,6 +1058,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 938698009}
+    - target: {fileID: 4345461286984040076, guid: 1a3cf98cc9e22154fbbc70f735da969f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4536411524598535992, guid: 1a3cf98cc9e22154fbbc70f735da969f, type: 3}
       propertyPath: virtualCamera
       value: 

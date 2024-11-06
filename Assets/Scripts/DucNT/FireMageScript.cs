@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using ThanhNK;
 using UnityEngine;
 
 public class FireMageScript : MonoBehaviour
@@ -68,5 +69,16 @@ public class FireMageScript : MonoBehaviour
         var newfireBall = Instantiate(fireBall);
         newfireBall.transform.position = firePoint.transform.position;
         newfireBall.SetDirection(-transform.localScale.x);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("PlayerAttack"))
+        {
+            PlayerData.Kills += 1;
+            PlayerData.Point += 50;
+
+            Destroy(gameObject);
+        }
     }
 }
