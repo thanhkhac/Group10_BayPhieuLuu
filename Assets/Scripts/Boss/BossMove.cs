@@ -20,7 +20,7 @@ public class BossMove : MonoBehaviour
 
 	public class BossHealth
 	{
-		public static float health = 500f;
+		public static float health = 300f;
 	}
 	public class BossDame
 	{
@@ -169,7 +169,7 @@ public class BossMove : MonoBehaviour
 		{
 			animator.SetTrigger("TakeHit");
 			BossHealth.health -= 20;
-			Health.fillAmount = BossHealth.health / 500f;
+			Health.fillAmount = BossHealth.health / 300f;
 		}
 	}
 

@@ -24,7 +24,7 @@ public class BossFinalMove : MonoBehaviour
 	bool Response = true;
 	void Start()
 	{
-		BossMove.BossHealth.health = 1000f;
+		BossMove.BossHealth.health = 800f;
 		animator = GetComponent<Animator>();
 		// Tìm đối tượng có tag "Player"
 		GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -154,7 +154,7 @@ public class BossFinalMove : MonoBehaviour
 		{
 			animator.SetTrigger("TakeHit");
 			BossHealth.health -= 20f;
-			Health.fillAmount = BossHealth.health / 1000f;
+			Health.fillAmount = BossHealth.health / 800f;
 			Debug.Log(BossHealth.health);
 		}
 	}
