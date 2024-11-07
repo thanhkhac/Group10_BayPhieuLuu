@@ -15,6 +15,7 @@ public class BossDemonScript : MonoBehaviour
 
     [SerializeField] GameObject nightmareSummonPoint;
     [SerializeField] GameObject ghostSummonPoint;
+    [SerializeField] GameObject sealBossRoom;
     [SerializeField] NightMareScript nightMare;
     [SerializeField] GhostScript ghost;
 
@@ -211,6 +212,7 @@ public class BossDemonScript : MonoBehaviour
         PlayerData.Kills += 1;
         PlayerData.Point += 100;
         Destroy(gameObject);
+        sealBossRoom.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

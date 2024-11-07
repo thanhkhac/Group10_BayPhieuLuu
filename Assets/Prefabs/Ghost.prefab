@@ -123,8 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   target: {fileID: 0}
-  sound: {fileID: 8300000, guid: d02d38277ddcbbe4a880c6a9abf6674e, type: 3}
-  health: 10
+  health: 5
 --- !u!70 &8106499159962573553
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
