@@ -38,7 +38,7 @@ public class FireHeadScript : MonoBehaviour
             player.GetComponent<Animator>().SetTrigger("Hit");
             gameObject.GetComponent<Animator>().SetTrigger("Die");
         }
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("EnemyAttack"))
         {
             // Ignore collision with other enemies
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
