@@ -19,6 +19,9 @@ public class BossDemonScript : MonoBehaviour
     [SerializeField] NightMareScript nightMare;
     [SerializeField] GhostScript ghost;
 
+    [SerializeField] ItemControl manaBottle;
+    [SerializeField] ItemControl bloodBottle;
+
     [SerializeField] AudioClip SpecialAttackSound;
     [SerializeField] AudioClip AttackSound;
 
@@ -196,6 +199,13 @@ public class BossDemonScript : MonoBehaviour
         var newNightMare = Instantiate(nightMare);
         newNightMare.transform.position = nightmareSummonPoint.transform.position;
         newNightMare.SetDirection(transform.localScale.x);
+
+        var newManaBottle = Instantiate(manaBottle);
+        var newBloodBottle = Instantiate(manaBottle);
+
+        newManaBottle.transform.position = ghostSummonPoint.transform.position;
+        newBloodBottle.transform.position = ghostSummonPoint.transform.position;
+
         SummonGhost();
     }
 

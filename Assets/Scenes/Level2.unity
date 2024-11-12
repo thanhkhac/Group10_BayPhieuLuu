@@ -31931,7 +31931,7 @@ Transform:
   m_GameObject: {fileID: 419459224}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4, y: -6.33, z: -10.004605}
+  m_LocalPosition: {x: 112, y: -6.33, z: -10.004605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -373555,7 +373555,7 @@ Transform:
   m_GameObject: {fileID: 1066247566}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.4, y: -6.33, z: -10.004605}
+  m_LocalPosition: {x: 112, y: -6.33, z: -10.004605}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -377594,7 +377594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8929288320497717918, guid: 2c88bb589fe37d843b187179aa0c8471, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.4
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 8929288320497717918, guid: 2c88bb589fe37d843b187179aa0c8471, type: 3}
       propertyPath: m_LocalPosition.y
@@ -398124,7 +398124,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3205372465723203753, guid: 1fb943b9ec1164f4c98cbdea9e9c0c6b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.29
+      value: -2.78
       objectReference: {fileID: 0}
     - target: {fileID: 3205372465723203753, guid: 1fb943b9ec1164f4c98cbdea9e9c0c6b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -398346,6 +398346,14 @@ PrefabInstance:
       propertyPath: HealthImg
       value: 
       objectReference: {fileID: 789323455}
+    - target: {fileID: 5030712202697376590, guid: 17d8e07011bcb97498e3474eb236f374, type: 3}
+      propertyPath: manaBottle
+      value: 
+      objectReference: {fileID: 5319869036113020806, guid: 11715008c7faccd4b91d8f22b48323ce, type: 3}
+    - target: {fileID: 5030712202697376590, guid: 17d8e07011bcb97498e3474eb236f374, type: 3}
+      propertyPath: bloodBottle
+      value: 
+      objectReference: {fileID: 3557220350795612093, guid: 908aedec12b108b408035ec5c56d366b, type: 3}
     - target: {fileID: 5030712202697376590, guid: 17d8e07011bcb97498e3474eb236f374, type: 3}
       propertyPath: summonPoint
       value: 

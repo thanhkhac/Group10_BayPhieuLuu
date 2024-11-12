@@ -38,7 +38,9 @@ public class FireHeadScript : MonoBehaviour
             player.GetComponent<Animator>().SetTrigger("Hit");
             gameObject.GetComponent<Animator>().SetTrigger("Die");
         }
-        if (collision.gameObject.CompareTag("EnemyAttack"))
+        if (collision.gameObject.CompareTag("EnemyAttack") 
+            || collision.gameObject.CompareTag("BloodBottle") 
+            || collision.gameObject.CompareTag("ManaBottle"))
         {
             // Ignore collision with other enemies
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
@@ -46,8 +48,6 @@ public class FireHeadScript : MonoBehaviour
 
         if (collision.gameObject.CompareTag("PlayerAttack"))
         {
-            
-
             gameObject.GetComponent<Animator>().SetTrigger("Die");
         }
 
