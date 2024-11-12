@@ -79,7 +79,7 @@ public class PlayerControl : MonoBehaviour
         }
         else { animator.SetBool("isAttacking", false); }
 
-        if (Input.GetKeyDown(KeyCode.Mouse2)) //Chuột giữa
+        if (Input.GetKeyDown(KeyCode.W)) //Chuột giữa
         {
             animator.SetBool("isRangeAttacking", true);
         }

@@ -7611,6 +7611,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Instruction
       objectReference: {fileID: 0}
+    - target: {fileID: 8053703344016612849, guid: 646a2924085847646be0049c2f77a5ae, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 28.8331
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053703344016612849, guid: 646a2924085847646be0049c2f77a5ae, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 27.0154
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053703344016612849, guid: 646a2924085847646be0049c2f77a5ae, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2.7312
+      objectReference: {fileID: 0}
+    - target: {fileID: 8053703344016612849, guid: 646a2924085847646be0049c2f77a5ae, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -97.7168
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007226568536441171, guid: 646a2924085847646be0049c2f77a5ae, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -434940536, guid: 0ba1f2174290e6f42a15e5c32580d9dc, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
